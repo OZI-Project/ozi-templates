@@ -10,6 +10,14 @@
 
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/OZI-Templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
 
+### :bug:
+
+* :bug: fix name normalization in project and template.
+
+Without normalization we get duplicate dist_info.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/OZI-Templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
+
 ### :pencil2:
 
 * :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/OZI-Templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
