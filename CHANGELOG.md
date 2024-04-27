@@ -12,6 +12,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.c
 
 ### :bug:
 
+* :bug: Fix publish workflow had ssh arguments still.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`77a8ede`](https://github.com/OZI-Project/ozi_templates/commit/77a8edef6915fc3324e0ac131500747a5a8d72f1))
+
 * :bug: fix name normalization in project and template.
 
 Without normalization we get duplicate dist_info.
