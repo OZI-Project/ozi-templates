@@ -8,7 +8,7 @@
 
 * :boom: add load_environment() func
 
-Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/OZI-Templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi_templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
 
 ### :bug:
 
@@ -16,17 +16,21 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.c
 
 Without normalization we get duplicate dist_info.
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/OZI-Templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/ozi_templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
+
+### :fire:
+
+* :fire: delete template readme ([`33abd6c`](https://github.com/OZI-Project/ozi_templates/commit/33abd6c51075136fb8b40ba7c81e28a2b405f236))
 
 ### :pencil2:
 
-* :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/OZI-Templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
+* :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi_templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
 
 ### Other
 
 * Initial clone of templates
 
-Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`a8370f9`](https://github.com/OZI-Project/OZI-Templates/commit/a8370f94cf621f3035ce6ac956fe96a752b005d2))
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`a8370f9`](https://github.com/OZI-Project/ozi_templates/commit/a8370f94cf621f3035ce6ac956fe96a752b005d2))
 
 * Bump github/codeql-action from 3.25.2 to 3.25.3
 
@@ -42,6 +46,6 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/OZI-Templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/ozi_templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
 
-* Initial commit ([`6df66d3`](https://github.com/OZI-Project/OZI-Templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
+* Initial commit ([`6df66d3`](https://github.com/OZI-Project/ozi_templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
