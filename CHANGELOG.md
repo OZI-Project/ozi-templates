@@ -12,6 +12,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.c
 
 ### :bug:
 
+* :bug: fix release workflow outputs so publish is not skipped.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ce8dd0`](https://github.com/OZI-Project/ozi_templates/commit/2ce8dd0f24f52f9c497dd9dd57be6bdcd917b010))
+
 * :bug: Fix publish workflow had ssh arguments still.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`77a8ede`](https://github.com/OZI-Project/ozi_templates/commit/77a8edef6915fc3324e0ac131500747a5a8d72f1))
