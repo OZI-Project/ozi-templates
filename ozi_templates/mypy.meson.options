@@ -1,0 +1,11 @@
+{#- OZI 0.1
+# ozi/templates/mypy.meson.options
+# SPDX-License-Identifier: CC0-1.0
+-#}
+option(
+   'args-mypy',
+   type: 'array',
+   value: [
+      '@build_root@',
+   ]
+)

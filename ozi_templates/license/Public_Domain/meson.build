@@ -1,0 +1,14 @@
+# SPDX-License-Identifier: CC0-1.0
+files = [
+    'cc0-1.0.txt',
+    'unlicense.txt',
+    'licenseref-public-domain.txt',
+]
+foreach file: files
+    fs.copyfile(file)
+    if not meson.is_subproject() or get_option('install-subprojects').enabled()
+        python.install_sources(
+            file, 
+            subdir: 'ozi_templates'/'license'/fs.name(meson.current_source_dir()))
+    endif
+endforeach

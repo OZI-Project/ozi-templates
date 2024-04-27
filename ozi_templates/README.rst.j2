@@ -1,0 +1,21 @@
+{#-
+# ozi/templates/README.rst.j2
+# SPDX-License-Identifier: CC0-1.0
+-#}
+.. OZI
+  Classifier: License-Expression :: {{ project.license_expression }}
+  Classifier: License-File :: {{ project.license_file }}
+
+.. {%- for line in project.copyright_head.split('\n') %}
+  {{ line }}
+{%- endfor %}
+{%- set numchar = project.name|length %}
+
+{% for c in range(numchar) %}={% endfor %}
+{{ project.name }}
+{% for c in range(numchar) %}={% endfor %}
+
+.. image:: https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png
+ :align: right
+ :height: 140
+ :target: https://www.sigstore.dev/

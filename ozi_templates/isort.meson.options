@@ -1,0 +1,18 @@
+{#- OZI 0.1
+# ozi/templates/isort.meson.options
+# SPDX-License-Identifier: CC0-1.0
+-#}
+option(
+    'args-isort',
+    type: 'array',
+    value: [
+        '-c',
+        '--skip-glob',
+        '*.pyi',
+        '--extend-skip', 
+        'meson-private/pycompile.py',
+        '--extend-skip-glob',
+        'subprojects/*',
+        '@build_root@'
+    ],
+)

@@ -1,0 +1,9 @@
+{#- OZI 0.1
+# ozi/templates/github_workflows/ozi.yml.j2
+# SPDX-License-Identifier: CC0-1.0
+-#}
+
+include:
+  - component: 'gitlab.com/ozi-project/pipeline/checkpoint@{{ spec.version }}'
+  - component: 'gitlab.com/ozi-project/pipeline/release@{{ spec.version }}'
+  - component: 'gitlab.com/ozi-project/pipeline/publish@{{ spec.version }}'

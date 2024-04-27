@@ -1,0 +1,13 @@
+{#- OZI 0.1
+# ozi/templates/ozi.wrap.j2
+# SPDX-License-Identifier: CC0-1.0
+-#}
+[wrap-file]
+directory = ozi-{{ ozi.version }}
+source_url = {{ 'https://github.com/rjdbcm/OZI/archive/refs/tags/'~ozi.version~'.tar.gz' }}
+source_filename = ozi-{{ ozi.version }}.tar.gz
+source_hash = {{ ozi.version|sha256sum }}
+patch_directory = ozi
+
+[provide]
+ozi = ozi_dep

@@ -1,0 +1,12 @@
+{#- OZI 0.1
+# ozi/templates/tests/new_test.j2
+# SPDX-License-Identifier: CC0-1.0
+-#}
+{{ '# noqa: INP001' }}
+{%- for line in project.copyright_head.split('\n') %}
+{{ '# ' ~ line }}
+{%- endfor %}
+{%- if user_template %}
+{% extends user_template %}
+{%- endif %}
+

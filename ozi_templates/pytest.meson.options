@@ -1,0 +1,18 @@
+{#- OZI 0.1
+# ozi/templates/pytest.meson.options
+# SPDX-License-Identifier: CC0-1.0
+-#}
+option('args-pytest',
+    description: 'application',
+    type: 'array',
+    value: [
+        '@build_root@/test',
+        '--basetemp=temp',
+        '--exitfirst',
+        '--cov-config=pyproject.toml',
+        '--cov={{ project.name|underscorify }}',
+        '-n',
+        'auto',
+        '-d',
+    ]
+)
