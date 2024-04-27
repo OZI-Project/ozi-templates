@@ -4,7 +4,7 @@
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 project(
-    'OZI-Templates',
+    'ozi_templates',
     default_options: ['warning_level=3'],
     license: 'CC0-1.0',
     license_files: ['LICENSE.txt'],
@@ -104,10 +104,12 @@ if false
     executable('source_children', source_children)
     executable('test_children', test_children)
 endif
-dev = subproject('ozi')
-foreach var : get_option('variables')
-    name = var.replace('-', '_')
-    set_variable(name, dev.get_variable(name))
-endforeach
-meson.add_dist_script(dev.get_variable('pip'), 'install', 'tomli>=2.0.0')
-meson.add_dist_script(python, '-c', dev.get_variable('meson_dist_setuptools_scm'))
+if not meson.is_subproject()
+    dev = subproject('ozi')
+    foreach var : get_option('variables')
+        name = var.replace('-', '_')
+        set_variable(name, dev.get_variable(name))
+    endforeach
+    meson.add_dist_script(dev.get_variable('pip'), 'install', 'tomli>=2.0.0')
+    meson.add_dist_script(python, '-c', dev.get_variable('meson_dist_setuptools_scm'))
+endif
