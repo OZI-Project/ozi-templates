@@ -4,7 +4,7 @@
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 project(
-    'ozi-templates',
+    'OZI-Templates',
     default_options: ['warning_level=3'],
     license: 'CC0-1.0',
     license_files: ['LICENSE.txt'],
