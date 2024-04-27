@@ -16,7 +16,7 @@
       max-parallel: 1
     outputs:
 {%- raw %}
-      drafted: ${{ steps.draft.outputs.created }}
+      drafted: ${{ steps.release.outputs.drafted }}
       hashes: ${{ steps.release.outputs.hashes }}
       tag: ${{ steps.release.outputs.tag }}
 {%- endraw %}
