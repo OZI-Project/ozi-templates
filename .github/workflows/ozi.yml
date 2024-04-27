@@ -190,5 +190,3 @@ jobs:
     - uses: OZI-Project/publish@0.1.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        ssh-public: ${{ env.SSH_PUBKEY }}
-        ssh-private: ${{ secrets.SSH_PRVKEY }}
