@@ -261,6 +261,56 @@ prerelease_token = "beta"
 prerelease = false
 
 [tool.semantic_release.commit_parser_options]
+major_tags = [":boom:"]
+minor_tags = [
+    ":sparkles:",
+]
+patch_tags = [
+    ":adhesive_bandage:",
+    ":alembic:",
+    ":alien:",
+    ":ambulance:",
+    ":apple:",
+    ":arrow_down:",
+    ":arrow_up:",
+    ":bento:",
+    ":bug:",
+    ":bulb:",
+    ":card_file_box:",
+    ":chart_with_upwards_trend:",
+    ":checkered_flag:",
+    ":children_crossing:",
+    ":dizzy:",
+    ":egg:",
+    ":fire:",
+    ":globe_with_meridians:",
+    ":goal_net:",
+    ":green_apple:",
+    ":green_heart:",
+    ":hammer:",
+    ":heavy_minus_sign:",
+    ":heavy_plus_sign:",
+    ":iphone:",
+    ":label:",
+    ":lipstick:",
+    ":lock:",
+    ":mag:",
+    ":necktie:",
+    ":package:",
+    ":passport_control:",
+    ":pencil2:",
+    ":penguin:",
+    ":pushpin:",
+    ":recycle:",
+    ":rewind:",
+    ":robot:",
+    ":speech_balloon:",
+    ":triangular_flag_on_post:",
+    ":wastebasket:",
+    ":wheelchair:",
+    ":wrench:",
+    ":zap:",
+]
 
 [tool.semantic_release.changelog]
 changelog_file = "CHANGELOG.md"
