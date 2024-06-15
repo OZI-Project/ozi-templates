@@ -200,6 +200,6 @@ option(
 option(
     'args-readme-renderer',
     type: 'array',
-    value: ['README'],
+    value: ['README.rst'],
     yield: false,
 )

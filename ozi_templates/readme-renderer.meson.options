@@ -5,6 +5,6 @@
 option(
     'args-readme-renderer',
     type: 'array',
-    value: ['README'],
+    value: ['README.{{ project.long_description_content_type }}'],
     yield: false,
 )
