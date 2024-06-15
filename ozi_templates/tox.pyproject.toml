@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/tox.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [tool.tox]
 legacy_tox_ini = """
@@ -10,12 +10,16 @@ envlist = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endf
 
 [gh]
 python =
-   {{ spec.python.support.bugfix1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-   {{ spec.python.support.bugfix2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-   {{ spec.python.support.security }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+   {{ spec.python.support.bugfix }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+   {{ spec.python.support.security1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+   {{ spec.python.support.security2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
 
 [testenv]
-allowlist_externals = rm
+allowlist_externals =
+   rm
+   pipx
+   python
+   meson
 package = wheel
 deps =
 {%- for requires in spec.python.build.requires.values() %}
@@ -28,21 +32,25 @@ commands =
 
 {%- for suite in spec.python.ci.checkpoint.suites %}
 [testenv:{{ suite }}]
-commands_pre = meson setup {env_tmp_dir} -Dozi:{{ suite }}=enabled --reconfigure
+commands_pre =
+   pipx install --python=python meson
+   meson setup {env_tmp_dir} -Dozi:{{ suite }}=enabled -Dozi:tox-env-dir={env_dir} --reconfigure
 commands_post = meson test --no-rebuild --maxfail=1 -C {env_tmp_dir} --setup={{ suite }}
 {%- endfor %}
 
 [testenv:fix]
 description = quickly fix minor source issues 
-deps = 
-     black>=24.3
-     isort
-     autoflake
-     ruff
+deps = pipx
 skip_install = true
 commands =
-     {env_python} -m black -S .
-     {env_python} -m isort .
-     {env_python} -m autoflake -i -r .
-     {env_python} -m ruff check {{ project.name|underscorify }} --fix
+     pipx run --python {env_python} -q black -S .
+     pipx run --python {env_python} -q isort .
+     pipx run --python {env_python} -q autoflake -i -r .
+     pipx run --python {env_python} -q ruff check {{ project.name|underscorify }} --fix
+
+[testenv:scm]
+description = OZI supply chain management (setuptools_scm)
+deps = setuptools_scm[toml]>=8
+commands =
+     {env_python} -m setuptools_scm {posargs}
 """

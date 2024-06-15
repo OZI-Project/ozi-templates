@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/flake8.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [tool.flake8]
 ban-relative-imports = "parents"

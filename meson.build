@@ -1,12 +1,12 @@
-# OZI 0.1 meson.build:root_files,root_children
+# OZI 0.4 meson.build:root_files,root_children
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 project(
-    'ozi_templates',
+    'ozi-templates',
     default_options: ['warning_level=3'],
-    license: 'CC0-1.0',
+    license: 'Unlicense',
     license_files: ['LICENSE.txt'],
     meson_version: '>=1.1.0',
     version: run_command(
@@ -30,7 +30,7 @@ python = pymod.find_installation(
 project_name = meson.project_name()
 pip_compile = find_program('pip-compile', required: true)
 root_files = [
-    'README.rst',
+    'README',
     'CHANGELOG.md',
     'LICENSE.txt',
     'requirements.in',
@@ -63,7 +63,7 @@ pyproject_config.set(
 pyproject_config.set('SCM_VERSION', meson.project_version())
 pyproject_config.set('VCS_TAG', '@VCS_TAG@')
 pyproject_config.set('PROJECT_NAME', project_name)
-pyproject_config.set('README_TEXT', fs.read('README.rst'))
+pyproject_config.set('README_TEXT', fs.read('README'))
 pyproject_config.set('REQUIREMENTS_IN', 
     run_command(
         python, ['-c', '''import os;import pathlib
@@ -88,8 +88,10 @@ configure_file(
 vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
 
 foreach source : root_files
-    if source not in ['pyproject.toml', 'requirements.in', '.gitignore']
+    if source not in ['pyproject.toml', 'requirements.in', '.gitignore', 'README']
         fs.copyfile(source)
+    elif source == 'README'
+        fs.copyfile(source, 'README.rst')
     endif
 endforeach
 root_children = ['ozi_templates', 'tests']
@@ -99,6 +101,7 @@ endforeach
 if false
     executable('root_files', root_files)
     executable('source_files', source_files)
+    executable('ext_files', ext_files)
     executable('test_files', test_files)
     executable('root_children', root_children)
     executable('source_children', source_children)

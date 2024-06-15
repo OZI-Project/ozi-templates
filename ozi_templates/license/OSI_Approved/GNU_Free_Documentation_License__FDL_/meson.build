@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 files = [
     'gfdl-1.3-only.txt',
     'gfdl-1.3-or-later.txt',

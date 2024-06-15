@@ -4,7 +4,6 @@
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 source_files = [
-    '__init__.py',
     'agpl-3.0.txt',
     'apache-2.0.txt',
     'artistic-2.0.txt',

@@ -4,4 +4,4 @@ revision = head
 depth = 1
 
 [provide]
-dependency_names = ozi-1.1.5
+dependency_names = ozi-0.4

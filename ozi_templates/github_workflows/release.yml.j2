@@ -1,31 +1,30 @@
 {#- OZI 0.1
 # ozi/templates/github_workflows/release.yml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 #}
   release:
-    needs: checkpoint
+    needs: [draft, checkpoint]
     runs-on: ubuntu-latest
     concurrency: release
     strategy:
       matrix:
         py:
-          - {{ spec.python.support.security|wheel_repr }}
-          - {{ spec.python.support.bugfix2|wheel_repr }}
-          - {{ spec.python.support.bugfix1|wheel_repr }}
+          - security
+          - bugfix2
+          - bugfix1
+          - prerelease
       fail-fast: true
       max-parallel: 1
     outputs:
 {%- raw %}
-      drafted: ${{ steps.release.outputs.drafted }}
       hashes: ${{ steps.release.outputs.hashes }}
-      tag: ${{ steps.release.outputs.tag }}
 {%- endraw %}
     permissions:
       contents: write
       id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@63c24ba6bd7ba022e95695ff85de572c04a18142 # v2.7.0
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
         with:
           disable-sudo: true
           egress-policy: block
@@ -37,6 +36,9 @@
             pypi.org:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+            oziproject.dev:443
+            www.oziproject.dev:443
+            objects.githubusercontent.com:443
 
       - uses: OZI-Project/release@{{ spec.python.ci.release.version }}
         id: release

@@ -1,5 +1,5 @@
 # ozi/templates/license/OSI_Approved/SIL_Open_Font_License_1_1__OFL_1_1_/meson.build
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 files = [
     'ofl-1.1.txt'
 ]

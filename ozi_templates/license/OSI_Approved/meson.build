@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 children = [
     'Academic_Free_License__AFL_',
     'Apache_Software_License',

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 files = [
     'agpl-3.0-only.txt',
     'agpl-3.0-or-later.txt',

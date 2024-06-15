@@ -1,6 +1,6 @@
-{#- OZI 0.1
+{#- OZI 0.3
 # ozi/templates/project.PKG-INFO
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 Metadata-Version: {{ spec.python.support.metadata_version }}
 Name: @PROJECT_NAME@
@@ -19,7 +19,7 @@ Maintainer-email: {{ project.maintainer_email|join(',') }}
 {%- if project.ci_provider == 'github' %}
 Download-URL: https://github.com/{{ project.ci_user }}/{{ project.name }}/archive/refs/tags/@SCM_VERSION@.tar.gz
 {%- endif %}
-Requires-Python: >={{ spec.python.support.security }}, <{{ spec.python.support.bugfix1|next_minor }}
+Requires-Python: >={{ spec.python.support.security2 }}, <{{ spec.python.support.bugfix|next_minor }}
 {%- if project.keywords|length %}
 Keywords: {{ project.keywords|join(',') }}
 {%- endif %}
@@ -31,9 +31,9 @@ Classifier: Private :: Do Not Upload
 Classifier: Development Status :: {{ status }}
 {%- endfor %}
 Classifier: Programming Language :: Python :: {{ spec.python.support.major }} :: Only
-Classifier: Programming Language :: Python :: {{ spec.python.support.security }}
-Classifier: Programming Language :: Python :: {{ spec.python.support.bugfix2 }}
-Classifier: Programming Language :: Python :: {{ spec.python.support.bugfix1 }}
+Classifier: Programming Language :: Python :: {{ spec.python.support.security2 }}
+Classifier: Programming Language :: Python :: {{ spec.python.support.security1 }}
+Classifier: Programming Language :: Python :: {{ spec.python.support.bugfix }}
 {%- for implementation in spec.python.support.implementations %}
 Classifier: Programming Language :: Python :: Implementation :: {{ implementation }}
 {%- endfor %}
@@ -61,7 +61,13 @@ Requires-External: {{ project.requires_external|join(',') }}
 {%- for project_url in project.project_url %}
 Project-URL: {{ project_url }}
 {%- endfor %}
+{%- if project.long_description_content_type == 'rst' %}
 Description-Content-Type: text/x-rst
+{%- elif project.long_description_content_type == 'md' %}
+Description-Content-Type: text/markdown
+{%- elif project.long_description_content_type == 'txt' %}
+Description-Content-Type: text/plain
+{%- endif %}
 @REQUIREMENTS_IN@
 
 @README_TEXT@

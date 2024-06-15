@@ -1,6 +1,6 @@
 {#-
 # ozi/templates/tests/meson.build.j2
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 {{ '# OZI ' ~ spec.version }} meson.options
 {%- for line in project.copyright_head.split('\n') %}
@@ -20,3 +20,4 @@
 {% include 'bandit.meson.options' %}
 {% include 'pytest.meson.options' %}
 {% include 'restructuredtext-lint.meson.options' %}
+{% include 'readme-renderer.meson.options' %}

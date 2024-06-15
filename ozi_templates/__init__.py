@@ -12,11 +12,11 @@ from jinja2 import Environment
 from jinja2 import PackageLoader
 from jinja2 import select_autoescape
 
-from ozi_templates.filter import current_date
-from ozi_templates.filter import next_minor
-from ozi_templates.filter import sha256sum
-from ozi_templates.filter import underscorify
-from ozi_templates.filter import wheel_repr
+from blastpipe.ozi_templates.filter import current_date
+from blastpipe.ozi_templates.filter import next_minor
+from blastpipe.ozi_templates.filter import sha256sum
+from blastpipe.ozi_templates.filter import underscorify
+from blastpipe.ozi_templates.filter import wheel_repr
 
 __all__ = ('load_environment',)
 FILTERS = (
@@ -32,7 +32,7 @@ FILTERS = (
 def _init_environment(_globals: dict[str, Any]) -> Environment:  # pragma: no cover
     """Initialize the rendering environment, set filters, and set global metadata."""
     env = Environment(
-        loader=PackageLoader('ozi_templates', '.'),
+        loader=PackageLoader('blastpipe', 'ozi_templates'),
         autoescape=select_autoescape(),
         enable_async=True,
         auto_reload=False,

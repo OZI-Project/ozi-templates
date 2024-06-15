@@ -1,4 +1,4 @@
-# OZI 0.1 meson.options
+# OZI 0.4 meson.options
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 # Additional copyright and license terms apply, see NOTICE for details.
@@ -18,12 +18,10 @@ option(
     'python-dependencies', 
     type: 'array',
     value: [
-    'mesonpep517',
-    'meson',
+    'OZI.build',
     'pip-tools',
-    'setuptools',
+    'pipx',
     'setuptools_scm',
-    'tomli',
     ]
 )
 option(
@@ -62,7 +60,7 @@ option(
         'isort',
         'mypy',
         'pyright',
-        'restructuredtext-lint',
+        'readme-renderer',
         'Flake8-pyproject',
         'flake8-annotations',
         'flake8-broken-line',
@@ -197,5 +195,11 @@ option(
     'args-restructuredtext-lint',
     type: 'array',
     value: ['--level=warning', 'README.rst'],
+    yield: false,
+)
+option(
+    'args-readme-renderer',
+    type: 'array',
+    value: ['README'],
     yield: false,
 )

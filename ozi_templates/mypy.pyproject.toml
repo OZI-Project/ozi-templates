@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/mypy.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [tool.mypy]
 strict = true

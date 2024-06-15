@@ -1,0 +1,18 @@
+{#- OZI 0.3
+# ozi/templates/README.txt.j2
+# SPDX-License-Identifier: Unlicense
+-#}
+.. OZI
+  Classifier: License-Expression :: {{ project.license_expression }}
+  Classifier: License-File :: {{ project.license_file }}
+
+.. {%- for line in project.copyright_head.split('\n') %}
+  {{ line }}
+{%- endfor %}
+{%- set numchar = project.name|length %}
+
+{% for c in range(numchar) %}={% endfor %}
+{{ project.name }}
+{% for c in range(numchar) %}={% endfor %}
+
+Sigstore info: https://www.sigstore.dev/

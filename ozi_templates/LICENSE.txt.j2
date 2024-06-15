@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/LICENSE.txt.j2
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 {% set license_template = project.license.split('::')|map('trim')|map('underscorify')|join('/') %}
 {% set filename = project.license_expression.split(' ')[0]|lower ~ '.txt'%}

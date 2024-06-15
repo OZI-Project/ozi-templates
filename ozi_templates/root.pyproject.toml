@@ -1,14 +1,27 @@
 {#- OZI 0.1
 # ozi/templates/root.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [project]
 dynamic = ["dependencies", "version"]
 license = {file = "{{ project.license_file }}"}
-readme  = "README.rst"
+
+[build-system]
+requires = [
+{%- for requires in spec.python.build.requires.values() %}
+    '{{ requires }}',
+{%- endfor %}
+{%- if project.enable_cython %}
+    'cython',
+{%- endif %}
+]
+build-backend = "{{ spec.python.build.backend }}"
 
 [tool.setuptools.dynamic]
 dependencies = { file = ["requirements.in"] }
+
+[tool.ozi-build.metadata]
+pkg-info-file = 'PKG-INFO'
 
 [project.optional_dependencies] # also meson test suite names
 # OZI Packaging Dependencies
@@ -32,15 +45,3 @@ dev  = ["[{% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endf
 {%- endfor %}
 ]
 {%- endfor %}
-
-[tool.mesonpep517.metadata]
-pkg-info-file = 'build/PKG-INFO'
-summary = "{{ project.summary }}"
-
-[build-system]
-requires = [
-{%- for requires in spec.python.build.requires.values() %}
-    '{{ requires }}',
-{%- endfor %}
-]
-build-backend = "{{ spec.python.build.backend }}"

@@ -1,5 +1,5 @@
 # ozi/templates/license/OSI_Approved/Open_Software_License_3_0__OSL_3_0_/meson.build
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 files = [
     'osl-3.0.txt'
 ]

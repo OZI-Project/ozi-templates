@@ -1,5 +1,5 @@
 # ozi/filter.py
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 """Filters for use in the OZI project templates."""
 from __future__ import annotations
 
@@ -92,5 +92,5 @@ def next_minor(version: str) -> str:
     :return: The next minor version
     :rtype: str
     """
-    major, _, minor = map(int, version.split('.'))
+    major, minor, *_ = map(int, version.split('.'))
     return f'{major}.{minor + 1}'
