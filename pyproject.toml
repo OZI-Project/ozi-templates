@@ -246,7 +246,7 @@ inline-quotes = "single"
 strict = true
 
 [tool.semantic_release]
-commit_parser                  = "gitmoji"
+commit_parser                  = "emoji"
 major_on_zero                  = true
 tag_format                     = "{version}"
 
