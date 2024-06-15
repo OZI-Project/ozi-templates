@@ -1,9 +1,12 @@
 {#- OZI 0.1
 # ozi/templates/project.meson.build
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 project(
-    '{{ project.name|underscorify }}',
+    '{{ project.name }}',
+{%- if project.enable_cython %}
+    'cython',
+{%- endif %}
     default_options: ['warning_level=3'],
     license: '{{ project.license_expression }}',
     license_files: ['{{ project.license_file }}'],
@@ -65,7 +68,7 @@ pyproject_config.set(
 pyproject_config.set('SCM_VERSION', meson.project_version())
 pyproject_config.set('VCS_TAG', '@VCS_TAG@')
 pyproject_config.set('PROJECT_NAME', project_name)
-pyproject_config.set('README_TEXT', fs.read('README.rst'))
+pyproject_config.set('README_TEXT', fs.read('README'))
 pyproject_config.set('REQUIREMENTS_IN', 
     run_command(
         python, ['-c', '''import os;import pathlib
@@ -94,8 +97,10 @@ vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
 {#- END config MESON_SOURCE_ROOT/PKG-INFO #}
 
 foreach source : root_files
-    if source not in ['pyproject.toml', 'requirements.in', '.gitignore']
+    if source not in ['pyproject.toml', 'requirements.in', '.gitignore', 'README']
         fs.copyfile(source)
+    elif source == 'README'
+        fs.copyfile(source, 'README.{{ project.long_description_content_type }}')
     endif
 endforeach
 root_children = ['{{ project.name|underscorify }}', 'tests']
@@ -105,6 +110,7 @@ endforeach
 if false
     executable('root_files', root_files)
     executable('source_files', source_files)
+    executable('ext_files', ext_files)
     executable('test_files', test_files)
     executable('root_children', root_children)
     executable('source_children', source_children)

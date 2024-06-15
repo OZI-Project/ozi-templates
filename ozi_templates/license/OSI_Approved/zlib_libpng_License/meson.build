@@ -1,5 +1,5 @@
 # ozi/templates/license/OSI_Approved/zlib_libpng_License/meson.build
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 files = [
     'zlib.txt'
 ]

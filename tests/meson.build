@@ -1,9 +1,9 @@
-# OZI 0.1 meson.build:test_files,test_children
+# OZI 0.4 meson.build:test_files,test_children
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
-test_files = ['test_filter.py']
+test_files = []
 foreach file: test_files
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()

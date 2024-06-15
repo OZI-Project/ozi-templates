@@ -1,7 +1,6 @@
 # CHANGELOG
 
 
-
 ## v1.0.0 (2024-04-27)
 
 ### :boom:
@@ -57,3 +56,7 @@ updated-dependencies:
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/ozi_templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
 
 * Initial commit ([`6df66d3`](https://github.com/OZI-Project/ozi_templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
+=======
+```sh
+ozi-new 
+```

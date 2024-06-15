@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/ruff.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [tool.ruff]
 line-length = {{ spec.python.src.format.max_line_length }}

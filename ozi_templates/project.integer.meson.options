@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/project.integer.meson.options
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 option('dist-priority', type: 'integer', value: 1)
 option('test-priority', type: 'integer', value: 2)

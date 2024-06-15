@@ -5,12 +5,16 @@
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 source_files = [
     '__init__.py',
+    '__init__.pyi',
     'filter.py',
-    'py.typed',
+    'filter.pyi',
     '.gitignore.j2',
     'LICENSE.txt.j2',
     'PKG-INFO.j2',
+    'README.j2',
+    'README.md.j2',
     'README.rst.j2',
+    'README.txt.j2',
     'bandit.meson.options',
     'bandit.pyproject.toml',
     'black.meson.options',
@@ -43,6 +47,7 @@ source_files = [
     'pytest.pyproject.toml',
     'pytest.meson.options',
     'restructuredtext-lint.meson.options',
+    'readme-renderer.meson.options',
     'requirements.in.j2',
     'root.pyproject.toml',
     'ruff.pyproject.toml',
@@ -56,7 +61,7 @@ foreach file: source_files
         python.install_sources(file, subdir: 'ozi_templates')
     endif
 endforeach
-source_children = []
+source_children = ['license', 'github_workflows', 'project.name', 'tests']
 foreach child: source_children
     subdir(child)
 endforeach

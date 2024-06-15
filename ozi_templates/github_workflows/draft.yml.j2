@@ -1,0 +1,34 @@
+{#- OZI 0.2
+# ozi/templates/github_workflows/draft.yml
+# SPDX-License-Identifier: Unlicense
+#}
+  draft:
+    needs: checkpoint
+    runs-on: ubuntu-latest
+    concurrency: draft
+    strategy:
+      fail-fast: true
+    permissions:
+      contents: write
+      id-token: write
+    outputs:
+{%- raw %}
+      drafted: ${{ steps.draft.outputs.drafted }}
+      tag: ${{ steps.draft.outputs.tag }}
+{%- endraw %}
+    steps:
+      - name: Harden Runner
+        uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
+        with:
+          disable-sudo: true
+          egress-policy: block
+          allowed-endpoints: >
+            api.github.com:443
+            github.com:443
+
+      - uses: OZI-Project/draft@{{ spec.python.ci.draft.version }}
+        id: draft
+        with:
+{%- raw %}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+{%- endraw %}

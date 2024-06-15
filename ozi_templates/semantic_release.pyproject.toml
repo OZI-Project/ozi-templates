@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/semantic_release.pyproject.toml
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 [tool.semantic_release]
 commit_parser                  = "{{ spec.python.pkg.version.semantic }}"
@@ -13,6 +13,7 @@ prerelease_token = "beta"
 prerelease = false
 
 [tool.semantic_release.commit_parser_options]
+{%- if spec.python.pkg.version.semantic in ['emoji', 'scipy'] %}
 major_tags = [
 {%- for tag in spec.python.pkg.version.major_tags %}
     "{{ tag }}",
@@ -28,6 +29,7 @@ patch_tags = [
     "{{ tag }}",
 {%- endfor %}
 ]
+{%- endif %}
 
 [tool.semantic_release.changelog]
 changelog_file = "CHANGELOG.md"

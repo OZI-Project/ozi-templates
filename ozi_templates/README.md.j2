@@ -1,0 +1,14 @@
+{#- OZI 0.3
+# ozi/templates/README.md.j2
+# SPDX-License-Identifier: Unlicense
+-#}
+[comment] # (.. OZI)
+[comment] # (  Classifier: License-Expression :: {{ project.license_expression }})
+[comment] # (  Classifier: License-File :: {{ project.license_file }})
+{%- for line in project.copyright_head.split('\n') %}
+[comment] # ({{ line }})
+{%- endfor %}
+
+# {{ project.name }}
+
+![[Sigstore Seal](https://raw.githubusercontent.com/sigstore/community/main/artwork/badge/sigstore_codesigned_purple.png)](https://www.sigstore.dev/)

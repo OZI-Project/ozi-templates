@@ -1,0 +1,10 @@
+{#- OZI 0.3
+# ozi/templates/readme-renderer.meson.options
+# SPDX-License-Identifier: Unlicense
+-#}
+option(
+    'args-readme-renderer',
+    type: 'array',
+    value: ['README'],
+    yield: false,
+)

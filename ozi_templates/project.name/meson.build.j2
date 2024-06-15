@@ -1,6 +1,6 @@
 {#- OZI 0.1
 # ozi/templates/project.name/meson.build.j2
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 -#}
 {{ '# OZI ' ~ spec.version }} meson.build:source_files,source_children
 {%- for line in project.copyright_head.split('\n') %}
@@ -13,6 +13,18 @@ foreach file: source_files
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
         python.install_sources(file, subdir: '{{ project.name|underscorify }}')
+    endif
+endforeach
+ext_files = []
+foreach file: ext_files
+    if not meson.is_subproject() or get_option('install-subprojects').enabled()
+        python.extension_module(
+            fs.replace_suffix(file, ''),
+            file,
+            install: true,
+            subdir: '{{ project.name|underscorify }}',
+            dependencies: python.dependency()
+        )
     endif
 endforeach
 source_children = []

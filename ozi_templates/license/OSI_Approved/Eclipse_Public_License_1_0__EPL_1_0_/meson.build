@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 files = [
     'epl-1.0.txt'
 ]

@@ -1,5 +1,5 @@
 # ozi/templates/tests/meson.build
-# SPDX-License-Identifier: CC0-1.0
+# SPDX-License-Identifier: Unlicense
 tests_templates = [
     'meson.build.j2',
     'new_test.py.j2',
@@ -7,6 +7,6 @@ tests_templates = [
 foreach file: tests_templates
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
-        python.install_sources(file, subdir: 'ozi'/'templates'/'tests')
+        python.install_sources(file, subdir: 'ozi_templates'/'tests')
     endif
 endforeach
