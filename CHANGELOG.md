@@ -12,6 +12,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2987d9c`](https://github.com
 
 ### Fix
 
+* fix(semantic-release): config ``major_on_zero = true``
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e2e04ef`](https://github.com/OZI-Project/ozi_templates/commit/e2e04efdf3d1d93868d3d1653f547427e5b63b18))
+
 * fix(readme-renderer): fix args to target readme copied during build
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d7ed57f`](https://github.com/OZI-Project/ozi_templates/commit/d7ed57f81d679006b0cf8125ee92d68b541e15de))
