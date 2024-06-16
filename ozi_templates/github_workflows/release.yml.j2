@@ -46,4 +46,5 @@
 {%- raw %}
           python-dist: ${{ matrix.py }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ needs.draft.outputs.tag }}
 {%- endraw %}
