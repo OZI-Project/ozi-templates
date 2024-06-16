@@ -208,7 +208,7 @@ jobs:
             www.oziproject.dev:443
             objects.githubusercontent.com:443
 
-      - uses: OZI-Project/release@0.6.4
+      - uses: OZI-Project/release@0.6.5
         id: release
         with:
           python-dist: ${{ matrix.py }}
