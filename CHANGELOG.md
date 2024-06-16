@@ -2,6 +2,29 @@
 
 
 
+## v2.0.1 (2024-06-16)
+
+### :arrow_up:
+
+* :arrow_up: bump OZI.build ([`843f161`](https://github.com/OZI-Project/ozi_templates/commit/843f161073077b5bfafcd4f052f9055e256182a2))
+
+### :bug:
+
+* :bug: OZI.build&gt;=0.0.26
+
+parity with blastpipe 2024.11.10
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b57d4f6`](https://github.com/OZI-Project/ozi_templates/commit/b57d4f67aa1622ddb98ab89540b063f4924a1927))
+
+* :bug: project name ([`1aba880`](https://github.com/OZI-Project/ozi_templates/commit/1aba8809cef1d70bc97ff9497c65cad7b5466242))
+
+### Other
+
+* Fix branch pattern
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https://github.com/OZI-Project/ozi_templates/commit/d221e618bca32cdf51c7dd26bb58376825d0a05b))
+
+
 ## v2.0.0 (2024-06-16)
 
 ### :boom:
