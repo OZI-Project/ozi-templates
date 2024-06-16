@@ -2,6 +2,13 @@
 
 
 
+## v2.0.2 (2024-06-16)
+
+### :bug:
+
+* :bug: fix project module name ([`03f8b1e`](https://github.com/OZI-Project/ozi-templates/commit/03f8b1e630ebf02f513877248ac351436a047c15))
+
+
 ## v2.0.1 (2024-06-16)
 
 ### :arrow_up:
