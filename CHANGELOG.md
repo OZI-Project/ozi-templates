@@ -14,6 +14,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com
 
 ### :bug:
 
+* :bug: update to build version with normalized metadata
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ccbd1c`](https://github.com/OZI-Project/ozi-templates/commit/2ccbd1c2f0860f690280129b812f9dcb29bf031c))
+
 * :bug: publish if needs.draft.outputs.drafted == &#39;true&#39;
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`244ddf4`](https://github.com/OZI-Project/ozi-templates/commit/244ddf4c8c74955689ec9a007efa6b09f9e75165))
