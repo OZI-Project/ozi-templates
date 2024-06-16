@@ -6,7 +6,7 @@
 
 ### :arrow_up:
 
-* :arrow_up: bump OZI.build ([`843f161`](https://github.com/OZI-Project/ozi_templates/commit/843f161073077b5bfafcd4f052f9055e256182a2))
+* :arrow_up: bump OZI.build ([`843f161`](https://github.com/OZI-Project/ozi-templates/commit/843f161073077b5bfafcd4f052f9055e256182a2))
 
 ### :bug:
 
@@ -14,19 +14,23 @@
 
 parity with blastpipe 2024.11.10
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b57d4f6`](https://github.com/OZI-Project/ozi_templates/commit/b57d4f67aa1622ddb98ab89540b063f4924a1927))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b57d4f6`](https://github.com/OZI-Project/ozi-templates/commit/b57d4f67aa1622ddb98ab89540b063f4924a1927))
 
-* :bug: project name ([`1aba880`](https://github.com/OZI-Project/ozi_templates/commit/1aba8809cef1d70bc97ff9497c65cad7b5466242))
+* :bug: project name ([`1aba880`](https://github.com/OZI-Project/ozi-templates/commit/1aba8809cef1d70bc97ff9497c65cad7b5466242))
 
 ### Other
 
+* Update README
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`3efec29`](https://github.com/OZI-Project/ozi-templates/commit/3efec29e2c5efdd4745e202c631649b92f62b049))
+
 * Update meson.build - fix project name
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`95719bf`](https://github.com/OZI-Project/ozi_templates/commit/95719bf0abdee4f4dc7c74a332d115868bf76c3a))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`95719bf`](https://github.com/OZI-Project/ozi-templates/commit/95719bf0abdee4f4dc7c74a332d115868bf76c3a))
 
 * Fix branch pattern
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https://github.com/OZI-Project/ozi_templates/commit/d221e618bca32cdf51c7dd26bb58376825d0a05b))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https://github.com/OZI-Project/ozi-templates/commit/d221e618bca32cdf51c7dd26bb58376825d0a05b))
 
 
 ## v2.0.0 (2024-06-16)
@@ -35,99 +39,99 @@ Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https
 
 * :boom: version bump
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com/OZI-Project/ozi_templates/commit/52b4953eaaf9427636b4112f5f7378678b2b0a50))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com/OZI-Project/ozi-templates/commit/52b4953eaaf9427636b4112f5f7378678b2b0a50))
 
-* :boom: fix release strategy ([`e40ebfb`](https://github.com/OZI-Project/ozi_templates/commit/e40ebfb305a64a15aa02f6347d8cb04f633682c3))
+* :boom: fix release strategy ([`e40ebfb`](https://github.com/OZI-Project/ozi-templates/commit/e40ebfb305a64a15aa02f6347d8cb04f633682c3))
 
 ### :bug:
 
 * :bug: update to build version with normalized metadata
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ccbd1c`](https://github.com/OZI-Project/ozi_templates/commit/2ccbd1c2f0860f690280129b812f9dcb29bf031c))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ccbd1c`](https://github.com/OZI-Project/ozi-templates/commit/2ccbd1c2f0860f690280129b812f9dcb29bf031c))
 
 * :bug: publish if needs.draft.outputs.drafted == &#39;true&#39;
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`244ddf4`](https://github.com/OZI-Project/ozi_templates/commit/244ddf4c8c74955689ec9a007efa6b09f9e75165))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`244ddf4`](https://github.com/OZI-Project/ozi-templates/commit/244ddf4c8c74955689ec9a007efa6b09f9e75165))
 
 * :bug: fix repo name
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`959bab3`](https://github.com/OZI-Project/ozi_templates/commit/959bab31da5befd1e651ecb072fa7026e24cc9e9))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`959bab3`](https://github.com/OZI-Project/ozi-templates/commit/959bab31da5befd1e651ecb072fa7026e24cc9e9))
 
 * :bug: fix missing tag input to release
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`a677875`](https://github.com/OZI-Project/ozi_templates/commit/a6778750e5546955daf528f22283bfb77c76fd93))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`a677875`](https://github.com/OZI-Project/ozi-templates/commit/a6778750e5546955daf528f22283bfb77c76fd93))
 
 * :bug: major_on_zero back to false
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`8e76820`](https://github.com/OZI-Project/ozi_templates/commit/8e76820683aebe3f89f519ec2159ba815de7ca5c))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`8e76820`](https://github.com/OZI-Project/ozi-templates/commit/8e76820683aebe3f89f519ec2159ba815de7ca5c))
 
 * :bug: fix missing commit_parser_options
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ccf75ef`](https://github.com/OZI-Project/ozi_templates/commit/ccf75ef7f8ccc0cf99329f5a348dc45df84c536e))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ccf75ef`](https://github.com/OZI-Project/ozi-templates/commit/ccf75ef7f8ccc0cf99329f5a348dc45df84c536e))
 
 * :bug: fix commit_parser name
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`26b9b7a`](https://github.com/OZI-Project/ozi_templates/commit/26b9b7a61c31170e1e77b6532d9d3ef3448a8505))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`26b9b7a`](https://github.com/OZI-Project/ozi-templates/commit/26b9b7a61c31170e1e77b6532d9d3ef3448a8505))
 
 ### :sparkles:
 
 * :sparkles: bump version
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`83c01e5`](https://github.com/OZI-Project/ozi_templates/commit/83c01e5f8def35badc58f7b00bba58b2fa547c94))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`83c01e5`](https://github.com/OZI-Project/ozi-templates/commit/83c01e5f8def35badc58f7b00bba58b2fa547c94))
 
 * :sparkles: revert angular commit parsing.
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a8e395`](https://github.com/OZI-Project/ozi_templates/commit/1a8e3958989ed760de0494faef3c48797d13b3e4))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a8e395`](https://github.com/OZI-Project/ozi-templates/commit/1a8e3958989ed760de0494faef3c48797d13b3e4))
 
 ### Other
 
 * Update pyproject.toml
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`178143e`](https://github.com/OZI-Project/ozi_templates/commit/178143e956bb251585181c680d1278b99cc98650))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`178143e`](https://github.com/OZI-Project/ozi-templates/commit/178143e956bb251585181c680d1278b99cc98650))
 
 * Update pyproject.toml
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`f4b6b38`](https://github.com/OZI-Project/ozi_templates/commit/f4b6b38ad98c1e22df02cf45c758fa7d664cd4ee))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`f4b6b38`](https://github.com/OZI-Project/ozi-templates/commit/f4b6b38ad98c1e22df02cf45c758fa7d664cd4ee))
 
 * Update pyproject.toml
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`63eb260`](https://github.com/OZI-Project/ozi_templates/commit/63eb260f9e4a916d80d226b890f385ee1fd463ad))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`63eb260`](https://github.com/OZI-Project/ozi-templates/commit/63eb260f9e4a916d80d226b890f385ee1fd463ad))
 
 * fix(semantic-release): config ``major_on_zero = true``
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e2e04ef`](https://github.com/OZI-Project/ozi_templates/commit/e2e04efdf3d1d93868d3d1653f547427e5b63b18))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`e2e04ef`](https://github.com/OZI-Project/ozi-templates/commit/e2e04efdf3d1d93868d3d1653f547427e5b63b18))
 
 * fix(readme-renderer): fix args to target readme copied during build
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d7ed57f`](https://github.com/OZI-Project/ozi_templates/commit/d7ed57f81d679006b0cf8125ee92d68b541e15de))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d7ed57f`](https://github.com/OZI-Project/ozi-templates/commit/d7ed57f81d679006b0cf8125ee92d68b541e15de))
 
 * style(isort): import sort
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fad659c`](https://github.com/OZI-Project/ozi_templates/commit/fad659c29b487e507396522e5edbb08923444ca8))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fad659c`](https://github.com/OZI-Project/ozi-templates/commit/fad659c29b487e507396522e5edbb08923444ca8))
 
 * fix(dist-depends): restore requirements.in
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3586f0f`](https://github.com/OZI-Project/ozi_templates/commit/3586f0f033a1f0d52c680c7964a5ab3b1ec8b006))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3586f0f`](https://github.com/OZI-Project/ozi-templates/commit/3586f0f033a1f0d52c680c7964a5ab3b1ec8b006))
 
 * fix(imports): remove blastpipe references
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`97395ae`](https://github.com/OZI-Project/ozi_templates/commit/97395ae610647f20909152613dbd927447dc418b))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`97395ae`](https://github.com/OZI-Project/ozi-templates/commit/97395ae610647f20909152613dbd927447dc418b))
 
 * fix(tests): add test_filter.py to build
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9b99d3a`](https://github.com/OZI-Project/ozi_templates/commit/9b99d3a060de90f41f12509e68f5b50f12705a08))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9b99d3a`](https://github.com/OZI-Project/ozi-templates/commit/9b99d3a060de90f41f12509e68f5b50f12705a08))
 
 * style(isort): sort imports
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6faeeff`](https://github.com/OZI-Project/ozi_templates/commit/6faeeffed15231f5f3ac6f2f8628e78b430081d6))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`6faeeff`](https://github.com/OZI-Project/ozi-templates/commit/6faeeffed15231f5f3ac6f2f8628e78b430081d6))
 
 * Update pyproject.toml
 
-Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`8dfad97`](https://github.com/OZI-Project/ozi_templates/commit/8dfad9728cb2934c388714f1e9a968000993dcd1))
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`8dfad97`](https://github.com/OZI-Project/ozi-templates/commit/8dfad9728cb2934c388714f1e9a968000993dcd1))
 
 * feat(package): mirror blastpipe 2024.11.7 ozi_templates
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2987d9c`](https://github.com/OZI-Project/ozi_templates/commit/2987d9c6b8ebc723ed3dc39334794c7fd764709a))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2987d9c`](https://github.com/OZI-Project/ozi-templates/commit/2987d9c6b8ebc723ed3dc39334794c7fd764709a))
 
 
 ## v1.0.0 (2024-04-27)
@@ -136,37 +140,37 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2987d9c`](https://github.com
 
 * :boom: add load_environment() func
 
-Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi_templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi-templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
 
 ### :bug:
 
 * :bug: fix release workflow outputs so publish is not skipped.
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ce8dd0`](https://github.com/OZI-Project/ozi_templates/commit/2ce8dd0f24f52f9c497dd9dd57be6bdcd917b010))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ce8dd0`](https://github.com/OZI-Project/ozi-templates/commit/2ce8dd0f24f52f9c497dd9dd57be6bdcd917b010))
 
 * :bug: Fix publish workflow had ssh arguments still.
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`77a8ede`](https://github.com/OZI-Project/ozi_templates/commit/77a8edef6915fc3324e0ac131500747a5a8d72f1))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`77a8ede`](https://github.com/OZI-Project/ozi-templates/commit/77a8edef6915fc3324e0ac131500747a5a8d72f1))
 
 * :bug: fix name normalization in project and template.
 
 Without normalization we get duplicate dist_info.
 
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/ozi_templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/ozi-templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
 
 ### :fire:
 
-* :fire: delete template readme ([`33abd6c`](https://github.com/OZI-Project/ozi_templates/commit/33abd6c51075136fb8b40ba7c81e28a2b405f236))
+* :fire: delete template readme ([`33abd6c`](https://github.com/OZI-Project/ozi-templates/commit/33abd6c51075136fb8b40ba7c81e28a2b405f236))
 
 ### :pencil2:
 
-* :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi_templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
+* :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi-templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
 
 ### Other
 
 * Initial clone of templates
 
-Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`a8370f9`](https://github.com/OZI-Project/ozi_templates/commit/a8370f94cf621f3035ce6ac956fe96a752b005d2))
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`a8370f9`](https://github.com/OZI-Project/ozi-templates/commit/a8370f94cf621f3035ce6ac956fe96a752b005d2))
 
 * Bump github/codeql-action from 3.25.2 to 3.25.3
 
@@ -182,6 +186,6 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ...
 
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/ozi_templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/ozi-templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
 
-* Initial commit ([`6df66d3`](https://github.com/OZI-Project/ozi_templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
+* Initial commit ([`6df66d3`](https://github.com/OZI-Project/ozi-templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
