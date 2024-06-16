@@ -2,6 +2,13 @@
 
 
 
+## v0.2.0 (2024-06-16)
+
+### :boom:
+
+* :boom: fix release strategy ([`e40ebfb`](https://github.com/OZI-Project/ozi_templates/commit/e40ebfb305a64a15aa02f6347d8cb04f633682c3))
+
+
 ## v0.1.0 (2024-06-16)
 
 ### :boom:
