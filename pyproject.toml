@@ -20,14 +20,11 @@ dependencies = { file = ["requirements.in"] }
 pkg-info-file = 'PKG-INFO'
 
 [project.optional_dependencies]
-# continuous integration
 ci   = [
     "tox>4",
     "tox-gh>1.2",
 ]
-# tox -e fix
 fix  = ["black>=24.3", "ruff>=0.1.6", "autoflake", "isort"]
-# Default meson test setup
 dev  = ["[dist,lint,test,]"]
 dist = [
     "python-semantic-release",
