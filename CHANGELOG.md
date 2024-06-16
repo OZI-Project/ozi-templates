@@ -14,6 +14,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com
 
 ### :bug:
 
+* :bug: publish if needs.draft.outputs.drafted == &#39;true&#39;
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`244ddf4`](https://github.com/OZI-Project/ozi-templates/commit/244ddf4c8c74955689ec9a007efa6b09f9e75165))
+
 * :bug: fix repo name
 
 Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`959bab3`](https://github.com/OZI-Project/ozi-templates/commit/959bab31da5befd1e651ecb072fa7026e24cc9e9))
