@@ -254,11 +254,6 @@ match = "(main|master)"
 prerelease_token = "beta"
 prerelease = false
 
-[tool.semantic_release.branches."1.1"]
-match = "1\\.1"
-prerelease_token = "beta"
-prerelease = false
-
 [tool.semantic_release.branches."2.0"]
 match = "2\\.0"
 prerelease_token = "beta"
