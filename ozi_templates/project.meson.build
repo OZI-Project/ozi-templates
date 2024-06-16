@@ -23,12 +23,7 @@ project(
 fs = import('fs')
 pymod = import('python')
 python_dependencies = get_option('python-dependencies')
-python = pymod.find_installation(
-    'python3',
-    modules: python_dependencies,
-    required: false,
-    disabler: true,
-)
+python = pymod.find_installation()
 project_name = meson.project_name()
 pip_compile = find_program('pip-compile', required: true)
 root_files = [
