@@ -179,9 +179,9 @@ jobs:
     strategy:
       matrix:
         py:
-          - security
-          - bugfix2
-          - bugfix1
+          - security2
+          - security1
+          - bugfix
           - prerelease
       fail-fast: true
       max-parallel: 1
