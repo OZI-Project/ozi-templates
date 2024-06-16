@@ -19,7 +19,7 @@ dependencies = { file = ["requirements.in"] }
 [tool.ozi-build.metadata]
 pkg-info-file = 'PKG-INFO'
 
-[project.optional_dependencies] # also meson test suite names
+[project.optional_dependencies]
 # continuous integration
 ci   = [
     "tox>4",
