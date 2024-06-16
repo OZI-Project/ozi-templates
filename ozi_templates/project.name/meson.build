@@ -10,6 +10,6 @@ source_templates = [
 foreach file: source_templates
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
-        python.install_sources(file, subdir: 'ozi_templates'/'project.name')
+        python.install_sources(file, subdir: 'ozitemplates'/'project.name')
     endif
 endforeach

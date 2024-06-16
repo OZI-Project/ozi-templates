@@ -7,7 +7,7 @@ test_files = ['test_filter.py']
 foreach file: test_files
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
-        python.install_sources(file, subdir: 'ozi_templates' / 'tests')
+        python.install_sources(file, subdir: 'ozitemplates' / 'tests')
     endif
 endforeach
 test_children = []

@@ -4,7 +4,7 @@
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 project(
-    'ozi-templates',
+    'ozitemplates',
     default_options: ['warning_level=3'],
     license: 'Unlicense',
     license_files: ['LICENSE.txt'],
@@ -21,12 +21,7 @@ project(
 fs = import('fs')
 pymod = import('python')
 python_dependencies = get_option('python-dependencies')
-python = pymod.find_installation(
-    'python3',
-    modules: python_dependencies,
-    required: false,
-    disabler: true,
-)
+python = pymod.find_installation()
 project_name = meson.project_name()
 pip_compile = find_program('pip-compile', required: true)
 root_files = [
