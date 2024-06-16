@@ -14,6 +14,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com
 
 ### :bug:
 
+* :bug: fix missing tag input to release
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`a677875`](https://github.com/OZI-Project/ozi_templates/commit/a6778750e5546955daf528f22283bfb77c76fd93))
+
 * :bug: major_on_zero back to false
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`8e76820`](https://github.com/OZI-Project/ozi_templates/commit/8e76820683aebe3f89f519ec2159ba815de7ca5c))
