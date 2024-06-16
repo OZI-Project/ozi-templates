@@ -6,6 +6,12 @@
 
 ### :arrow_up:
 
+* :arrow_up: OZI-Project/release@0.6.5
+
+Ignores wheel filenames in glob for sigstore.
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`bbe482d`](https://github.com/OZI-Project/ozi-templates/commit/bbe482da512ab78ea4c3ebcdc92a925f4e0525df))
+
 * :arrow_up: bump OZI.build ([`843f161`](https://github.com/OZI-Project/ozi-templates/commit/843f161073077b5bfafcd4f052f9055e256182a2))
 
 ### :bug:
