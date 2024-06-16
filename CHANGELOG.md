@@ -20,6 +20,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b57d4f6`](https://github.com
 
 ### Other
 
+* Update meson.build - fix project name
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`95719bf`](https://github.com/OZI-Project/ozi_templates/commit/95719bf0abdee4f4dc7c74a332d115868bf76c3a))
+
 * Fix branch pattern
 
 Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https://github.com/OZI-Project/ozi_templates/commit/d221e618bca32cdf51c7dd26bb58376825d0a05b))
