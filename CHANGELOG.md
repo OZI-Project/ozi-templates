@@ -52,6 +52,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a8e395`](https://github.com
 
 * Update pyproject.toml
 
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`f4b6b38`](https://github.com/OZI-Project/ozi-templates/commit/f4b6b38ad98c1e22df02cf45c758fa7d664cd4ee))
+
+* Update pyproject.toml
+
 Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`63eb260`](https://github.com/OZI-Project/ozi-templates/commit/63eb260f9e4a916d80d226b890f385ee1fd463ad))
 
 * fix(semantic-release): config ``major_on_zero = true``
