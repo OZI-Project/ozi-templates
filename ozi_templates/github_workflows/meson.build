@@ -12,7 +12,7 @@ workflows = [
 foreach file: workflows
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
-        python.install_sources(file, subdir: 'ozitemplates'/'github_workflows')
+        python.install_sources(file, subdir: 'ozi_templates'/'github_workflows')
     endif
 endforeach
 if false

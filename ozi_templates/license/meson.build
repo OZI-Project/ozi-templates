@@ -26,7 +26,7 @@ foreach file : source_files
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
         python.install_sources(
             file,
-            subdir: 'ozitemplates' / 'license',
+            subdir: 'ozi_templates' / 'license',
         )
     endif
 endforeach
