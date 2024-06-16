@@ -254,8 +254,8 @@ match = "(main|master)"
 prerelease_token = "beta"
 prerelease = false
 
-[tool.semantic_release.branches."2.0"]
-match = "2\\.0"
+[tool.semantic_release.branches."2.x"]
+match = "\\A2\\.\\d+\\Z"
 prerelease_token = "beta"
 prerelease = false
 
@@ -346,7 +346,7 @@ allowlist_externals =
    meson
 package = wheel
 deps =
-   OZI.build>=0.0.18
+   OZI.build>=0.0.26
    pip-tools>=7
    pipx~=1.5
    setuptools_scm[toml]~=8.0
