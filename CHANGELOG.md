@@ -1,16 +1,18 @@
 # CHANGELOG
 
 
-## v1.0.0 (2024-04-27)
+
+## v2.0.0 (2024-06-16)
 
 ### :boom:
 
-* :boom: add load_environment() func
+* :boom: version bump
 
-Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi_templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com/OZI-Project/ozi_templates/commit/52b4953eaaf9427636b4112f5f7378678b2b0a50))
+
+* :boom: fix release strategy ([`e40ebfb`](https://github.com/OZI-Project/ozi_templates/commit/e40ebfb305a64a15aa02f6347d8cb04f633682c3))
 
 ### :bug:
-
 
 * :bug: major_on_zero back to false
 
@@ -24,31 +26,6 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ccf75ef`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`26b9b7a`](https://github.com/OZI-Project/ozi_templates/commit/26b9b7a61c31170e1e77b6532d9d3ef3448a8505))
 
-* :bug: fix release workflow outputs so publish is not skipped.
-
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ce8dd0`](https://github.com/OZI-Project/ozi_templates/commit/2ce8dd0f24f52f9c497dd9dd57be6bdcd917b010))
-
-* :bug: Fix publish workflow had ssh arguments still.
-
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`77a8ede`](https://github.com/OZI-Project/ozi_templates/commit/77a8edef6915fc3324e0ac131500747a5a8d72f1))
-
-* :bug: fix name normalization in project and template.
-
-Without normalization we get duplicate dist_info.
-
-Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/ozi_templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
-
-### :fire:
-
-* :fire: delete template readme ([`33abd6c`](https://github.com/OZI-Project/ozi_templates/commit/33abd6c51075136fb8b40ba7c81e28a2b405f236))
-
-### :pencil2:
-
-* :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi_templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
-
-### Other
-
-=======
 ### :sparkles:
 
 * :sparkles: bump version
@@ -60,6 +37,10 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`83c01e5`](https://github.com
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a8e395`](https://github.com/OZI-Project/ozi_templates/commit/1a8e3958989ed760de0494faef3c48797d13b3e4))
 
 ### Other
+
+* Update pyproject.toml
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`63eb260`](https://github.com/OZI-Project/ozi_templates/commit/63eb260f9e4a916d80d226b890f385ee1fd463ad))
 
 * fix(semantic-release): config ``major_on_zero = true``
 
@@ -97,6 +78,41 @@ Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`8dfad97`](https
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2987d9c`](https://github.com/OZI-Project/ozi_templates/commit/2987d9c6b8ebc723ed3dc39334794c7fd764709a))
 
+
+## v1.0.0 (2024-04-27)
+
+### :boom:
+
+* :boom: add load_environment() func
+
+Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi_templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
+
+### :bug:
+
+* :bug: fix release workflow outputs so publish is not skipped.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2ce8dd0`](https://github.com/OZI-Project/ozi_templates/commit/2ce8dd0f24f52f9c497dd9dd57be6bdcd917b010))
+
+* :bug: Fix publish workflow had ssh arguments still.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`77a8ede`](https://github.com/OZI-Project/ozi_templates/commit/77a8edef6915fc3324e0ac131500747a5a8d72f1))
+
+* :bug: fix name normalization in project and template.
+
+Without normalization we get duplicate dist_info.
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/ozi_templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
+
+### :fire:
+
+* :fire: delete template readme ([`33abd6c`](https://github.com/OZI-Project/ozi_templates/commit/33abd6c51075136fb8b40ba7c81e28a2b405f236))
+
+### :pencil2:
+
+* :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi_templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
+
+### Other
+
 * Initial clone of templates
 
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`a8370f9`](https://github.com/OZI-Project/ozi_templates/commit/a8370f94cf621f3035ce6ac956fe96a752b005d2))
@@ -118,8 +134,3 @@ updated-dependencies:
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/ozi_templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
 
 * Initial commit ([`6df66d3`](https://github.com/OZI-Project/ozi_templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
-=======
-```sh
-ozi-new 
-```
-=======
