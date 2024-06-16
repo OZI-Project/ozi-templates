@@ -1,15 +1,7 @@
 # CHANGELOG
 
 
-
-## v0.2.0 (2024-06-16)
-
-### :boom:
-
-* :boom: fix release strategy ([`e40ebfb`](https://github.com/OZI-Project/ozi_templates/commit/e40ebfb305a64a15aa02f6347d8cb04f633682c3))
-
-
-## v0.1.0 (2024-06-16)
+## v1.0.0 (2024-04-27)
 
 ### :boom:
 
@@ -18,6 +10,7 @@
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi_templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
 
 ### :bug:
+
 
 * :bug: major_on_zero back to false
 
@@ -53,6 +46,9 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com
 
 * :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi_templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
 
+### Other
+
+=======
 ### :sparkles:
 
 * :sparkles: bump version
@@ -122,3 +118,8 @@ updated-dependencies:
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`54566b3`](https://github.com/OZI-Project/ozi_templates/commit/54566b3f685b0a8757105c1ff8177eabdbe61d3e))
 
 * Initial commit ([`6df66d3`](https://github.com/OZI-Project/ozi_templates/commit/6df66d3a74d25f7e06bb573249b8c065155b9358))
+=======
+```sh
+ozi-new 
+```
+=======
