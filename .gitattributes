@@ -1,0 +1,4 @@
+ozi_templates/*.meson.build linguist-language=Jinja
+ozi_templates/*.meson.options linguist-language=Jinja
+ozi_templates/*.pyproject.toml linguist-language=Jinja
+ozi_templates/license/**/*.txt linguist-language=Jinja

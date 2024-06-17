@@ -2,7 +2,7 @@
 # ozi/templates/github_workflows/checkpoint.yml.j2
 # SPDX-License-Identifier: Unlicense
 -#}
-{%- for python_version in [spec.python.support.security2, spec.python.support.security1, spec.python.support.bugfix, spec.python.support.prerelease] %}
+{%- for python_version in [spec.python.support.security2, spec.python.support.security1, spec.python.support.bugfix] %}
   checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
     name: checkpoint (Python {{ python_version }} on ubuntu-latest)
     runs-on: ubuntu-latest
