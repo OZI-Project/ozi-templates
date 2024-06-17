@@ -2,6 +2,73 @@
 
 
 
+## v2.0.5 (2024-06-17)
+
+### :arrow_up:
+
+* :arrow_up: Bump ossf/scorecard-action from 2.3.1 to 2.3.3
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.3.1 to 2.3.3.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/0864cf19026789058feabb7e87baa5f140aac736...dc50aa9510b46c811795eb24b2f1ba02a914e534)
+
+---
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`b8cc5cf`](https://github.com/OZI-Project/ozi-templates/commit/b8cc5cffb37316b48d63120564e0b4aca5224203))
+
+* :arrow_up: Bump github/codeql-action from 3.25.3 to 3.25.10
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.3 to 3.25.10.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/d39d31e687223d841ef683f52467bd88e9b21c14...23acc5c183826b7a8a97bce3cecc52db901f8251)
+
+---
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`ff5472f`](https://github.com/OZI-Project/ozi-templates/commit/ff5472f9f2b8d10b48bdd4c1fe061da15699e1fe))
+
+* :arrow_up: Bump OZI-Project/draft from 0.3.1 to 0.3.2
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.1 to 0.3.2.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.1...0.3.2)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`68a5674`](https://github.com/OZI-Project/ozi-templates/commit/68a56749f240cd2a18f42c9f7bb1e8907c1b240f))
+
+* :arrow_up: Bump actions/dependency-review-action from 4.2.5 to 4.3.3
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.2.5 to 4.3.3.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/5bbc3ba658137598168acb2ab73b21c432dd411b...72eb03d02c7872a771aacd928f3123ac62ad6d3a)
+
+---
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c1498bd`](https://github.com/OZI-Project/ozi-templates/commit/c1498bd797c36a2b03e5dc8a0f7adc5145425f21))
+
+
 ## v2.0.4 (2024-06-17)
 
 ### :bug:
@@ -65,6 +132,54 @@ Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https
 
 
 ## v2.0.0 (2024-06-16)
+
+### :arrow_up:
+
+* :arrow_up: Bump step-security/harden-runner from 2.7.0 to 2.8.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.7.0 to 2.8.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/63c24ba6bd7ba022e95695ff85de572c04a18142...17d0e2bd7d51742c71671bd19fa12bdc9d40a3d6)
+
+---
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`bbc592e`](https://github.com/OZI-Project/ozi-templates/commit/bbc592eb025bdd61ee5003bd554b1f5c04b61702))
+
+* :arrow_up: Bump OZI-Project/checkpoint from 0.1.5 to 0.4.2
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.1.5 to 0.4.2.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.1.5...0.4.2)
+
+---
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`1ad4dd1`](https://github.com/OZI-Project/ozi-templates/commit/1ad4dd1b02e628b79366f6da2e582bb7ed660dc8))
+
+* :arrow_up: Bump actions/checkout from 4.1.4 to 4.1.7
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.1.4 to 4.1.7.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/0ad4b8fadaa221de15dcec353f45205ec38ea70b...692973e3d937129bcbf40652eb9f2f61becf3332)
+
+---
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+...
+
+Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`282d6b9`](https://github.com/OZI-Project/ozi-templates/commit/282d6b96d026d2285e7699169813d853715531d1))
 
 ### :boom:
 
