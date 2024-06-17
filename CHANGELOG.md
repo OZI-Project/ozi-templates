@@ -2,6 +2,15 @@
 
 
 
+## v2.0.3 (2024-06-17)
+
+### :bug:
+
+* :bug: fix blastpipe reference in packageloader
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2be3d1a`](https://github.com/OZI-Project/ozi-templates/commit/2be3d1a98cd266f85f5fb8e464dc10112f091e27))
+
+
 ## v2.0.2 (2024-06-16)
 
 ### :bug:
