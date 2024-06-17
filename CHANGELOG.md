@@ -2,6 +2,15 @@
 
 
 
+## v2.0.4 (2024-06-17)
+
+### :bug:
+
+* :bug: fix PackageLoader path
+
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`888050d`](https://github.com/OZI-Project/ozi-templates/commit/888050d270d1ac02ba684ee837b3347d2f2cf310))
+
+
 ## v2.0.3 (2024-06-17)
 
 ### :bug:
