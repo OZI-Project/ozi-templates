@@ -32,7 +32,7 @@ FILTERS = (
 def _init_environment(_globals: dict[str, Any]) -> Environment:  # pragma: no cover
     """Initialize the rendering environment, set filters, and set global metadata."""
     env = Environment(
-        loader=PackageLoader('blastpipe', 'ozi_templates'),
+        loader=PackageLoader('ozi_templates'),
         autoescape=select_autoescape(),
         enable_async=True,
         auto_reload=False,
