@@ -2,6 +2,21 @@
 
 
 
+## v2.0.6 (2024-06-17)
+
+### :bug:
+
+* :bug:(checkpoint.yml.j2): prerelease checkpoint no longer included by default
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`124bc74`](https://github.com/OZI-Project/ozi-templates/commit/124bc741ca57781492785fab45d6712eee0a2fd5))
+
+### :children_crossing:
+
+* :children_crossing: Create .gitattributes
+
+Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`cf0ba23`](https://github.com/OZI-Project/ozi-templates/commit/cf0ba231f2e911dccf5696c9d5749cc00052f346))
+
+
 ## v2.0.5 (2024-06-17)
 
 ### :arrow_up:
