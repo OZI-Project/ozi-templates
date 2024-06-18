@@ -1,25 +1,33 @@
 # CHANGELOG
+## 2.0.7 (2024-06-18)
 
 
+### :children_crossing: Improved Usability
 
-## v2.0.6 (2024-06-17)
+* :children_crossing:: CHANGELOG and release_notes templates
 
-### :bug:
+Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`fa3ebef`](https://github.com/OZI-Project/ozi-templates/commit/fa3ebefbb148b70150f26f90e90aff274df66178))
+
+## 2.0.6 (2024-06-17)
+
+
+### :bug: Fixed Bugs
 
 * :bug:(checkpoint.yml.j2): prerelease checkpoint no longer included by default
 
 Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`124bc74`](https://github.com/OZI-Project/ozi-templates/commit/124bc741ca57781492785fab45d6712eee0a2fd5))
 
-### :children_crossing:
+
+### :children_crossing: Improved Usability
 
 * :children_crossing: Create .gitattributes
 
 Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`cf0ba23`](https://github.com/OZI-Project/ozi-templates/commit/cf0ba231f2e911dccf5696c9d5749cc00052f346))
 
+## 2.0.5 (2024-06-17)
 
-## v2.0.5 (2024-06-17)
 
-### :arrow_up:
+### :arrow_up: Upgraded Dependencies
 
 * :arrow_up: Bump ossf/scorecard-action from 2.3.1 to 2.3.3
 
@@ -83,35 +91,35 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`c1498bd`](https://github.com/OZI-Project/ozi-templates/commit/c1498bd797c36a2b03e5dc8a0f7adc5145425f21))
 
+## 2.0.4 (2024-06-17)
 
-## v2.0.4 (2024-06-17)
 
-### :bug:
+### :bug: Fixed Bugs
 
 * :bug: fix PackageLoader path
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`888050d`](https://github.com/OZI-Project/ozi-templates/commit/888050d270d1ac02ba684ee837b3347d2f2cf310))
 
+## 2.0.3 (2024-06-17)
 
-## v2.0.3 (2024-06-17)
 
-### :bug:
+### :bug: Fixed Bugs
 
 * :bug: fix blastpipe reference in packageloader
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2be3d1a`](https://github.com/OZI-Project/ozi-templates/commit/2be3d1a98cd266f85f5fb8e464dc10112f091e27))
 
+## 2.0.2 (2024-06-16)
 
-## v2.0.2 (2024-06-16)
 
-### :bug:
+### :bug: Fixed Bugs
 
 * :bug: fix project module name ([`03f8b1e`](https://github.com/OZI-Project/ozi-templates/commit/03f8b1e630ebf02f513877248ac351436a047c15))
 
+## 2.0.1 (2024-06-16)
 
-## v2.0.1 (2024-06-16)
 
-### :arrow_up:
+### :arrow_up: Upgraded Dependencies
 
 * :arrow_up: OZI-Project/release@0.6.5
 
@@ -121,7 +129,8 @@ Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`bbe482d`](https
 
 * :arrow_up: bump OZI.build ([`843f161`](https://github.com/OZI-Project/ozi-templates/commit/843f161073077b5bfafcd4f052f9055e256182a2))
 
-### :bug:
+
+### :bug: Fixed Bugs
 
 * :bug: OZI.build&gt;=0.0.26
 
@@ -131,7 +140,9 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`b57d4f6`](https://github.com
 
 * :bug: project name ([`1aba880`](https://github.com/OZI-Project/ozi-templates/commit/1aba8809cef1d70bc97ff9497c65cad7b5466242))
 
+
 ### Other
+
 
 * Update README
 
@@ -145,10 +156,10 @@ Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`95719bf`](https
 
 Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`d221e61`](https://github.com/OZI-Project/ozi-templates/commit/d221e618bca32cdf51c7dd26bb58376825d0a05b))
 
+## 2.0.0 (2024-06-16)
 
-## v2.0.0 (2024-06-16)
 
-### :arrow_up:
+### :arrow_up: Upgraded Dependencies
 
 * :arrow_up: Bump step-security/harden-runner from 2.7.0 to 2.8.1
 
@@ -196,7 +207,9 @@ updated-dependencies:
 
 Signed-off-by: dependabot[bot] &lt;support@github.com&gt; ([`282d6b9`](https://github.com/OZI-Project/ozi-templates/commit/282d6b96d026d2285e7699169813d853715531d1))
 
+
 ### :boom:
+
 
 * :boom: version bump
 
@@ -204,7 +217,8 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`52b4953`](https://github.com
 
 * :boom: fix release strategy ([`e40ebfb`](https://github.com/OZI-Project/ozi-templates/commit/e40ebfb305a64a15aa02f6347d8cb04f633682c3))
 
-### :bug:
+
+### :bug: Fixed Bugs
 
 * :bug: update to build version with normalized metadata
 
@@ -234,7 +248,8 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ccf75ef`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`26b9b7a`](https://github.com/OZI-Project/ozi-templates/commit/26b9b7a61c31170e1e77b6532d9d3ef3448a8505))
 
-### :sparkles:
+
+### :sparkles: Implemented Features
 
 * :sparkles: bump version
 
@@ -244,7 +259,9 @@ Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`83c01e5`](https://github.com
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`1a8e395`](https://github.com/OZI-Project/ozi-templates/commit/1a8e3958989ed760de0494faef3c48797d13b3e4))
 
+
 ### Other
+
 
 * Update pyproject.toml
 
@@ -294,16 +311,18 @@ Signed-off-by: Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt; ([`8dfad97`](https
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2987d9c`](https://github.com/OZI-Project/ozi-templates/commit/2987d9c6b8ebc723ed3dc39334794c7fd764709a))
 
+## 1.0.0 (2024-04-27)
 
-## v1.0.0 (2024-04-27)
 
 ### :boom:
+
 
 * :boom: add load_environment() func
 
 Signed-off-by: rjdbcm &lt;rjdbcm@mail.umkc.edu&gt; ([`7cb9510`](https://github.com/OZI-Project/ozi-templates/commit/7cb951045f3855ab6a301ca52d536d96e4a3f0c0))
 
-### :bug:
+
+### :bug: Fixed Bugs
 
 * :bug: fix release workflow outputs so publish is not skipped.
 
@@ -319,15 +338,19 @@ Without normalization we get duplicate dist_info.
 
 Signed-off-by: rjdbcm &lt;rjdbcm@outlook.com&gt; ([`d40e46a`](https://github.com/OZI-Project/ozi-templates/commit/d40e46ae36927546cca0fe76baa2c870ccd6a2a7))
 
-### :fire:
+
+### :fire: Deleted Code or Files
 
 * :fire: delete template readme ([`33abd6c`](https://github.com/OZI-Project/ozi-templates/commit/33abd6c51075136fb8b40ba7c81e28a2b405f236))
 
-### :pencil2:
+
+### :pencil2: Corrected Typos
 
 * :pencil2: correct project name ([`9df80d8`](https://github.com/OZI-Project/ozi-templates/commit/9df80d8511050ab6596f5b10f8d7dc41be0c0924))
 
+
 ### Other
+
 
 * Initial clone of templates
 
