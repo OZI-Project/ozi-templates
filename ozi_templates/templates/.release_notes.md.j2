@@ -1,7 +1,13 @@
+{#- OZI 0.4
+# ozi_templates/templates/.release_notes.md.j2
+# SPDX-License-Identifier: Unlicense
+-#}
 ## What's Changed
+{%- raw %}
 {% for type_, commits in release["elements"] | dictsort %}
 {% include 'parsed_commit_heading.j2' %}
 {%- if type_ != "unknown" %}
 {% for commit in commits %}
 * {{ commit.descriptions[0]|replace(type_~': ','')|replace(type_,'')|replace('---', '') }} &mdash; by {{commit.commit.author.name}} in [`{{ commit.short_hash }}`]({{ commit.hexsha | commit_hash_url }})
 {%- endfor %}{% endif %}{% endfor %}
+{%- endraw %}
