@@ -61,7 +61,13 @@ foreach file: source_files
         python.install_sources(file, subdir: 'ozi_templates')
     endif
 endforeach
-source_children = ['license', 'github_workflows', 'project.name', 'tests']
+source_children = [
+    'license',
+    'github_workflows',
+    'project.name',
+    'templates',
+    'tests',
+]
 foreach child: source_children
     subdir(child)
 endforeach
