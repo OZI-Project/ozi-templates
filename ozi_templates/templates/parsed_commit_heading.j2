@@ -1,3 +1,8 @@
+{#- OZI 0.4
+# ozi_templates/templates/parsed_commit_heading.j2
+# SPDX-License-Identifier: Unlicense
+-#}
+{%- raw %}
 {%- if type_ in [':bug:', 'BUG', 'fix'] %}
 ### :bug: Fixed Bugs
 {%- elif type_ in [':memo:', 'DOC', 'docs'] %}
@@ -37,3 +42,4 @@
 {%- else %}
 ### {{ type_ | capitalize }}
 {% endif %}
+{%- endraw %}
