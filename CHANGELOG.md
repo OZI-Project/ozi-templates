@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.1.1 (2024-06-20)
+
+
+### :bug: Fixed Bugs
+
+*  escape CHANGELOG and release notes templates — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`4546e4e`](https://github.com/OZI-Project/ozi-templates/commit/4546e4e889b257bfd4fe861a1ebe6936929fe818))
+
 ## 2.1.0 (2024-06-20)
 
 
