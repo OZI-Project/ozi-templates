@@ -1,4 +1,4 @@
-# ozi/templates/tests/meson.build
+# ozi_templates/tests/meson.build
 # SPDX-License-Identifier: Unlicense
 tests_templates = [
     'meson.build.j2',
