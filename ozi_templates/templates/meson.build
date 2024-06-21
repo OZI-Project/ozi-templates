@@ -3,7 +3,7 @@
 _templates = [
     '.release_notes.md.j2',
     'CHANGELOG.md.j2',
-    'parsed_commit_heading.j2',
+    '.parsed_commit_heading.j2',
 ]
 foreach file: _templates
     fs.copyfile(file)
