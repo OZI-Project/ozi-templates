@@ -1,4 +1,40 @@
 # CHANGELOG
+## 2.1.2 (2024-06-21)
+
+
+### :arrow_up: Upgraded Dependencies
+
+*  Bump OZI-Project/publish from 0.1.5 to 0.1.6
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.5 to 0.1.6.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.5...0.1.6)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt; ([`3fe734d`](https://github.com/OZI-Project/ozi-templates/commit/3fe734d2ab68217309461dae0f6bdf462bdcc88a))
+
+*  Bump OZI-Project/draft from 0.3.2 to 0.3.3
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.2 to 0.3.3.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.2...0.3.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt; ([`dec807f`](https://github.com/OZI-Project/ozi-templates/commit/dec807ff39d8b2438bc837c397e0f050cc0b4101))
+
+
+### :bug: Fixed Bugs
+
+*  parsed_commit_heading renamed to avoid rendering — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`9a8b8e1`](https://github.com/OZI-Project/ozi-templates/commit/9a8b8e17e31c6874da9be3ac82007d26db95efaa))
+
 ## 2.1.1 (2024-06-20)
 
 
