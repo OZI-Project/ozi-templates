@@ -19,6 +19,7 @@ source_files = [
     'lgpl-3.0.txt',
     'mit.txt',
     'ofl-1.1.txt',
+    'unlicense.txt',
     'zlib.txt',
 ]
 foreach file : source_files
