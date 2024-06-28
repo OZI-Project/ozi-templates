@@ -1,4 +1,16 @@
 # CHANGELOG
+## 2.2.0 (2024-06-28)
+
+
+### :bug: Fixed Bugs
+
+*  add ``OSI Approved :: ... Unlicense ...`` templates. — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`4ec65b7`](https://github.com/OZI-Project/ozi-templates/commit/4ec65b70ddbe40717bab358c414a285b0f260249))
+
+
+### :sparkles: Implemented Features
+
+*  default to Unlicense for LicenseRef-Public-Domain — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`14b469f`](https://github.com/OZI-Project/ozi-templates/commit/14b469fa5bbcf21ff4eccfa70c1a20899a416dca))
+
 ## 2.1.2 (2024-06-21)
 
 
