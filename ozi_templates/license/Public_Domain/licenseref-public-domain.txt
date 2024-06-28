@@ -1,1 +1,1 @@
-{% include 'license/cc0-1.0.txt' %}
+{% include 'license/unlicense.txt' %}
