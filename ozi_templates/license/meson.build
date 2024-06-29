@@ -8,7 +8,7 @@ source_files = [
     'afl-3.0.txt',
     'agpl-3.0.txt',
     'apache-2.0.txt',
-    'apsl-1.0.txt'
+    'apsl-1.0.txt',
     'apsl-1.1.txt',
     'apsl-1.2.txt',
     'apsl-2.0.txt',
