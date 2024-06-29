@@ -55,6 +55,7 @@ foreach file : source_files
 endforeach
 source_children = [
     'CC0_1_0_Universal__CC0_1_0__Public_Domain_Dedication',
+    'Eiffel_Forum_License__EFL_',
     'DFSG_approved',
     'Free_To_Use_But_Restricted',
     'OSI_Approved',
