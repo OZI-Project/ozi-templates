@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.3.1 (2024-06-29)
+
+
+### :bug: Fixed Bugs
+
+*  add missing EFL licenses — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f0fb24e`](https://github.com/OZI-Project/ozi-templates/commit/f0fb24e0146e741d0f2f43871b3a58c91e6cce87))
+
 ## 2.3.0 (2024-06-29)
 
 
