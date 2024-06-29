@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.3.2 (2024-06-29)
+
+
+### :bug: Fixed Bugs
+
+*  add missing Eiffel_Forum_License__EFL_ folder to install — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f129ef2`](https://github.com/OZI-Project/ozi-templates/commit/f129ef236951d1875d7d608681f7ca39f1b3bfde))
+
 ## 2.3.1 (2024-06-29)
 
 
