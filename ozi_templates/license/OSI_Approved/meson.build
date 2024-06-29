@@ -1,11 +1,62 @@
 # SPDX-License-Identifier: Unlicense
+files = [
+    '0bsd.txt',
+    'afl-3.0.txt',
+    'agpl-3.0-only.txt',
+    'agpl-3.0-or-later.txt',
+    'apache-2.0.txt',
+    'apsl-1.0.txt',
+    'apsl-1.1.txt',
+    'apsl-1.2.txt',
+    'apsl-2.0.txt',
+    'artistic-2.0.txt',
+    'bsd-2-clause.txt',
+    'bsd-3-clause-clear.txt',
+    'bsd-3-clause.txt',
+    'bsd-4-clause.txt',
+    'bsl-1.0.txt',
+    'cecill-2.1.txt',
+    'epl-1.0.txt',
+    'epl-2.0.txt',
+    'eupl-1.1.txt',
+    'eupl-1.2.txt',
+    'gfdl-1.3-only.txt',
+    'gfdl-1.3-or-later.txt',
+    'gpl-2.0-only.txt',
+    'gpl-2.0-or-later.txt',
+    'gpl-3.0-only.txt',
+    'gpl-3.0-or-later.txt',
+    'isc.txt',
+    'lgpl-2.0-only.txt',
+    'lgpl-2.1-or-later.txt',
+    'lgpl-3.0-only.txt',
+    'lgpl-3.0-or-later.txt',
+    'mit-0.txt',
+    'mit.txt',
+    'mpl-2.0.txt',
+    'mulanpsl-2.0.txt',
+    'ofl-1.1.txt',
+    'osl-3.0.txt',
+    'postgresql.txt',
+    'unlicense.txt',
+    'zlib.txt',
+]
+foreach file: files
+    fs.copyfile(file)
+    if not meson.is_subproject() or get_option('install-subprojects').enabled()
+        python.install_sources(
+            file, 
+            subdir: 'ozi_templates'/'license'/fs.name(meson.current_source_dir()))
+    endif
+endforeach
+
 children = [
     'Academic_Free_License__AFL_',
     'Apache_Software_License',
     'Apple_Public_Source_License',
     'Artistic_License',
-    'Boost_Software_License_1_0__BSL_1_0_',
     'BSD_License',
+    'Boost_Software_License_1_0__BSL_1_0_',
     'CEA_CNRS_Inria_Logiciel_Libre_License__version_2_1__CeCILL_2_1_',
     'Eclipse_Public_License_1_0__EPL_1_0_',
     'Eclipse_Public_License_2_0__EPL_2_0_',
@@ -32,6 +83,7 @@ children = [
     'Open_Software_License_3_0__OSL_3_0_',
     'PostgreSQL_License',
     'SIL_Open_Font_License_1_1__OFL_1_1_',
+    'University_of_Illinois_NCSA_Open_Source_License',
     'zlib_libpng_License',
 ]
 foreach child: children
