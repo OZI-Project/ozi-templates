@@ -1,4 +1,16 @@
 # CHANGELOG
+## 2.3.0 (2024-06-29)
+
+
+### :pencil2: Corrected Typos
+
+*  missed comma — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`59c1242`](https://github.com/OZI-Project/ozi-templates/commit/59c124291c7db9bae8c5485763ffad1dea636cba))
+
+
+### :sparkles: Implemented Features
+
+* (license) add all supported license variants — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2927fa1`](https://github.com/OZI-Project/ozi-templates/commit/2927fa1db28dcc63c7893aae6ee199008279bd12))
+
 ## 2.2.0 (2024-06-28)
 
 
