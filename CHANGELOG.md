@@ -1,4 +1,56 @@
 # CHANGELOG
+## 2.3.4 (2024-06-30)
+
+
+### :bug: Fixed Bugs
+
+*  fix missing unlicense — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`eed9ec6`](https://github.com/OZI-Project/ozi-templates/commit/eed9ec690af111fc439d2f46bdf60f1a65f20492))
+
+## 2.3.3 (2024-06-30)
+
+
+### :bug: Fixed Bugs
+
+*  fix missing Eiffel and 0BSD license folders — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ca1ca00`](https://github.com/OZI-Project/ozi-templates/commit/ca1ca0094577a5b605a2c3b418090c91d1f671d0))
+
+## 2.3.2 (2024-06-29)
+
+
+### :bug: Fixed Bugs
+
+*  add missing Eiffel_Forum_License__EFL_ folder to install — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f129ef2`](https://github.com/OZI-Project/ozi-templates/commit/f129ef236951d1875d7d608681f7ca39f1b3bfde))
+
+## 2.3.1 (2024-06-29)
+
+
+### :bug: Fixed Bugs
+
+*  add missing EFL licenses — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`f0fb24e`](https://github.com/OZI-Project/ozi-templates/commit/f0fb24e0146e741d0f2f43871b3a58c91e6cce87))
+
+## 2.3.0 (2024-06-29)
+
+
+### :pencil2: Corrected Typos
+
+*  missed comma — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`59c1242`](https://github.com/OZI-Project/ozi-templates/commit/59c124291c7db9bae8c5485763ffad1dea636cba))
+
+
+### :sparkles: Implemented Features
+
+* (license) add all supported license variants — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`2927fa1`](https://github.com/OZI-Project/ozi-templates/commit/2927fa1db28dcc63c7893aae6ee199008279bd12))
+
+## 2.2.0 (2024-06-28)
+
+
+### :bug: Fixed Bugs
+
+*  add ``OSI Approved :: ... Unlicense ...`` templates. — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`4ec65b7`](https://github.com/OZI-Project/ozi-templates/commit/4ec65b70ddbe40717bab358c414a285b0f260249))
+
+
+### :sparkles: Implemented Features
+
+*  default to Unlicense for LicenseRef-Public-Domain — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`14b469f`](https://github.com/OZI-Project/ozi-templates/commit/14b469fa5bbcf21ff4eccfa70c1a20899a416dca))
+
 ## 2.1.2 (2024-06-21)
 
 
