@@ -60,6 +60,7 @@ children = [
     'CEA_CNRS_Inria_Logiciel_Libre_License__version_2_1__CeCILL_2_1_',
     'Eclipse_Public_License_1_0__EPL_1_0_',
     'Eclipse_Public_License_2_0__EPL_2_0_',
+    'Eiffel_Forum_License__EFL_',
     'European_Union_Public_Licence_1_1__EUPL_1_1_',
     'European_Union_Public_Licence_1_2__EUPL_1_2_',
     'GNU_Affero_General_Public_License_v3',
@@ -84,6 +85,7 @@ children = [
     'PostgreSQL_License',
     'SIL_Open_Font_License_1_1__OFL_1_1_',
     'University_of_Illinois_NCSA_Open_Source_License',
+    'Zero_Clause_BSD__0BSD_',
     'zlib_libpng_License',
 ]
 foreach child: children
