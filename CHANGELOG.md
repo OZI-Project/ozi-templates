@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.3.3 (2024-06-30)
+
+
+### :bug: Fixed Bugs
+
+*  fix missing Eiffel and 0BSD license folders — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`ca1ca00`](https://github.com/OZI-Project/ozi-templates/commit/ca1ca0094577a5b605a2c3b418090c91d1f671d0))
+
 ## 2.3.2 (2024-06-29)
 
 
