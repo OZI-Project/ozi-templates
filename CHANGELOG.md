@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.3.4 (2024-06-30)
+
+
+### :bug: Fixed Bugs
+
+*  fix missing unlicense — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`eed9ec6`](https://github.com/OZI-Project/ozi-templates/commit/eed9ec690af111fc439d2f46bdf60f1a65f20492))
+
 ## 2.3.3 (2024-06-30)
 
 
