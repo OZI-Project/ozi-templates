@@ -1,4 +1,13 @@
 # CHANGELOG
+## 2.4.0 (2024-07-01)
+
+
+### :sparkles: Implemented Features
+
+* (license): add CeCILL-B, CeCILL-C, MirOS, OGTSL, and UPL-1.0 support.
+
+Also fixes unlicense. — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`334da31`](https://github.com/OZI-Project/ozi-templates/commit/334da31a55bc845dfddbebde1f5acc635057a66c))
+
 ## 2.3.4 (2024-06-30)
 
 
