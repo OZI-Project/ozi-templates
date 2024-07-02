@@ -13,6 +13,7 @@ source_files = [
     'apsl-1.2.txt',
     'apsl-2.0.txt',
     'artistic-2.0.txt',
+    'blueoak-1.0.0.txt',
     'bsd-2-clause.txt',
     'bsd-3-clause-clear.txt',
     'bsd-3-clause.txt',
