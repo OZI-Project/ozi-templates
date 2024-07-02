@@ -1,4 +1,28 @@
 # CHANGELOG
+## 2.4.1 (2024-07-02)
+
+
+### :arrow_up: Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.25.10 to 3.25.11
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.10 to 3.25.11.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/23acc5c183826b7a8a97bce3cecc52db901f8251...b611370bb5703a7efb587f9d136a52ea24c5c38c)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt; ([`84906bf`](https://github.com/OZI-Project/ozi-templates/commit/84906bf6a063545bac2567d810abc036918ecad9))
+
+
+### :children_crossing: Improved Usability
+
+* (license): add BlueOak-1.0.0 templates — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`888f02d`](https://github.com/OZI-Project/ozi-templates/commit/888f02d18a1297413b0ece695508aea549d80106))
+
 ## 2.4.0 (2024-07-01)
 
 
