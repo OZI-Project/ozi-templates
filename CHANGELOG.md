@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.4.2 (2024-07-02)
+
+
+### :children_crossing: Improved Usability
+
+* Update ``CHANGELOG.md.j2`` to replace gitmoji codes with unicode characters. — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`afa3f4d`](https://github.com/OZI-Project/ozi-templates/commit/afa3f4d9cc32170cfa297cb80ea21c48353578b1))
+
 ## 2.4.1 (2024-07-02)
 
 
