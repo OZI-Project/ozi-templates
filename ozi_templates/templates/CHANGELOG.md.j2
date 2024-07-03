@@ -2,6 +2,7 @@
 # ozi_templates/templates/CHANGELOG.md.j2
 # SPDX-License-Identifier: Unlicense
 -#}
+{%- raw %}
 # CHANGELOG
 
 {%- if context.history.unreleased | length > 0 %}
@@ -315,3 +316,4 @@
 {%- endfilter %}
 {%- endfilter %}
 {% endif %}{% endfor %}{% endfor %}{% endfor %}
+{%- endraw %}
