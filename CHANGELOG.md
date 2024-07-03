@@ -1,4 +1,18 @@
 # CHANGELOG
+## 2.4.5 (2024-07-03)
+
+
+
+### 🐛 Fixed Bugs
+*  fix requirements.in render to properly ignore newlines — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`2e04d1a`](https://github.com/OZI-Project/ozi-templates/commit/2e04d1a99bf41b732246896211b08dccfdafb6d1))
+
+
+
+### 🚸 Improved Usability
+*  remove CHANGELOG.md from build files — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`b5a89ae`](https://github.com/OZI-Project/ozi-templates/commit/b5a89ae32d5c6c12188e2f7306a359cdef358599))
+
 ## 2.4.4 (2024-07-03)
 
 
