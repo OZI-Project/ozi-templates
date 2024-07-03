@@ -46,7 +46,7 @@ commands =
      pipx run --python {env_python} -q black -S .
      pipx run --python {env_python} -q isort .
      pipx run --python {env_python} -q autoflake -i -r .
-     pipx run --python {env_python} -q ruff check {{ project.name|underscorify }} --fix
+     pipx run --python {env_python} -q ruff check {{ project.name|underscorify|lower }} --fix
 
 [testenv:scm]
 description = OZI supply chain management (setuptools_scm)
