@@ -75,7 +75,8 @@ requirements = (
     )
 )
 for req in requirements:
-    print(f'Requires-Dist: {req}')
+    if len(req) > 0:
+        print(f'Requires-Dist: {req}')
 '''], check: true
     ).stdout().strip()
 )
