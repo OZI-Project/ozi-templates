@@ -1,4 +1,11 @@
 # CHANGELOG
+## 2.4.3 (2024-07-03)
+
+
+### :bug: Fixed Bugs
+
+*  escape raw jinja2 in changelog template — rjdbcm &lt;rjdbcm@outlook.com&gt; ([`3473956`](https://github.com/OZI-Project/ozi-templates/commit/347395685a96db7d5beef7a678fa57e668b0a6d4))
+
 ## 2.4.2 (2024-07-02)
 
 
