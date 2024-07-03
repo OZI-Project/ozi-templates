@@ -1,4 +1,12 @@
 # CHANGELOG
+## 2.4.7 (2024-07-03)
+
+
+### 🐛 Fixed Bugs
+
+*  consistent CHANGELOG style, initial 0.0.0 entry no longer overwritten by semantic-release — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c42b863`](https://github.com/OZI-Project/ozi-templates/commit/c42b8634343566fe3ab633ffa789f04a1ec1cf0f))
+
 ## 2.4.6 (2024-07-03)
 
 
