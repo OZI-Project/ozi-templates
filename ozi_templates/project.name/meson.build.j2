@@ -12,7 +12,7 @@ source_files = ['__init__.py', 'py.typed']
 foreach file: source_files
     fs.copyfile(file)
     if not meson.is_subproject() or get_option('install-subprojects').enabled()
-        python.install_sources(file, subdir: '{{ project.name|underscorify }}')
+        python.install_sources(file, subdir: '{{ project.name|underscorify|lower }}')
     endif
 endforeach
 ext_files = []
@@ -22,7 +22,7 @@ foreach file: ext_files
             fs.replace_suffix(file, ''),
             file,
             install: true,
-            subdir: '{{ project.name|underscorify }}',
+            subdir: '{{ project.name|underscorify|lower }}',
             dependencies: python.dependency()
         )
     endif

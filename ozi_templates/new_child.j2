@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Unlicense
 -#}
 {%- if project.fix == 'source' %}
-{%- set folder = project.name %}
+{%- set folder = project.name|underscorify|lower %}
 {%- elif project.fix == 'test' %}
 {%- set folder = 'tests' %}
 {%- elif project.fix == 'root' %}

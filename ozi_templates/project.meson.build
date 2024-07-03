@@ -99,7 +99,7 @@ foreach source : root_files
         fs.copyfile(source, 'README.{{ project.long_description_content_type }}')
     endif
 endforeach
-root_children = ['{{ project.name|underscorify }}', 'tests']
+root_children = ['{{ project.name|underscorify|lower }}', 'tests']
 foreach child: root_children
     subdir(child)
 endforeach

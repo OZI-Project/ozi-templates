@@ -2,7 +2,7 @@
 # ozi/templates/project.name/__init__.pyi.j2
 # SPDX-License-Identifier: Unlicense
 -#}
-"""{{ project.name }} module stubfile"""
+"""{{ project.name|underscorify|lower }} module stubfile"""
 {%- for line in project.copyright_head.split('\n') %}
 {{ '# ' ~ line }}
 {%- endfor %}
