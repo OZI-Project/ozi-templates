@@ -92,7 +92,7 @@ vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
 {#- END config MESON_SOURCE_ROOT/PKG-INFO #}
 
 foreach source : root_files
-    if source not in ['pyproject.toml', 'requirements.in', '.gitignore', 'README']
+    if source not in ['pyproject.toml', 'requirements.in', '.gitignore', 'README', 'CHANGELOG.md']
         fs.copyfile(source)
     elif source == 'README'
         fs.copyfile(source, 'README.{{ project.long_description_content_type }}')
