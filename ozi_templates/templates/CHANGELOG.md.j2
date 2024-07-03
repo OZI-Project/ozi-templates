@@ -2,8 +2,8 @@
 # ozi_templates/templates/CHANGELOG.md.j2
 # SPDX-License-Identifier: Unlicense
 -#}
+# {{ project.name }} CHANGELOG
 {%- raw %}
-# CHANGELOG
 
 {%- if context.history.unreleased | length > 0 %}
 
@@ -317,3 +317,13 @@
 ([`{{ commit.commit.hexsha[:7] }}`]({{ commit.commit.hexsha | commit_hash_url }}))
 {% endif %}{% endfor %}{% endfor %}{% endfor %}
 {%- endraw %}
+
+## 0.0.0 ({{ '%Y-%m-%d'|current_date }})
+
+### :tada:
+
+* :tada:: Initialized {{ project.name }} with ``ozi-new``.
+
+```sh
+ozi-new {{ project.argv }}
+```
