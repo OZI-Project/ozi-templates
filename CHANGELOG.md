@@ -1,4 +1,27 @@
-# CHANGELOG
+# ozi-templates CHANGELOG
+## 2.4.8 (2024-07-03)
+
+
+### 🐛 Fixed Bugs
+
+*  release patch fixes for names
+([`790e648`](https://github.com/OZI-Project/ozi-templates/commit/790e648971a020f2c71095efdfae7ea5a5da7e70))
+
+
+### Other
+
+
+* fix: Non-lowercase and underscored name expected for ``project.name`` context — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e9feb82`](https://github.com/OZI-Project/ozi-templates/commit/e9feb82ded67eed301cc4b022ad09f82cb8c17a7))
+
+* fix(CHANGELOG): add project name to heading
+
+release
+([`fb7dcb3`](https://github.com/OZI-Project/ozi-templates/commit/fb7dcb3ddbb64172ce989fa0790f891c152f1f41))
+
+* Update CHANGELOG.md.j2 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`727eb6c`](https://github.com/OZI-Project/ozi-templates/commit/727eb6ce0ead15df9202a6a8a30c642762b5b3b1))
+
 ## 2.4.7 (2024-07-03)
 
 
