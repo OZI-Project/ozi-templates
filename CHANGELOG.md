@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.4.9 (2024-07-04)
+
+
+### 🚸 Improved Usability
+
+*  add release pattern matching default OZI workflow to semantic_release config template — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`0351743`](https://github.com/OZI-Project/ozi-templates/commit/035174311c70af5986c96d1ce188d620b904ab04))
+
 ## 2.4.8 (2024-07-03)
 
 
