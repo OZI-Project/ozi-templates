@@ -33,7 +33,6 @@ source_files = [
     'mypy.pyproject.toml',
     'new_child.j2',
     'ozi.wrap.j2',
-    'project.ozi.wrap.j2',
     'project.PKG-INFO',
     'project.array.meson.options',
     'project.feature.meson.options',
