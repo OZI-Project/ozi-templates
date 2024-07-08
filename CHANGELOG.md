@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.5.1 (2024-07-08)
+
+
+### 🐛 Fixed Bugs
+
+* add subprojects templates to build — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c7d229d`](https://github.com/OZI-Project/ozi-templates/commit/c7d229dcc9cf63dd29dab0ff927cac8107a9d55a))
+
 ## 2.5.0 (2024-07-07)
 
 
