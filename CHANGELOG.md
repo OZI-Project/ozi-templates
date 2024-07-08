@@ -1,4 +1,59 @@
 # ozi-templates CHANGELOG
+## 2.5.2 (2024-07-08)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/upload-artifact from 4.3.3 to 4.3.4
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.3 to 4.3.4.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/65462800fd760344b1a7b4382951275a0abb4808...0b2256b8c012f0828dc542b3febcab082c67f72b)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`c673007`](https://github.com/OZI-Project/ozi-templates/commit/c673007c378d69e346a6c4a028b2a75843a80220))
+
+*  Bump OZI-Project/publish from 0.1.6 to 0.1.7
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.6 to 0.1.7.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.6...0.1.7)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`b770bf8`](https://github.com/OZI-Project/ozi-templates/commit/b770bf8cc08fe44fa18ac9b6850f94572903c55a))
+
+*  Bump OZI-Project/draft from 0.3.3 to 0.3.4
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.3 to 0.3.4.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.3...0.3.4)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e07446b`](https://github.com/OZI-Project/ozi-templates/commit/e07446bdc7d4a5834e604757b93705743c6e14eb))
+
+## 2.5.1 (2024-07-08)
+
+
+### 🐛 Fixed Bugs
+
+* add subprojects templates to build — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c7d229d`](https://github.com/OZI-Project/ozi-templates/commit/c7d229dcc9cf63dd29dab0ff927cac8107a9d55a))
+
 ## 2.5.0 (2024-07-07)
 
 
