@@ -63,6 +63,7 @@ endforeach
 source_children = [
     'license',
     'github_workflows',
+    'subprojects',
     'project.name',
     'templates',
     'tests',
