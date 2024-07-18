@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.5.4 (2024-07-18)
+
+
+### 📌 Pinned Dependencies
+
+*  OZI.build&gt;=0.0.27 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`aec9c2e`](https://github.com/OZI-Project/ozi-templates/commit/aec9c2e1d32ddda1df2a63f574302239579aa998))
+
 ## 2.5.3 (2024-07-15)
 
 
