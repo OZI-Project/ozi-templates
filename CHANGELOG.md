@@ -1,4 +1,59 @@
 # ozi-templates CHANGELOG
+## 2.5.5 (2024-07-18)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 0.4.3 to 0.5.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.4.3 to 0.5.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.4.3...0.5.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`ffa7fed`](https://github.com/OZI-Project/ozi-templates/commit/ffa7fed787340d778c7dea479923b0ab313014df))
+
+*  Bump OZI-Project/release from 0.6.6 to 0.7.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.6.6 to 0.7.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.6.6...0.7.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`40c39f6`](https://github.com/OZI-Project/ozi-templates/commit/40c39f64486d80886fd059ad3901a61de442ec9a))
+
+*  Bump OZI-Project/draft from 0.3.5 to 0.3.6
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.5 to 0.3.6.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.5...0.3.6)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`00ed822`](https://github.com/OZI-Project/ozi-templates/commit/00ed822acc63f36c3f62eb553dda180c24a0945f))
+
+## 2.5.4 (2024-07-18)
+
+
+### 📌 Pinned Dependencies
+
+*  OZI.build&gt;=0.0.27 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`aec9c2e`](https://github.com/OZI-Project/ozi-templates/commit/aec9c2e1d32ddda1df2a63f574302239579aa998))
+
 ## 2.5.3 (2024-07-15)
 
 
