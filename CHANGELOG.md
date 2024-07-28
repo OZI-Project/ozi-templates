@@ -1,8 +1,94 @@
 # ozi-templates CHANGELOG
-## 2.5.5 (2024-07-18)
+## 2.5.6 (2024-07-28)
 
 
 ### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/draft from 0.3.6 to 0.3.7
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.6 to 0.3.7.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.6...0.3.7)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e8d483d`](https://github.com/OZI-Project/ozi-templates/commit/e8d483da7b8c0bab1656d321126683b36549d3d7))
+
+*  Bump OZI-Project/publish from 0.1.8 to 0.1.9
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.8 to 0.1.9.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.8...0.1.9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`defebd0`](https://github.com/OZI-Project/ozi-templates/commit/defebd0ffcae9dd741aa347c1327308f1cb2648c))
+
+*  Bump github/codeql-action from 3.25.13 to 3.25.14
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.13 to 3.25.14.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/2d790406f505036ef40ecba973cc774a50395aac...5cf07d8b700b67e235fbb65cbc84f69c0cf10464)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`c71cd07`](https://github.com/OZI-Project/ozi-templates/commit/c71cd077fe815fafdc75580daf10a4b02d7ac742))
+
+*  Bump github/codeql-action from 3.25.12 to 3.25.13
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.12 to 3.25.13.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/4fa2a7953630fd2f3fb380f21be14ede0169dd4f...2d790406f505036ef40ecba973cc774a50395aac)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4e709c7`](https://github.com/OZI-Project/ozi-templates/commit/4e709c70ac5c53464e8b44089d26b9fe1419a2e9))
+
+
+### Other
+
+
+* feat: use ``ozi.version`` as key for wrapfile revision — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e1861b6`](https://github.com/OZI-Project/ozi-templates/commit/e1861b647294da22aafb9b0a76b889560ea9906a))
+
+## 2.5.5 (2024-07-18)
+
+## 2.5.4 (2024-07-18)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.8.1 to 2.9.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.8.1 to 2.9.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/17d0e2bd7d51742c71671bd19fa12bdc9d40a3d6...0d381219ddf674d61a7572ddd19d7941e271515c)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`66de119`](https://github.com/OZI-Project/ozi-templates/commit/66de119380298fdc9b9fc0995e2901170037b371))
 
 *  Bump OZI-Project/checkpoint from 0.4.3 to 0.5.0
 
@@ -45,8 +131,6 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ... — dependabot[bot] &lt;support@github.com&gt;
 ([`00ed822`](https://github.com/OZI-Project/ozi-templates/commit/00ed822acc63f36c3f62eb553dda180c24a0945f))
-
-## 2.5.4 (2024-07-18)
 
 
 ### 📌 Pinned Dependencies
