@@ -1,4 +1,60 @@
 # ozi-templates CHANGELOG
+## 2.5.7 (2024-08-05)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/upload-artifact from 4.3.4 to 4.3.5
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.4 to 4.3.5.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/0b2256b8c012f0828dc542b3febcab082c67f72b...89ef406dd8d7e03cfd12d9e0a4a378f454709029)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`8050f7e`](https://github.com/OZI-Project/ozi-templates/commit/8050f7edb56a9a5c15c9e3a900057733e29f8b90))
+
+*  Bump ossf/scorecard-action from 2.3.3 to 2.4.0
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.3.3 to 2.4.0.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/dc50aa9510b46c811795eb24b2f1ba02a914e534...62b2cac7ed8198b15735ed49ab1e5cf35480ba46)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`a48a841`](https://github.com/OZI-Project/ozi-templates/commit/a48a841dc940323a4fada32d01e659b1edd14723))
+
+*  Bump github/codeql-action from 3.25.14 to 3.25.15
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.14 to 3.25.15.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/5cf07d8b700b67e235fbb65cbc84f69c0cf10464...afb54ba388a7dca6ecae48f608c4ff05ff4cc77a)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`f3fd7a3`](https://github.com/OZI-Project/ozi-templates/commit/f3fd7a377e6a1cbcf822277648188ac3a4df78d0))
+
+
+### Other
+
+
+* perf: Update dependabot.yml — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`d1d8d5c`](https://github.com/OZI-Project/ozi-templates/commit/d1d8d5c69984b3ec8975c58cfc0c003856c12473))
+
 ## 2.5.6 (2024-07-28)
 
 
