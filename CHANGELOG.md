@@ -1,8 +1,211 @@
 # ozi-templates CHANGELOG
-## 2.5.5 (2024-07-18)
+## 2.5.8 (2024-08-05)
 
 
 ### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.9.0 to 2.9.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.0 to 2.9.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/0d381219ddf674d61a7572ddd19d7941e271515c...5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e381013`](https://github.com/OZI-Project/ozi-templates/commit/e381013ccbbfa044b4bf12a8ae94a3e7632685bb))
+
+*  Bump OZI-Project/draft from 0.3.7 to 0.3.8
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.7 to 0.3.8.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.7...0.3.8)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4ff93ff`](https://github.com/OZI-Project/ozi-templates/commit/4ff93ffdadc3f7b2d3fd82c3f25c3e57e78b6824))
+
+*  Bump OZI-Project/release from 0.7.3 to 0.7.4
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.7.3 to 0.7.4.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.7.3...0.7.4)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`ea8786d`](https://github.com/OZI-Project/ozi-templates/commit/ea8786d5489d126254168e01254fdf5c30436785))
+
+*  Bump OZI-Project/checkpoint from 0.5.0 to 0.5.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.0 to 0.5.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.5.0...0.5.1)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`fe105e3`](https://github.com/OZI-Project/ozi-templates/commit/fe105e3ab418f7ed9d60507413c7f4f6e7018261))
+
+## 2.5.7 (2024-08-05)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/upload-artifact from 4.3.4 to 4.3.5
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.4 to 4.3.5.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/0b2256b8c012f0828dc542b3febcab082c67f72b...89ef406dd8d7e03cfd12d9e0a4a378f454709029)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`8050f7e`](https://github.com/OZI-Project/ozi-templates/commit/8050f7edb56a9a5c15c9e3a900057733e29f8b90))
+
+*  Bump ossf/scorecard-action from 2.3.3 to 2.4.0
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.3.3 to 2.4.0.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/dc50aa9510b46c811795eb24b2f1ba02a914e534...62b2cac7ed8198b15735ed49ab1e5cf35480ba46)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`a48a841`](https://github.com/OZI-Project/ozi-templates/commit/a48a841dc940323a4fada32d01e659b1edd14723))
+
+*  Bump github/codeql-action from 3.25.14 to 3.25.15
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.14 to 3.25.15.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/5cf07d8b700b67e235fbb65cbc84f69c0cf10464...afb54ba388a7dca6ecae48f608c4ff05ff4cc77a)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`f3fd7a3`](https://github.com/OZI-Project/ozi-templates/commit/f3fd7a377e6a1cbcf822277648188ac3a4df78d0))
+
+
+### Other
+
+
+* perf: Update dependabot.yml — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`d1d8d5c`](https://github.com/OZI-Project/ozi-templates/commit/d1d8d5c69984b3ec8975c58cfc0c003856c12473))
+
+## 2.5.6 (2024-07-28)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/draft from 0.3.6 to 0.3.7
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.6 to 0.3.7.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.6...0.3.7)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e8d483d`](https://github.com/OZI-Project/ozi-templates/commit/e8d483da7b8c0bab1656d321126683b36549d3d7))
+
+*  Bump OZI-Project/publish from 0.1.8 to 0.1.9
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.8 to 0.1.9.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.8...0.1.9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`defebd0`](https://github.com/OZI-Project/ozi-templates/commit/defebd0ffcae9dd741aa347c1327308f1cb2648c))
+
+*  Bump github/codeql-action from 3.25.13 to 3.25.14
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.13 to 3.25.14.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/2d790406f505036ef40ecba973cc774a50395aac...5cf07d8b700b67e235fbb65cbc84f69c0cf10464)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`c71cd07`](https://github.com/OZI-Project/ozi-templates/commit/c71cd077fe815fafdc75580daf10a4b02d7ac742))
+
+*  Bump github/codeql-action from 3.25.12 to 3.25.13
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.12 to 3.25.13.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/4fa2a7953630fd2f3fb380f21be14ede0169dd4f...2d790406f505036ef40ecba973cc774a50395aac)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`4e709c7`](https://github.com/OZI-Project/ozi-templates/commit/4e709c70ac5c53464e8b44089d26b9fe1419a2e9))
+
+
+### Other
+
+
+* feat: use ``ozi.version`` as key for wrapfile revision — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e1861b6`](https://github.com/OZI-Project/ozi-templates/commit/e1861b647294da22aafb9b0a76b889560ea9906a))
+
+## 2.5.5 (2024-07-18)
+
+## 2.5.4 (2024-07-18)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.8.1 to 2.9.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.8.1 to 2.9.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/17d0e2bd7d51742c71671bd19fa12bdc9d40a3d6...0d381219ddf674d61a7572ddd19d7941e271515c)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`66de119`](https://github.com/OZI-Project/ozi-templates/commit/66de119380298fdc9b9fc0995e2901170037b371))
 
 *  Bump OZI-Project/checkpoint from 0.4.3 to 0.5.0
 
@@ -45,8 +248,6 @@ updated-dependencies:
   update-type: version-update:semver-patch
 ... — dependabot[bot] &lt;support@github.com&gt;
 ([`00ed822`](https://github.com/OZI-Project/ozi-templates/commit/00ed822acc63f36c3f62eb553dda180c24a0945f))
-
-## 2.5.4 (2024-07-18)
 
 
 ### 📌 Pinned Dependencies
