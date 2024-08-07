@@ -1,4 +1,40 @@
 # ozi-templates CHANGELOG
+## 2.6.1 (2024-08-07)
+
+
+### 🚸 Improved Usability
+
+*  add python 3.13 to supported versions
+
+note that this support is untested — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`61d5329`](https://github.com/OZI-Project/ozi-templates/commit/61d532907dd59d22e36344582997b30830b06454))
+
+## 2.6.0 (2024-08-07)
+
+
+### 🔥 Deleted Code or Files
+
+*  remove ``filter.sha256sum`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6aa7c08`](https://github.com/OZI-Project/ozi-templates/commit/6aa7c08686e11b3789d407c7d8bd5d40a0bd2f70))
+
+
+### ➖ Removed Dependencies
+
+*  requests — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`2b6e389`](https://github.com/OZI-Project/ozi-templates/commit/2b6e3899d166cbfddd86f54c050623b889ccea4f))
+
+
+### ✏️ Corrected Typos
+
+*  remove requests import — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`08243ed`](https://github.com/OZI-Project/ozi-templates/commit/08243ede0041279740958e0e0f87500acc43fd00))
+
+
+### ✨ Implemented Features
+
+*  beta release — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`b78eb85`](https://github.com/OZI-Project/ozi-templates/commit/b78eb851053fe7f684725cbec629fe9305b86458))
+
 ## 2.5.8 (2024-08-05)
 
 
