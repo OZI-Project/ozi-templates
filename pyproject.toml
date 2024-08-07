@@ -76,7 +76,7 @@ Author: Eden Ross Duff MSc
 Author-email: help@oziproject.dev
 License: @LICENSE@
 Download-URL: https://github.com//ozi-templates/archive/refs/tags/@SCM_VERSION@.tar.gz
-Requires-Python: >=3.10, <3.13
+Requires-Python: >=3.10, <3.14
 Keywords: ozi,meson,packaging,templates
 Classifier: License :: Public Domain
 Classifier: Development Status :: 4 - Beta
@@ -84,6 +84,7 @@ Classifier: Programming Language :: Python :: 3 :: Only
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11
 Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
 Classifier: Programming Language :: Python :: Implementation :: CPython
 Classifier: Intended Audience :: Other Audience
 Classifier: Natural Language :: English
