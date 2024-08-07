@@ -79,7 +79,7 @@ Download-URL: https://github.com//ozi-templates/archive/refs/tags/@SCM_VERSION@.
 Requires-Python: >=3.10, <3.13
 Keywords: ozi,meson,packaging,templates
 Classifier: License :: Public Domain
-Classifier: Development Status :: 1 - Planning
+Classifier: Development Status :: 4 - Beta
 Classifier: Programming Language :: Python :: 3 :: Only
 Classifier: Programming Language :: Python :: 3.10
 Classifier: Programming Language :: Python :: 3.11

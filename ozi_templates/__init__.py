@@ -14,7 +14,6 @@ from jinja2 import select_autoescape
 
 from ozi_templates.filter import current_date
 from ozi_templates.filter import next_minor
-from ozi_templates.filter import sha256sum
 from ozi_templates.filter import underscorify
 from ozi_templates.filter import wheel_repr
 
@@ -23,7 +22,6 @@ FILTERS = (
     next_minor,
     underscorify,
     zip,
-    sha256sum,
     wheel_repr,
     current_date,
 )

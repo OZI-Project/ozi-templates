@@ -38,15 +38,6 @@ def wheel_repr(version: str) -> str:
     """
     ...
 
-@lru_cache
-def sha256sum(version: str) -> str:
-    """Filter to transform OZI source version into a hash of the tarball (cached).
-
-    :param version: Version of OZI to get a hash for.
-    :return: The corresponding SHA256 sum for the distribution tarball.
-    :rtype: str
-    """
-    ...
 
 def next_minor(version: str) -> str:
     """Given a Python version, determine the next minor version.
