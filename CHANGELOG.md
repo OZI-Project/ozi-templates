@@ -1,4 +1,14 @@
 # ozi-templates CHANGELOG
+## 2.6.1 (2024-08-07)
+
+
+### 🚸 Improved Usability
+
+*  add python 3.13 to supported versions
+
+note that this support is untested — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`61d5329`](https://github.com/OZI-Project/ozi-templates/commit/61d532907dd59d22e36344582997b30830b06454))
+
 ## 2.6.0 (2024-08-07)
 
 
