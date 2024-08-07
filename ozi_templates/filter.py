@@ -3,14 +3,10 @@
 """Filters for use in the OZI project templates."""
 from __future__ import annotations
 
-import hashlib
 import string
 from datetime import datetime
 from datetime import timezone
 from functools import lru_cache
-
-import requests
-from packaging.version import parse
 
 ALPHANUMS = string.ascii_uppercase + string.ascii_lowercase + '0123456789'
 
