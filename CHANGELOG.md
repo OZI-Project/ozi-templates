@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.6.4 (2024-08-09)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  OZI-Project/release@0.8.4 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`61f7c88`](https://github.com/OZI-Project/ozi-templates/commit/61f7c881b4e6d2d3905f6b374251c665ce245d07))
+
 ## 2.6.3 (2024-08-09)
 
 
