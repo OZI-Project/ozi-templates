@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.6.3 (2024-08-09)
+
+
+### 🔨 Updated Scripts
+
+*  Update ozi.yml:release endpoint allow list for 0.8.x — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`5f7e9ad`](https://github.com/OZI-Project/ozi-templates/commit/5f7e9ad22a0534809630313e20ab1a4d4c0d28f6))
+
 ## 2.6.2 (2024-08-09)
 
 
