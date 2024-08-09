@@ -1,4 +1,52 @@
 # ozi-templates CHANGELOG
+## 2.6.2 (2024-08-09)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.25.15 to 3.26.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.15 to 3.26.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/afb54ba388a7dca6ecae48f608c4ff05ff4cc77a...eb055d739abdc2e8de2e5f4ba1a8b246daa779aa)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`561f5f3`](https://github.com/OZI-Project/ozi-templates/commit/561f5f3ee9c340398d0647b6e5533b7c9519c02f))
+
+*  Bump actions/upload-artifact from 4.3.5 to 4.3.6
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.5 to 4.3.6.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/89ef406dd8d7e03cfd12d9e0a4a378f454709029...834a144ee995460fba8ed112a2fc961b36a5ec5a)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`9df90ef`](https://github.com/OZI-Project/ozi-templates/commit/9df90efbdc619b4cf160e890fa327dc3a0139277))
+
+*  Bump OZI-Project/release from 0.7.4 to 0.8.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.7.4 to 0.8.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.7.4...0.8.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e58783f`](https://github.com/OZI-Project/ozi-templates/commit/e58783f46a7e845042e2b0ee8917aa3cab5e6797))
+
 ## 2.6.1 (2024-08-07)
 
 
