@@ -18,6 +18,7 @@ jobs:
         contents: write
         actions: write
     steps:
+{%- if project.github_harden_runner %}
       - name: Harden Runner
         uses: step-security/harden-runner@17d0e2bd7d51742c71671bd19fa12bdc9d40a3d6 # v2.8.1
         with:
@@ -28,6 +29,7 @@ jobs:
             github.com:443
             objects.githubusercontent.com:443
             uploads.github.com:443
+{%- endif %}
 
       - name: Cleanup caches
         run: |

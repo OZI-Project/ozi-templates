@@ -11,6 +11,7 @@
     permissions:
         id-token: write
     steps:
+{%- if project.github_harden_runner %}
       - name: Harden Runner
         uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
         with:
@@ -27,6 +28,7 @@
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+{%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
         with:

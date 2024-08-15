@@ -10,6 +10,7 @@
       contents: write
       id-token: write
     steps:
+{%- if project.github_harden_runner %}
     - name: Harden Runner
       uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
       with:
@@ -19,6 +20,7 @@
           api.github.com:443
           upload.pypi.org:443
           uploads.github.com:443
+{%- endif %}
 
     - uses: OZI-Project/publish@{{ spec.python.ci.publish.version }}
       with:
