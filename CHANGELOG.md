@@ -1,4 +1,61 @@
 # ozi-templates CHANGELOG
+## 2.7.0 (2024-08-15)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.26.0 to 3.26.1
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.0 to 3.26.1.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/eb055d739abdc2e8de2e5f4ba1a8b246daa779aa...29d86d22a34ea372b1bbf3b2dced2e25ca6b3384)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`69a67a9`](https://github.com/OZI-Project/ozi-templates/commit/69a67a9aeedc9f484c002bb9f3601125a8d1debe))
+
+*  Bump OZI-Project/release from 0.8.7 to 0.8.9
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.7 to 0.8.9.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/3280088d580a25abdecd35ebb022d4529af6a995...f4172eb60419c98b5cf18c89d78cde8b553f5d15)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`8ced9a8`](https://github.com/OZI-Project/ozi-templates/commit/8ced9a887472a40d9b25754778a48512bc5862f8))
+
+*  Bump OZI-Project/release from 0.8.4 to 0.8.7
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.4 to 0.8.7.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0ca87b5495c672f0d0c5ceaa6508e631a5c051f9...3280088d580a25abdecd35ebb022d4529af6a995)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`b246ad2`](https://github.com/OZI-Project/ozi-templates/commit/b246ad2484ce8233affade7aa72eed0ff6cf7125))
+
+
+### ✨ Implemented Features
+
+*  add expectation for project namespace to set ``--github-harden-runner`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`8489091`](https://github.com/OZI-Project/ozi-templates/commit/8489091eb78ae90aea1e8546e0e152feb0446f79))
+
+*  add ``tox -e invoke [release|publish]`` template for local CI/CD — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`b743496`](https://github.com/OZI-Project/ozi-templates/commit/b74349603e5e072b30c61a59523b37b9da205820))
+
 ## 2.6.4 (2024-08-09)
 
 
