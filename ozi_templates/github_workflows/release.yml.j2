@@ -23,6 +23,7 @@
       contents: write
       id-token: write
     steps:
+{%- if project.github_harden_runner %}
       - name: Harden Runner
         uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
         with:
@@ -39,6 +40,10 @@
             oziproject.dev:443
             www.oziproject.dev:443
             objects.githubusercontent.com:443
+            quay.io:443
+            cdn03.quay.io:443
+            downloads.python.org:443
+{%- endif %}
 
       - uses: OZI-Project/release@{{ spec.python.ci.release.version }}
         id: release
