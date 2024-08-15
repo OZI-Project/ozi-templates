@@ -58,10 +58,13 @@ commands =
 no_package = true
 deps =
     -r requirements.in
+{%- for requires in spec.python.build.requires.values() %}
+   {{ requires }}
+{%- endfor %}
     invoke
 commands_pre =
     pipx install --python=python meson
-    meson setup {env_tmp_dir} -Ddist=enabled -Dtox-env-dir={env_dir}
+    meson setup {env_tmp_dir} -Dozi:dist=enabled -Dozi:tox-env-dir={env_dir}
 commands_post =
-    {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi {posargs}
+    {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi {posargs}
 """
