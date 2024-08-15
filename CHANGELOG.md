@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.7.1 (2024-08-15)
+
+
+### 🐛 Fixed Bugs
+
+*  fix tox invoke path and options — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c9d72a2`](https://github.com/OZI-Project/ozi-templates/commit/c9d72a2785b9cf8877bf9524bf1654f9b8099cde))
+
 ## 2.7.0 (2024-08-15)
 
 
