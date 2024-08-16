@@ -1,4 +1,165 @@
 # ozi-templates CHANGELOG
+## 2.8.0 (2024-08-16)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.26.1 to 3.26.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.1 to 3.26.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/29d86d22a34ea372b1bbf3b2dced2e25ca6b3384...429e1977040da7a23b6822b13c129cd1ba93dbb2)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e5b620c`](https://github.com/OZI-Project/ozi-templates/commit/e5b620c061b3256511de2e2c72821af6488484a3))
+
+
+### 🔨 Updated Scripts
+
+*  expect ``project.enable_uv`` boolean — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`5874996`](https://github.com/OZI-Project/ozi-templates/commit/58749961b3f1eb0005ca6aed697f505299d8d3c4))
+
+
+### ✨ Implemented Features
+
+* 🔨 add cibuildwheel config template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`180cefd`](https://github.com/OZI-Project/ozi-templates/commit/180cefde57a11af559c141e0a2685a7e0040dea5))
+
+## 2.7.1 (2024-08-15)
+
+
+### 🐛 Fixed Bugs
+
+*  fix tox invoke path and options — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`c9d72a2`](https://github.com/OZI-Project/ozi-templates/commit/c9d72a2785b9cf8877bf9524bf1654f9b8099cde))
+
+## 2.7.0 (2024-08-15)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.26.0 to 3.26.1
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.0 to 3.26.1.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/eb055d739abdc2e8de2e5f4ba1a8b246daa779aa...29d86d22a34ea372b1bbf3b2dced2e25ca6b3384)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`69a67a9`](https://github.com/OZI-Project/ozi-templates/commit/69a67a9aeedc9f484c002bb9f3601125a8d1debe))
+
+*  Bump OZI-Project/release from 0.8.7 to 0.8.9
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.7 to 0.8.9.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/3280088d580a25abdecd35ebb022d4529af6a995...f4172eb60419c98b5cf18c89d78cde8b553f5d15)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`8ced9a8`](https://github.com/OZI-Project/ozi-templates/commit/8ced9a887472a40d9b25754778a48512bc5862f8))
+
+*  Bump OZI-Project/release from 0.8.4 to 0.8.7
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.4 to 0.8.7.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0ca87b5495c672f0d0c5ceaa6508e631a5c051f9...3280088d580a25abdecd35ebb022d4529af6a995)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`b246ad2`](https://github.com/OZI-Project/ozi-templates/commit/b246ad2484ce8233affade7aa72eed0ff6cf7125))
+
+
+### ✨ Implemented Features
+
+*  add expectation for project namespace to set ``--github-harden-runner`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`8489091`](https://github.com/OZI-Project/ozi-templates/commit/8489091eb78ae90aea1e8546e0e152feb0446f79))
+
+*  add ``tox -e invoke [release|publish]`` template for local CI/CD — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`b743496`](https://github.com/OZI-Project/ozi-templates/commit/b74349603e5e072b30c61a59523b37b9da205820))
+
+## 2.6.4 (2024-08-09)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  OZI-Project/release@0.8.4 — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`61f7c88`](https://github.com/OZI-Project/ozi-templates/commit/61f7c881b4e6d2d3905f6b374251c665ce245d07))
+
+## 2.6.3 (2024-08-09)
+
+
+### 🔨 Updated Scripts
+
+*  Update ozi.yml:release endpoint allow list for 0.8.x — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`5f7e9ad`](https://github.com/OZI-Project/ozi-templates/commit/5f7e9ad22a0534809630313e20ab1a4d4c0d28f6))
+
+## 2.6.2 (2024-08-09)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.25.15 to 3.26.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.25.15 to 3.26.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/afb54ba388a7dca6ecae48f608c4ff05ff4cc77a...eb055d739abdc2e8de2e5f4ba1a8b246daa779aa)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`561f5f3`](https://github.com/OZI-Project/ozi-templates/commit/561f5f3ee9c340398d0647b6e5533b7c9519c02f))
+
+*  Bump actions/upload-artifact from 4.3.5 to 4.3.6
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.5 to 4.3.6.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/89ef406dd8d7e03cfd12d9e0a4a378f454709029...834a144ee995460fba8ed112a2fc961b36a5ec5a)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`9df90ef`](https://github.com/OZI-Project/ozi-templates/commit/9df90efbdc619b4cf160e890fa327dc3a0139277))
+
+*  Bump OZI-Project/release from 0.7.4 to 0.8.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.7.4 to 0.8.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/0.7.4...0.8.3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e58783f`](https://github.com/OZI-Project/ozi-templates/commit/e58783f46a7e845042e2b0ee8917aa3cab5e6797))
+
 ## 2.6.1 (2024-08-07)
 
 
