@@ -20,6 +20,7 @@ source_files = [
     'black.meson.options',
     'black.pyproject.toml',
     'CHANGELOG.md.j2',
+    'cibuildwheel.pyproject.toml',
     'coverage.pyproject.toml',
     'doc8.meson.options',
     'doc8.pyproject.toml',
