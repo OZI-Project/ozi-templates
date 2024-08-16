@@ -14,6 +14,9 @@ requires = [
 {%- if project.enable_cython %}
     'cython',
 {%- endif %}
+{%- if project.enable_uv %}
+    'uv',
+{%- endif %}
 ]
 build-backend = "{{ spec.python.build.backend }}"
 

@@ -1,0 +1,10 @@
+{#- OZI 0.6
+# ozi/templates/cibuildwheel.pyproject.toml
+# SPDX-License-Identifier: Unlicense
+-#}
+[tool.cibuildwheel]
+{%- if project.enable_uv %}
+build-frontend = "build[uv]"
+{%- else %}
+build-frontend = "build"
+{%- endif %}

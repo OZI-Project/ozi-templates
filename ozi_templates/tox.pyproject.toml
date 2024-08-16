@@ -25,6 +25,9 @@ deps =
 {%- for requires in spec.python.build.requires.values() %}
    {{ requires }}
 {%- endfor %}
+{%- if project.enable_uv %}
+   uv
+{%- endif %}
    -r requirements.in
 commands =
    meson compile -C {env_tmp_dir}
@@ -61,6 +64,9 @@ deps =
 {%- for requires in spec.python.build.requires.values() %}
    {{ requires }}
 {%- endfor %}
+{%- if project.enable_uv %}
+   uv
+{%- endif %}
     invoke
 commands_pre =
     pipx install --python=python meson
