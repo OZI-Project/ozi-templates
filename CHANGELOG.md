@@ -1,4 +1,36 @@
 # ozi-templates CHANGELOG
+## 2.8.0 (2024-08-16)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.26.1 to 3.26.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.1 to 3.26.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/29d86d22a34ea372b1bbf3b2dced2e25ca6b3384...429e1977040da7a23b6822b13c129cd1ba93dbb2)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`e5b620c`](https://github.com/OZI-Project/ozi-templates/commit/e5b620c061b3256511de2e2c72821af6488484a3))
+
+
+### 🔨 Updated Scripts
+
+*  expect ``project.enable_uv`` boolean — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`5874996`](https://github.com/OZI-Project/ozi-templates/commit/58749961b3f1eb0005ca6aed697f505299d8d3c4))
+
+
+### ✨ Implemented Features
+
+* 🔨 add cibuildwheel config template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`180cefd`](https://github.com/OZI-Project/ozi-templates/commit/180cefde57a11af559c141e0a2685a7e0040dea5))
+
 ## 2.7.1 (2024-08-15)
 
 
