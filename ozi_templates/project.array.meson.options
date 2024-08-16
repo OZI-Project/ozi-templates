@@ -19,6 +19,9 @@ option(
 {%- for requires in spec.python.build.requires.keys() %}
     '{{ requires }}',
 {%- endfor %}
+{%- if project.enable_uv %}
+    uv
+{%- endif %}
     ]
 )
 option(
@@ -53,3 +56,18 @@ option(
     ]
 )
 {%- endfor %}
+
+{%- if project.enable_uv %}
+{#- yields to OZI #}
+{%- else %}
+option(
+    'compile-requirements-command',
+    type: 'array',
+    value: ['pip-compile'],
+)
+option(
+    'install-requirements-command',
+    type: 'array',
+    value: ['pip'],
+)
+{%- endif %}

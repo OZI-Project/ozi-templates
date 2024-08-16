@@ -25,7 +25,7 @@ pymod = import('python')
 python_dependencies = get_option('python-dependencies')
 python = pymod.find_installation()
 project_name = meson.project_name()
-pip_compile = find_program('pip-compile', required: true)
+pip_compile = find_program(get_option('compile-requirements-command'), required: true)
 root_files = [
 {%- for required_root_dist in spec.python.pkg.required.root %}
 {%- if required_root_dist not in ['pyproject.toml'] %}
@@ -43,7 +43,7 @@ custom_target(
     build_always_stale: true,
     build_by_default: true,
     command: [
-        'pip-compile',
+        pip_compile,
         '--allow-unsafe',
         '--strip-extras',
         '-q',
