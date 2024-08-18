@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.8.1 (2024-08-18)
+
+
+### 🐛 Fixed Bugs
+
+*  fix compile requirements command finding — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`3a57da2`](https://github.com/OZI-Project/ozi-templates/commit/3a57da220276c804482be42a30f9592a4ed9269a))
+
 ## 2.8.0 (2024-08-16)
 
 
