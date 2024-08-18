@@ -43,7 +43,7 @@ custom_target(
     build_always_stale: true,
     build_by_default: true,
     command: [
-        get_option('compile-requirements-command')[0],
+        get_option('compile-requirements-command'),
         '--allow-unsafe',
         '--strip-extras',
         '-q',
