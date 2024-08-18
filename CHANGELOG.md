@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.8.2 (2024-08-18)
+
+
+### 🐛 Fixed Bugs
+
+* ✏️ use whole compile-requirements-command array — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`cd15dda`](https://github.com/OZI-Project/ozi-templates/commit/cd15dda8487ab702aff43cc72d7c03660b9d6e10))
+
 ## 2.8.1 (2024-08-18)
 
 
