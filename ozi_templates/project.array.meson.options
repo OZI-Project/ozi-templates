@@ -58,7 +58,16 @@ option(
 {%- endfor %}
 
 {%- if project.enable_uv %}
-{#- yields to OZI #}
+option(
+    'compile-requirements-command',
+    type: 'array',
+    value: ['uv', 'pip', 'compile'],
+)
+option(
+    'install-requirements-command',
+    type: 'array',
+    value: ['uv', 'pip'],
+)
 {%- else %}
 option(
     'compile-requirements-command',
