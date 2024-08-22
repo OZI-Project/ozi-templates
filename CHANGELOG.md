@@ -1,4 +1,88 @@
 # ozi-templates CHANGELOG
+## 2.9.0 (2024-08-22)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/draft from 0.3.8 to 0.3.9
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.8 to 0.3.9.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.8...0.3.9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`d269c50`](https://github.com/OZI-Project/ozi-templates/commit/d269c5028d6d902592d69380736789f7255362c6))
+
+*  Bump OZI-Project/publish from 0.1.9 to 0.1.10
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.9 to 0.1.10.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.9...0.1.10)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`b3aa25d`](https://github.com/OZI-Project/ozi-templates/commit/b3aa25d0a9a75496d35259e58c85283115067a77))
+
+*  Bump OZI-Project/release from 0.8.9 to 0.8.10
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.9 to 0.8.10.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/f4172eb60419c98b5cf18c89d78cde8b553f5d15...7edb07c74e124270a29b2cd5d32ce7c9fdfc0b22)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`ad95a4c`](https://github.com/OZI-Project/ozi-templates/commit/ad95a4c15700fce190a95eeb88e17784b53d13db))
+
+*  Bump github/codeql-action from 3.26.2 to 3.26.4
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.2 to 3.26.4.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/429e1977040da7a23b6822b13c129cd1ba93dbb2...f0f3afee809481da311ca3a6ff1ff51d81dbeb24)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`7aae05e`](https://github.com/OZI-Project/ozi-templates/commit/7aae05e71655c12697439ec94b451d5d726c27b8))
+
+*  Bump OZI-Project/checkpoint from 0.5.1 to 0.5.2
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.1 to 0.5.2.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.5.1...0.5.2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`72f3f10`](https://github.com/OZI-Project/ozi-templates/commit/72f3f10c2c98a7b3363a0e67e62a8e12b8bd8012))
+
+
+### ✨ Implemented Features
+
+*  update for OZI spec 0.8
+
+Simplified build-system requires using OZI.build 1.2 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`feb6b07`](https://github.com/OZI-Project/ozi-templates/commit/feb6b075c1a76f265432d63a980cc7de6adc1af8))
+
 ## 2.8.2 (2024-08-18)
 
 
