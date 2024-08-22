@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.8
 # ozi/templates/root.pyproject.toml
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -9,14 +9,14 @@ license = {file = "{{ project.license_file }}"}
 [build-system]
 requires = [
 {%- for requires in spec.python.build.requires.values() %}
-    '{{ requires }}',
-{%- endfor %}
-{%- if project.enable_cython %}
-    'cython',
-{%- endif %}
 {%- if project.enable_uv %}
-    'uv',
+{%- set requires = requires|replace('OZI.build[', 'OZI.build[uv,')%}
 {%- endif %}
+{%- if project.enable_cython %}
+{%- set requires = requires|replace('OZI.build[', 'OZI.build[cython,')%}
+{%- endif %}
+    {{ requires }}
+{%- endfor %}
 ]
 build-backend = "{{ spec.python.build.backend }}"
 

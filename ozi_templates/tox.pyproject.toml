@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.8
 # ozi/templates/tox.pyproject.toml
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -22,25 +22,35 @@ allowlist_externals =
    meson
 package = wheel
 deps =
-{%- for requires in spec.python.build.requires.values() %}
-   {{ requires }}
-{%- endfor %}
 {%- if project.enable_uv %}
    uv
-{%- endif %}
+{%- else %}
    -r requirements.in
+{%- endif %}
+commands_pre =
+{%- if project.enable_uv %}
+     python -m uv pip install -r requirements.in
+{%- for requires in spec.python.build.requires.values() -%}
+{%- if project.enable_uv -%}
+{%- set r = requires|replace('OZI.build[', 'OZI.build[uv,') -%}
+{%- endif -%}
+{%- if project.enable_cython -%}
+{%- set requires = r|replace('OZI.build[', 'OZI.build[cython,') -%}
+{%- endif %} {{ r }}
+{%- endfor -%}
+{%- endif %}
+     pipx install --python=python meson
 commands =
-   meson compile -C {env_tmp_dir}
-   rm -rf {env_tmp_dir}/.gitignore
+     meson setup {env_tmp_dir} -Ddist=disabled -Dtox-env-dir={env_dir}
+     meson compile -C {env_tmp_dir}
+     rm -rf {env_tmp_dir}/.gitignore
+commands_post =
+     {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi checkpoint --suite={env_name} {posargs}
 
 {%- for suite in spec.python.ci.checkpoint.suites %}
 [testenv:{{ suite }}]
-commands_pre =
-   pipx install --python=python meson
-   meson setup {env_tmp_dir} -Dozi:{{ suite }}=enabled -Dozi:tox-env-dir={env_dir} --reconfigure
-commands_post = meson test --no-rebuild --maxfail=1 -C {env_tmp_dir} --setup={{ suite }}
-{%- endfor %}
 
+{%- endfor %}
 [testenv:fix]
 description = quickly fix minor source issues 
 deps = pipx
@@ -58,19 +68,8 @@ commands =
      {env_python} -m setuptools_scm {posargs}
 
 [testenv:invoke]
+description = OZI invoke task entrypoint, for more info use "tox -e invoke -- --list"
 no_package = true
-deps =
-    -r requirements.in
-{%- for requires in spec.python.build.requires.values() %}
-   {{ requires }}
-{%- endfor %}
-{%- if project.enable_uv %}
-   uv
-{%- endif %}
-    invoke
-commands_pre =
-    pipx install --python=python meson
-    meson setup {env_tmp_dir} -Dozi:dist=enabled -Dozi:tox-env-dir={env_dir}
 commands_post =
-    {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi {posargs}
+     {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi {posargs:--list}
 """
