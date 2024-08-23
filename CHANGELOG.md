@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.9.3 (2024-08-23)
+
+
+### 🐛 Fixed Bugs
+
+*  fix ozi options in tox setup — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`d2ce4e6`](https://github.com/OZI-Project/ozi-templates/commit/d2ce4e6e913f22d24c4dc0902cf860b1f2d37ca3))
+
 ## 2.9.2 (2024-08-23)
 
 
