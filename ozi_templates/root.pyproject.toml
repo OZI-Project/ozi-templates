@@ -9,13 +9,14 @@ license = {file = "{{ project.license_file }}"}
 [build-system]
 requires = [
 {%- for requires in spec.python.build.requires.values() %}
+{%- set r = requires -%}
 {%- if project.enable_uv %}
-{%- set requires = requires|replace('OZI.build[', 'OZI.build[uv,')%}
+{%- set r = r|replace('OZI.build[', 'OZI.build[uv,')%}
 {%- endif %}
 {%- if project.enable_cython %}
-{%- set requires = requires|replace('OZI.build[', 'OZI.build[cython,')%}
+{%- set r = r|replace('OZI.build[', 'OZI.build[cython,')%}
 {%- endif %}
-    {{ requires }}
+    {{ r }}
 {%- endfor %}
 ]
 build-backend = "{{ spec.python.build.backend }}"
