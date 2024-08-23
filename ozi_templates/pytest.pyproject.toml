@@ -1,10 +1,11 @@
-{#- OZI 0.1
+{#- OZI 0.8
 # ozi/templates/pytest.pyproject.toml
 # SPDX-License-Identifier: Unlicense
 -#}
 [tool.pytest.ini_options]
 filterwarnings = ["error","ignore:The --rsyncdir command line argument and rsyncdirs config variable are deprecated.:DeprecationWarning"]
 asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope="function"
 log_cli = true
 log_cli_date_format = "{{ spec.python.src.format.date }}"
 log_cli_format = "{{ spec.python.src.format.log }}"
