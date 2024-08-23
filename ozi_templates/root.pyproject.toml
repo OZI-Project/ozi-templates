@@ -16,7 +16,7 @@ requires = [
 {%- if project.enable_cython %}
 {%- set r = r|replace('OZI.build[', 'OZI.build[cython,')%}
 {%- endif %}
-    {{ r }}
+    "{{ r }}",
 {%- endfor %}
 ]
 build-backend = "{{ spec.python.build.backend }}"

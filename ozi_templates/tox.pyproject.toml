@@ -10,22 +10,22 @@ envlist = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endf
 
 [gh]
 python =
-   {{ spec.python.support.bugfix }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-   {{ spec.python.support.security1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-   {{ spec.python.support.security2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+     {{ spec.python.support.bugfix }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+     {{ spec.python.support.security1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+     {{ spec.python.support.security2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
 
 [testenv]
 allowlist_externals =
-   rm
-   pipx
-   python
-   meson
+     rm
+     pipx
+     python
+     meson
 package = wheel
 deps =
 {%- if project.enable_uv %}
-   uv
+     uv
 {%- else %}
-   -r requirements.in
+     -r requirements.in
 {%- endif %}
 commands_pre =
 {%- if project.enable_uv %}
