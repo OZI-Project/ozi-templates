@@ -31,11 +31,12 @@ commands_pre =
 {%- if project.enable_uv %}
      python -m uv pip install -r requirements.in
 {%- for requires in spec.python.build.requires.values() -%}
+{%- set r = requires -%}
 {%- if project.enable_uv -%}
-{%- set r = requires|replace('OZI.build[', 'OZI.build[uv,') -%}
+{%- set r = r|replace('OZI.build[', 'OZI.build[uv,') -%}
 {%- endif -%}
 {%- if project.enable_cython -%}
-{%- set requires = r|replace('OZI.build[', 'OZI.build[cython,') -%}
+{%- set r = r|replace('OZI.build[', 'OZI.build[cython,') -%}
 {%- endif %} {{ r }}
 {%- endfor -%}
 {%- endif %}
