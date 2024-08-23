@@ -4,6 +4,9 @@
 
 ### 🐛 Fixed Bugs
 
+*  fix string quote for build-system deps
+([`c0f496f`](https://github.com/OZI-Project/ozi-templates/commit/c0f496fa525367bd4474d40630b2c732c1906370))
+
 * ✏️ fix OZI.build extras rendering — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`08f50d0`](https://github.com/OZI-Project/ozi-templates/commit/08f50d0226b46617a7ca3a056f76bb9a9f6d3c6b))
 
