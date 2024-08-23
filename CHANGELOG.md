@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.9.1 (2024-08-23)
+
+
+### 🐛 Fixed Bugs
+
+*  add asyncio_default_fixture_loop_scope=&#34;function&#34; to pytest setup — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ab166c6`](https://github.com/OZI-Project/ozi-templates/commit/ab166c671538b2d29dbe976c70d32ef3a74ff932))
+
 ## 2.9.0 (2024-08-22)
 
 
