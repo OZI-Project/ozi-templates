@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.9.2 (2024-08-23)
+
+
+### 🐛 Fixed Bugs
+
+* ✏️ fix OZI.build extras rendering — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`08f50d0`](https://github.com/OZI-Project/ozi-templates/commit/08f50d0226b46617a7ca3a056f76bb9a9f6d3c6b))
+
 ## 2.9.1 (2024-08-23)
 
 
