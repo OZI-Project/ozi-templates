@@ -4,6 +4,12 @@
 
 ### 🐛 Fixed Bugs
 
+*  fix deps install check — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`abd1c64`](https://github.com/OZI-Project/ozi-templates/commit/abd1c641e31d313827a53d81e05504067b0f2c3e))
+
+*  fixes for OZI 1.20 build changes — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`81ff9a3`](https://github.com/OZI-Project/ozi-templates/commit/81ff9a338cdd331263dd01932cb6fd4f0753a0fa))
+
 *  add length() check to deps install
 ([`deb25e5`](https://github.com/OZI-Project/ozi-templates/commit/deb25e5d57b6dd6858df1f6bd88633166e76a8e0))
 
