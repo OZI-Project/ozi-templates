@@ -6,10 +6,7 @@ license = {file = "LICENSE.txt"}
 
 [build-system]
 requires = [
-    'OZI.build>=0.0.27',
-    'pip-tools>=7',
-    'pipx~=1.5',
-    'setuptools_scm[toml]~=8.0',
+    'OZI.build[core]~=1.3',
 ]
 build-backend = "ozi_build.buildapi"
 
@@ -19,7 +16,7 @@ dependencies = { file = ["requirements.in"] }
 [tool.ozi-build.metadata]
 pkg-info-file = 'PKG-INFO'
 
-[project.optional_dependencies]
+[project.optional-dependencies]
 ci   = [
     "tox>4",
     "tox-gh>1.2",
@@ -345,10 +342,7 @@ allowlist_externals =
    meson
 package = wheel
 deps =
-   OZI.build>=0.0.27
-   pip-tools>=7
-   pipx~=1.5
-   setuptools_scm[toml]~=8.0
+   OZI.build[core]~=1.3
    -r requirements.in
 commands =
    meson compile -C {env_tmp_dir}

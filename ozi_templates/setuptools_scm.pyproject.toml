@@ -1,10 +1,8 @@
-{#- OZI 0.1
+{#- OZI 0.9
 # ozi/templates/semantic_release.pyproject.toml
 # SPDX-License-Identifier: Unlicense
 -#}
 [tool.setuptools_scm]
-version_file_template = """{% include 'project.PKG-INFO' %}"""
-version_file = "PKG-INFO"
 fallback_version = "@VCS_TAG@"
 parentdir_prefix_version = "{{ project.name }}-"
 tag_regex = "{{ spec.python.pkg.pattern.version }}"
