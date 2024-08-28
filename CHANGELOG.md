@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.10.0 (2024-08-28)
+
+
+### ✨ Implemented Features
+
+*  ozi-spec 0.9 and OZI.build 1.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ef3ac79`](https://github.com/OZI-Project/ozi-templates/commit/ef3ac798eef248228461d2310dc4df1c8efe7ade))
+
 ## 2.9.3 (2024-08-23)
 
 
