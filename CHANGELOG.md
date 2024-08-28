@@ -1,4 +1,21 @@
 # ozi-templates CHANGELOG
+## 2.10.1 (2024-08-28)
+
+
+### 🐛 Fixed Bugs
+
+*  add length() check to deps install
+([`deb25e5`](https://github.com/OZI-Project/ozi-templates/commit/deb25e5d57b6dd6858df1f6bd88633166e76a8e0))
+
+*  add length() check to deps install — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ed6ba07`](https://github.com/OZI-Project/ozi-templates/commit/ed6ba070360679fd1dd0a1a2712e925f52b1cf51))
+
+*  add project.dependencies install — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6e3c841`](https://github.com/OZI-Project/ozi-templates/commit/6e3c84159c6a3afb7c9a0bb637ac17b94ac5f7be))
+
+*  fixes for OZI 1.20
+([`1c7d0b7`](https://github.com/OZI-Project/ozi-templates/commit/1c7d0b7749b13656ce6d828fc03609bcd5f06e76))
+
 ## 2.10.0 (2024-08-28)
 
 
