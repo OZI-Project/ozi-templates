@@ -24,12 +24,10 @@ package = wheel
 deps =
 {%- if project.enable_uv %}
      uv
-{%- else %}
-     -r requirements.in
 {%- endif %}
 commands_pre =
 {%- if project.enable_uv %}
-     python -m uv pip install -r requirements.in
+     python -m uv pip install 
 {%- for requires in spec.python.build.requires.values() -%}
 {%- set r = requires -%}
 {%- if project.enable_uv -%}
