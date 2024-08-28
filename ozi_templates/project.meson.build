@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.9
 # ozi/templates/project.meson.build
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -20,80 +20,33 @@ project(
         check: true,
     ).stdout().strip(),
 )
+# BEGIN setup
 fs = import('fs')
 pymod = import('python')
 python_dependencies = get_option('python-dependencies')
 python = pymod.find_installation()
 project_name = meson.project_name()
-pip_compile = find_program(get_option('compile-requirements-command')[0], required: true)
 root_files = [
 {%- for required_root_dist in spec.python.pkg.required.root %}
-{%- if required_root_dist not in ['pyproject.toml'] %}
     '{{ required_root_dist }}',
-{%- endif %}
 {%- endfor %}
-    'requirements.in',
-    'pyproject.toml',
-    '.gitignore',
 ]
-custom_target(
-    'requirements-{{ project.name }}',
-    input: root_files[3],
-    output: 'requirements.txt',
-    build_always_stale: true,
-    build_by_default: true,
-    command: [
-        get_option('compile-requirements-command'),
-        '--allow-unsafe',
-        '--strip-extras',
-        '-q',
-        '--generate-hashes',
-        '-o',
-        '@OUTPUT@',
-        '@INPUT@'
-    ]
-)
+# END setup
 
-{#- BEGIN config MESON_BUILD_ROOT/pyproject.toml #}
+# BEGIN config MESON_BUILD_ROOT/pyproject.toml
 pyproject_config = configuration_data()
-pyproject_config.set(
-    'PYTHON_VERSION_DIST',
-    'py'+''.join(python.language_version().split('.'))
-)
-pyproject_config.set('SCM_VERSION', meson.project_version())
 pyproject_config.set('VCS_TAG', '@VCS_TAG@')
-pyproject_config.set('PROJECT_NAME', project_name)
-pyproject_config.set('README_TEXT', fs.read('README'))
-pyproject_config.set('REQUIREMENTS_IN', 
-    run_command(
-        python, ['-c', '''import os;import pathlib
-requirements = (
-    r.partition('\u0023')[0]
-    for r in filter(
-        lambda r: not (r.startswith('\u0023') or r == '\n'),
-        pathlib.Path('./requirements.in').read_text('utf-8').splitlines(),
-    )
-)
-for req in requirements:
-    if len(req) > 0:
-        print(f'Requires-Dist: {req}')
-'''], check: true
-    ).stdout().strip()
-)
-pyproject_config.set('LICENSE', meson.project_license()[0])
 configure_file(
     input: 'pyproject.toml',
     output: 'pyproject.toml',
     configuration: pyproject_config
 )
-{#- END config MESON_BUILD_ROOT/pyproject.toml #}
-
-{#- BEGIN config MESON_SOURCE_ROOT/PKG-INFO #}
 vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
-{#- END config MESON_SOURCE_ROOT/PKG-INFO #}
+# END config MESON_BUILD_ROOT/pyproject.toml
 
+# BEGIN install
 foreach source : root_files
-    if source not in ['pyproject.toml', 'requirements.in', '.gitignore', 'README', 'CHANGELOG.md']
+    if source not in ['pyproject.toml', '.gitignore', 'README', 'CHANGELOG.md']
         fs.copyfile(source)
     elif source == 'README'
         fs.copyfile(source, 'README.{{ project.long_description_content_type }}')
@@ -121,3 +74,4 @@ if not meson.is_subproject()
     meson.add_dist_script(dev.get_variable('pip'), 'install', 'tomli>=2.0.0')
     meson.add_dist_script(python, '-c', dev.get_variable('meson_dist_setuptools_scm'))
 endif
+# END install

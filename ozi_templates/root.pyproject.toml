@@ -1,10 +1,15 @@
-{#- OZI 0.8
+{#- OZI 0.9
 # ozi/templates/root.pyproject.toml
 # SPDX-License-Identifier: Unlicense
 -#}
 [project]
-dynamic = ["dependencies", "version"]
+dynamic = ["version"]
 license = {file = "{{ project.license_file }}"}
+dependencies = [
+{%- for req in project.dist_requires %}
+    '{{ req }}',
+{%- endfor %}
+]
 
 [build-system]
 requires = [
@@ -21,13 +26,73 @@ requires = [
 ]
 build-backend = "{{ spec.python.build.backend }}"
 
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.in"] }
-
 [tool.ozi-build.metadata]
-pkg-info-file = 'PKG-INFO'
+summary="{{ project.summary }}"
+home-page="{{ project.home_page }}"
+author="{{ project.author|join(',') }}"
+author-email="{{ project.author_email|join(',') }}"
+license="{{ project.license_expression }}"
+{%- if project.maintainer|length %}
+maintainer="{{ project.maintainer|join(',') }}"
+{%- endif %}
+{%- if project.maintainer_email|length %}
+maintainer-email="{{ project.maintainer_email|join(',') }}"
+{%- endif %}
+{%- if project.ci_provider == 'github' %}
+download-url="https://github.com/{{ project.ci_user }}/{{ project.name }}/archive/refs/tags/{version}.tar.gz"
+{%- endif %}
+requires-python=">={{ spec.python.support.security2 }}, <{{ spec.python.support.bugfix|next_minor }}"
+{%- if project.keywords|length %}
+keywords="{{ project.keywords|join(',') }}"
+{%- endif %}
+classifiers=[
+    "License :: {{ project.license }}",
+{%- if project.license == 'Private' %}
+    "Private :: Do Not Upload",
+{%- endif %}
+{%- for status in project.status %}
+    "Development Status :: {{ status }}",
+{%- endfor %}
+    "Programming Language :: Python :: {{ spec.python.support.major }} :: Only",
+    "Programming Language :: Python :: {{ spec.python.support.security2 }}",
+    "Programming Language :: Python :: {{ spec.python.support.security1 }}",
+    "Programming Language :: Python :: {{ spec.python.support.bugfix }}",
+{%- for implementation in spec.python.support.implementations %}
+    "Programming Language :: Python :: Implementation :: {{ implementation }}",
+{%- endfor %}
+{%- for audience in project.audience %}
+    "Intended Audience :: {{ audience }}",
+{%- endfor %}
+{%- for language in project.language %}
+    "Natural Language :: {{ language }}",
+{%- endfor %}
+{%- for topic in project.topic %}
+    "Topic :: {{ topic }}",
+{%- endfor %}
+{%- for typing in project.typing %}
+    "Typing :: {{ typing }}",
+{%- endfor %}
+{%- for framework in project.framework %}
+    "Framework :: {{ framework }}",
+{%- endfor %}
+{%- for environment in project.environment %}
+    "Environment :: {{ environment }}",
+{%- endfor %}
+]
+{%- if project.requires_external|length %}
+requires-external=[
+{%- for req in project.requires_external %}
+    '{{ req }}',
+{%- endfor %}
+]
+{%- endif %}
+project-urls=[
+{%- for project_url in project.project_url %}
+    "{{ project_url }}",
+{%- endfor %}
+]
 
-[project.optional_dependencies] # also meson test suite names
+[project.optional-dependencies] # also meson test suite names
 # OZI Packaging Dependencies
 # continuous integration
 ci   = [
