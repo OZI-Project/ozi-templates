@@ -3,18 +3,36 @@
 [project]
 dynamic = ["dependencies", "version"]
 license = {file = "LICENSE.txt"}
+dependencies = ['jinja2>3']
 
 [build-system]
 requires = [
-    'OZI.build[core]~=1.3',
+    'OZI.build[core]~=1.4',
 ]
 build-backend = "ozi_build.buildapi"
 
-[tool.setuptools.dynamic]
-dependencies = { file = ["requirements.in"] }
-
 [tool.ozi-build.metadata]
-pkg-info-file = 'PKG-INFO'
+summary = "OZI Project package templates."
+home-page = "https://oziproject.dev"
+author = "Eden Ross Duff MSc"
+author-email = "help@oziproject.dev"
+license = "Unlicense"
+download-url = "https://github.com/OZI-Project/ozi-templates/archive/refs/tags/{version}.tar.gz"
+keywords = "ozi,meson,packaging,templates"
+classifiers = [
+    'License :: Public Domain',
+    'Development Status :: 4 - Beta',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: Implementation :: CPython',
+    'Intended Audience :: Other Audience',
+    'Natural Language :: English',
+    'Typing :: Typed',
+    'Environment :: Other Environment',
+]
 
 [project.optional-dependencies]
 ci   = [
@@ -63,35 +81,10 @@ test = [
     "pytest-xdist",
 ]
 
-[tool.setuptools_scm]
-version_file_template = """Metadata-Version: 2.1
-Name: @PROJECT_NAME@
-Version: @SCM_VERSION@
-Summary: OZI Project package templates.
-Home-page: https://oziproject.dev
-Author: Eden Ross Duff MSc
-Author-email: help@oziproject.dev
-License: @LICENSE@
-Download-URL: https://github.com//ozi-templates/archive/refs/tags/@SCM_VERSION@.tar.gz
-Requires-Python: >=3.10, <3.14
-Keywords: ozi,meson,packaging,templates
-Classifier: License :: Public Domain
-Classifier: Development Status :: 4 - Beta
-Classifier: Programming Language :: Python :: 3 :: Only
-Classifier: Programming Language :: Python :: 3.10
-Classifier: Programming Language :: Python :: 3.11
-Classifier: Programming Language :: Python :: 3.12
-Classifier: Programming Language :: Python :: 3.13
-Classifier: Programming Language :: Python :: Implementation :: CPython
-Classifier: Intended Audience :: Other Audience
-Classifier: Natural Language :: English
-Classifier: Typing :: Typed
-Classifier: Environment :: Other Environment
-Description-Content-Type: text/x-rst
-@REQUIREMENTS_IN@
+[tool.cibuildwheel]
+build-frontend = "build[uv]"
 
-@README_TEXT@"""
-version_file = "PKG-INFO"
+[tool.setuptools_scm]
 fallback_version = "@VCS_TAG@"
 parentdir_prefix_version = "ozi-templates-"
 tag_regex = "^(?P<prefix>v)?(?P<version>[^\\+]+)(?P<suffix>.*)?$"
@@ -342,26 +335,30 @@ allowlist_externals =
    meson
 package = wheel
 deps =
-   OZI.build[core]~=1.3
-   -r requirements.in
+     uv
+commands_pre =
+     python -m uv pip install OZI.build[core,uv]~=1.4
+     pipx install --python=python meson
 commands =
-   meson compile -C {env_tmp_dir}
-   rm -rf {env_tmp_dir}/.gitignore
+     meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
+     meson compile -C {env_tmp_dir}
+     rm -rf {env_tmp_dir}/.gitignore
+commands_post =
+     {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi checkpoint --suite={env_name} {posargs}
+
 [testenv:dist]
-commands_pre =
-   pipx install --python=python meson
-   meson setup {env_tmp_dir} -Dozi:dist=enabled -Dozi:tox-env-dir={env_dir} --reconfigure
-commands_post = meson test --no-rebuild --maxfail=1 -C {env_tmp_dir} --setup=dist
+description = OZI distribution checkpoint
+
 [testenv:lint]
-commands_pre =
-   pipx install --python=python meson
-   meson setup {env_tmp_dir} -Dozi:lint=enabled -Dozi:tox-env-dir={env_dir} --reconfigure
-commands_post = meson test --no-rebuild --maxfail=1 -C {env_tmp_dir} --setup=lint
+description = OZI format/lint checkpoint
+
 [testenv:test]
-commands_pre =
-   pipx install --python=python meson
-   meson setup {env_tmp_dir} -Dozi:test=enabled -Dozi:tox-env-dir={env_dir} --reconfigure
-commands_post = meson test --no-rebuild --maxfail=1 -C {env_tmp_dir} --setup=test
+description = OZI unit tests checkpoint
+commands =
+     meson setup {env_tmp_dir} -Dozi:ozi-blastpipe=disabled -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
+     meson compile -C {env_tmp_dir}
+     rm -rf {env_tmp_dir}/.gitignore
+
 
 [testenv:fix]
 description = quickly fix minor source issues 
