@@ -1,4 +1,38 @@
 # ozi-templates CHANGELOG
+## 2.10.1 (2024-08-29)
+
+
+### 🐛 Fixed Bugs
+
+*  add description-file — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`197a493`](https://github.com/OZI-Project/ozi-templates/commit/197a493f7aeb8c4f80509c4063ad50e19e5813c9))
+
+*  fix deps install check — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`abd1c64`](https://github.com/OZI-Project/ozi-templates/commit/abd1c641e31d313827a53d81e05504067b0f2c3e))
+
+*  fixes for OZI 1.20 build changes — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`81ff9a3`](https://github.com/OZI-Project/ozi-templates/commit/81ff9a338cdd331263dd01932cb6fd4f0753a0fa))
+
+*  add length() check to deps install
+([`deb25e5`](https://github.com/OZI-Project/ozi-templates/commit/deb25e5d57b6dd6858df1f6bd88633166e76a8e0))
+
+*  add length() check to deps install — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ed6ba07`](https://github.com/OZI-Project/ozi-templates/commit/ed6ba070360679fd1dd0a1a2712e925f52b1cf51))
+
+*  add project.dependencies install — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6e3c841`](https://github.com/OZI-Project/ozi-templates/commit/6e3c84159c6a3afb7c9a0bb637ac17b94ac5f7be))
+
+*  fixes for OZI 1.20
+([`1c7d0b7`](https://github.com/OZI-Project/ozi-templates/commit/1c7d0b7749b13656ce6d828fc03609bcd5f06e76))
+
+## 2.10.0 (2024-08-28)
+
+
+### ✨ Implemented Features
+
+*  ozi-spec 0.9 and OZI.build 1.3 — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`ef3ac79`](https://github.com/OZI-Project/ozi-templates/commit/ef3ac798eef248228461d2310dc4df1c8efe7ade))
+
 ## 2.9.3 (2024-08-23)
 
 
