@@ -1,7 +1,7 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 [project]
-dynamic = ["dependencies", "version"]
+dynamic = ["version"]
 license = {file = "LICENSE.txt"}
 dependencies = ['jinja2>3']
 
@@ -12,13 +12,8 @@ requires = [
 build-backend = "ozi_build.buildapi"
 
 [tool.ozi-build.metadata]
-summary = "OZI Project package templates."
-home-page = "https://oziproject.dev"
 author = "Eden Ross Duff MSc"
 author-email = "help@oziproject.dev"
-license = "Unlicense"
-download-url = "https://github.com/OZI-Project/ozi-templates/archive/refs/tags/{version}.tar.gz"
-keywords = "ozi,meson,packaging,templates"
 classifiers = [
     'License :: Public Domain',
     'Development Status :: 4 - Beta',
@@ -33,6 +28,12 @@ classifiers = [
     'Typing :: Typed',
     'Environment :: Other Environment',
 ]
+description-file = "README.rst"
+download-url = "https://github.com/OZI-Project/ozi-templates/archive/refs/tags/{version}.tar.gz"
+home-page = "https://oziproject.dev"
+keywords = "ozi,meson,packaging,templates"
+license = "Unlicense"
+summary = "OZI Project package templates."
 
 [project.optional-dependencies]
 ci   = [
