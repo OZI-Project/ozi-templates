@@ -1,8 +1,11 @@
 # ozi-templates CHANGELOG
-## 2.10.1 (2024-08-28)
+## 2.10.1 (2024-08-29)
 
 
 ### 🐛 Fixed Bugs
+
+*  add description-file — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`197a493`](https://github.com/OZI-Project/ozi-templates/commit/197a493f7aeb8c4f80509c4063ad50e19e5813c9))
 
 *  fix deps install check — rjdbcm &lt;rjdbcm@outlook.com&gt;
 ([`abd1c64`](https://github.com/OZI-Project/ozi-templates/commit/abd1c641e31d313827a53d81e05504067b0f2c3e))
