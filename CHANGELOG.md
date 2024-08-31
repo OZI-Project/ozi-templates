@@ -1,4 +1,30 @@
 # ozi-templates CHANGELOG
+## 2.10.2 (2024-08-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.26.4 to 3.26.6
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.4 to 3.26.6.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/f0f3afee809481da311ca3a6ff1ff51d81dbeb24...4dd16135b69a43b6c8efb853346f8437d92d3c93)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`5de7472`](https://github.com/OZI-Project/ozi-templates/commit/5de747218dfce585bcfe833a2680117c237c6978))
+
+
+### 🔨 Updated Scripts
+
+*  Update ozi.wrap — Eden Ross Duff, MSc &lt;rjdbcm@outlook.com&gt;
+([`68e8046`](https://github.com/OZI-Project/ozi-templates/commit/68e80460ee306a3c96a888b7e7cbc6078e655225))
+
 ## 2.10.1 (2024-08-29)
 
 
