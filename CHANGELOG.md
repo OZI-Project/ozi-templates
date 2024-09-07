@@ -1,4 +1,65 @@
 # ozi-templates CHANGELOG
+## 2.10.3 (2024-09-07)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/upload-artifact from 4.3.6 to 4.4.0
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.3.6 to 4.4.0.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/834a144ee995460fba8ed112a2fc961b36a5ec5a...50769540e7f4bd5e21e526ee35c689e35e0d6874)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`1da1d37`](https://github.com/OZI-Project/ozi-templates/commit/1da1d376f12524d16998154181beb4603850def5))
+
+*  Bump OZI-Project/publish from 0.1.10 to 0.1.11
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.10 to 0.1.11.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.10...0.1.11)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`627aed4`](https://github.com/OZI-Project/ozi-templates/commit/627aed42eaf38f29a111dfe45578adb38de2623f))
+
+*  Bump OZI-Project/release from 0.8.10 to 0.8.11
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.10 to 0.8.11.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/7edb07c74e124270a29b2cd5d32ce7c9fdfc0b22...4277e29de16b07dac4a89c8f7970c2da65554d17)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`5d809d3`](https://github.com/OZI-Project/ozi-templates/commit/5d809d36b401f92d85615bbb69710dcf466bd27d))
+
+*  Bump OZI-Project/draft from 0.3.9 to 0.3.11
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.9 to 0.3.11.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.9...0.3.11)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`b292df4`](https://github.com/OZI-Project/ozi-templates/commit/b292df46155ae5138f8c8eefdab02c223dcb169d))
+
 ## 2.10.2 (2024-08-31)
 
 
