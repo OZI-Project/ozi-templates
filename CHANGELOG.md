@@ -1,4 +1,17 @@
 # ozi-templates CHANGELOG
+## 2.11.0 (2024-09-08)
+
+
+### ✨ Implemented Features
+
+*  remove the compound pyproject.toml:project.optional-dependencies key ``dev``
+
+This improves CI provider dependency introspection compatibility. — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`5c47596`](https://github.com/OZI-Project/ozi-templates/commit/5c47596fcc775728d2383094b0c349b60a7c34de))
+
+* (root.pyproject.toml): remove ``dynamic = [&#34;version&#34;]`` — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`e3170df`](https://github.com/OZI-Project/ozi-templates/commit/e3170df4746cd9fb1c131918741544b467b7f9b2))
+
 ## 2.10.3 (2024-09-07)
 
 
