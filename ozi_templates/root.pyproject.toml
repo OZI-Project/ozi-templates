@@ -3,7 +3,6 @@
 # SPDX-License-Identifier: Unlicense
 -#}
 [project]
-dynamic = ["version"]
 license = {file = "{{ project.license_file }}"}
 dependencies = [
 {%- for req in project.dist_requires %}
@@ -103,7 +102,7 @@ ci   = [
 # tox -e fix
 fix  = ["black>=24.3", "ruff>=0.1.6", "autoflake", "isort"]
 # Default meson test setup
-dev  = ["[{% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}]"]
+# dev  = ["[{% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}]"]
 {%- for suite in spec.python.ci.checkpoint.suites %}
 {{ suite }} = [
 {%- for utility in spec.python.get(suite).utility.values() %}
