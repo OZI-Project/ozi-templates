@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.9
 # ozi/templates/github_workflows/checkpoint.yml.j2
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -28,6 +28,7 @@
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
+            oauth2.sigstore.dev:443
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
