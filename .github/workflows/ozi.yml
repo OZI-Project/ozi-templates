@@ -41,7 +41,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@1.0.0
+      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
         with:
           python-version: "3.10"
 
@@ -70,7 +70,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@1.0.0
+      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
         with:
           python-version: "3.11"
 
@@ -99,7 +99,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@1.0.0
+      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
         with:
           python-version: "3.12"
 
@@ -128,7 +128,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@1.0.0
+      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
         with:
           python-version: "3.13"
 
@@ -166,7 +166,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@1.0.0
+      - uses: OZI-Project/draft@7e8ad70f472504510e169567e97db01bdafe2533 # 1.0.0
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -253,6 +253,6 @@ jobs:
           upload.pypi.org:443
           uploads.github.com:443
 
-    - uses: OZI-Project/publish@1.0.0
+    - uses: OZI-Project/publish@55904e4f59084e7c6ccfad7b158db52a360e1f54 # 1.0.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
