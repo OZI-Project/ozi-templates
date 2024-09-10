@@ -1,4 +1,4 @@
-{#- OZI 0.2
+{#- OZI 0.9
 # ozi/templates/github_workflows/draft.yml
 # SPDX-License-Identifier: Unlicense
 #}
@@ -26,6 +26,10 @@
           allowed-endpoints: >
             api.github.com:443
             github.com:443
+            pypi.org:443
+            api.deps.dev:443
+            files.pythonhosted.org:443
+            downloads.python.org:443
 {%- endif %}
 
       - uses: OZI-Project/draft@{{ spec.python.ci.draft.version }}

@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.9
 # ozi/templates/github_workflows/release.yml
 # SPDX-License-Identifier: Unlicense
 #}
@@ -43,6 +43,7 @@
             quay.io:443
             cdn03.quay.io:443
             downloads.python.org:443
+            oauth2.sigstore.dev:443
 {%- endif %}
 
       - uses: OZI-Project/release@{{ spec.python.ci.release.version }}

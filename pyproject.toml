@@ -1,14 +1,11 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 [project]
-dynamic = ["version"]
 license = {file = "LICENSE.txt"}
-dependencies = ['jinja2>3']
+dependencies = ['jinja2~=3.1']
 
 [build-system]
-requires = [
-    'OZI.build[core]~=1.4',
-]
+requires = ['OZI.build[core]~=1.5']
 build-backend = "ozi_build.buildapi"
 
 [tool.ozi-build.metadata]
@@ -338,7 +335,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install OZI.build[core,uv]~=1.4
+     python -m uv pip install OZI.build[core,uv]~=1.5
      pipx install --python=python meson
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
@@ -360,7 +357,6 @@ commands =
      meson compile -C {env_tmp_dir}
      rm -rf {env_tmp_dir}/.gitignore
 
-
 [testenv:fix]
 description = quickly fix minor source issues 
 deps = pipx
@@ -376,4 +372,11 @@ description = OZI supply chain management (setuptools_scm)
 deps = setuptools_scm[toml]>=8
 commands =
      {env_python} -m setuptools_scm {posargs}
+
+[testenv:invoke]
+description = OZI invoke task entrypoint, for more info use "tox -e invoke -- --list"
+no_package = true
+commands_post =
+     {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi {posargs}
+
 """
