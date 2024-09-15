@@ -68,6 +68,7 @@ source_children = [
     'CeCILL_C_Free_Software_License_Agreement__CECILL_C_',
     'Eiffel_Forum_License__EFL_',
     'DFSG_approved',
+    'exceptions',
     'Free_To_Use_But_Restricted',
     'OSI_Approved',
     'Public_Domain',

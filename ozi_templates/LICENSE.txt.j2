@@ -1,8 +1,32 @@
-{#- OZI 0.1
+{#- OZI 0.10
 # ozi/templates/LICENSE.txt.j2
 # SPDX-License-Identifier: Unlicense
 -#}
-{% set license_template = project.license.split('::')|map('trim')|map('underscorify')|join('/') %}
-{% set filename = project.license_expression.split(' ')[0]|lower ~ '.txt'%}
-{% set path = ['license', license_template, filename]|join('/') %}
+-----------------------------------------------------------------------
+{{ project.name }} is licensed {{ project.license_expression }}:
+-----------------------------------------------------------------------
+
+{%- block body %}
+{%- set license_template = project.license.split('::')|map('trim')|map('underscorify')|join('/') %}
+{%- set filename = project.license_expression.split(' ')[0]|lower ~ '.txt'%}
+{%- set path = ['license', license_template, filename]|join('/') %}
 {% include path %}
+{%- endblock %}
+{%- set license_components = project.license_expression.split(' ')|map('trim') %}
+{%- block exceptions %}
+{%- if 'WITH' in license_components %}
+
+---- Exceptions to the {{ project.license_expression.split(' ')[0] }} License ----
+
+{%- for component in license_components %}
+{%- set exception = loop.nextitem if component|lower == 'with' %}
+{%- set filename = exception~'.txt' %}
+{%- set path = ['license', 'exceptions', filename]|join('/') %}
+{{ exception }}:
+
+{% include path ignore missing %}
+
+
+{%- endfor %}
+{%- endif %}
+{%- endblock %}
