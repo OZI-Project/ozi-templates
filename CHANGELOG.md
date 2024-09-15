@@ -1,4 +1,29 @@
 # ozi-templates CHANGELOG
+## 2.12.0 (2024-09-15)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.9.1 to 2.10.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.1 to 2.10.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde...91182cccc01eb5e619899d80e4e971d6181294a7)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`d34e81c`](https://github.com/OZI-Project/ozi-templates/commit/d34e81c05c67f86e97ef73b93ccf072919937ff6))
+
+
+### ✨ Implemented Features
+
+* 🔨: add support for license exception rendering — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`a9f95b2`](https://github.com/OZI-Project/ozi-templates/commit/a9f95b25e94e4caa8d72ac0a1d190c6d34792164))
+
 ## 2.11.1 (2024-09-10)
 
 
