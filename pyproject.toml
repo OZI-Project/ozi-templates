@@ -361,11 +361,13 @@ commands =
 description = quickly fix minor source issues 
 deps = pipx
 skip_install = true
+commands_pre =
 commands =
-     pipx run --python {env_python} -q black -S .
-     pipx run --python {env_python} -q isort .
-     pipx run --python {env_python} -q autoflake -i -r .
-     pipx run --python {env_python} -q ruff check ozi_templates --fix
+     pipx run --python {env_python} black -S .
+     pipx run --python {env_python} isort .
+     pipx run --python {env_python} autoflake -i -r .
+     pipx run --python {env_python} ruff check . --fix
+commands_post =
 
 [testenv:scm]
 description = OZI supply chain management (setuptools_scm)

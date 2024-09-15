@@ -30,6 +30,7 @@ root_files = [
     'LICENSE.txt',
     'pyproject.toml',
     '.gitignore',
+    '.gitattributes',
 ]
 pyproject_config = configuration_data()
 pyproject_config.set(
@@ -45,7 +46,7 @@ configure_file(
 vcs_tag(input: 'pyproject.toml', output: 'pyproject.orig.toml')
 
 foreach source : root_files
-    if source not in ['pyproject.toml', 'requirements.in', '.gitignore', 'README']
+    if source not in ['pyproject.toml', 'requirements.in', '.gitattributes', '.gitignore', 'README']
         fs.copyfile(source)
     elif source == 'README'
         fs.copyfile(source, 'README.rst')
