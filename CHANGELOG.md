@@ -1,4 +1,100 @@
 # ozi-templates CHANGELOG
+## 2.12.0 (2024-09-15)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.9.1 to 2.10.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.9.1 to 2.10.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/5c7944e73c4c2a096b17a9cb74d65b6c2bbafbde...91182cccc01eb5e619899d80e4e971d6181294a7)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] &lt;support@github.com&gt;
+([`d34e81c`](https://github.com/OZI-Project/ozi-templates/commit/d34e81c05c67f86e97ef73b93ccf072919937ff6))
+
+
+### ✨ Implemented Features
+
+* 🔨: add support for license exception rendering — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`a9f95b2`](https://github.com/OZI-Project/ozi-templates/commit/a9f95b25e94e4caa8d72ac0a1d190c6d34792164))
+
+## 2.11.1 (2024-09-10)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 0.5.2 to 1.0.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 0.5.2 to 1.0.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/0.5.2...1.0.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] &lt;support@github.com&gt;
+([`dcf8ab6`](https://github.com/OZI-Project/ozi-templates/commit/dcf8ab6b63e7b81b0a90fc51f198a5f3604e5b81))
+
+*  Bump OZI-Project/release from 0.8.11 to 1.0.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 0.8.11 to 1.0.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/4277e29de16b07dac4a89c8f7970c2da65554d17...98248899bb8b235e3198105f080093ea5b9751d8)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] &lt;support@github.com&gt;
+([`443152b`](https://github.com/OZI-Project/ozi-templates/commit/443152b55d0f3dbd936db85493bf2464f3a67c4b))
+
+*  Bump OZI-Project/publish from 0.1.11 to 1.0.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 0.1.11 to 1.0.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/0.1.11...1.0.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] &lt;support@github.com&gt;
+([`aabc85f`](https://github.com/OZI-Project/ozi-templates/commit/aabc85f72f815d94038281e09a8b3a55f528ba0b))
+
+*  Bump OZI-Project/draft from 0.3.11 to 1.0.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 0.3.11 to 1.0.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/0.3.11...1.0.0)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+... — dependabot[bot] &lt;support@github.com&gt;
+([`d721c8a`](https://github.com/OZI-Project/ozi-templates/commit/d721c8a33f63f16d6f93907b195a3a008683e8bf))
+
+
+### Other
+
+
+* [StepSecurity] Apply security best practices — StepSecurity Bot &lt;bot@stepsecurity.io&gt;
+([`fa94694`](https://github.com/OZI-Project/ozi-templates/commit/fa94694bf7c816c57815b856f706d7f2a75b686e))
+
+* 👷(github_workflows): add endpoints used by self-hosted CI for posterity — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`4c103aa`](https://github.com/OZI-Project/ozi-templates/commit/4c103aa4d4da13e122ef13bb6767a93452260835))
+
 ## 2.11.0 (2024-09-08)
 
 
