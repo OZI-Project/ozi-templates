@@ -1,4 +1,31 @@
 # ozi-templates CHANGELOG
+## 2.12.1 (2024-09-17)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.26.6 to 3.26.7
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.6 to 3.26.7.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/4dd16135b69a43b6c8efb853346f8437d92d3c93...8214744c546c1e5c8f03dde8fab3a7353211988d)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] &lt;support@github.com&gt;
+([`8e2703a`](https://github.com/OZI-Project/ozi-templates/commit/8e2703a6f1bb8872daba54f29ac5bfbfbd98bad3))
+
+
+### Other
+
+
+* fix: broken generator in LICENSE template — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`6dd601e`](https://github.com/OZI-Project/ozi-templates/commit/6dd601e173bba51a717867b6467b4dad442bb443))
+
 ## 2.12.0 (2024-09-15)
 
 
