@@ -41,7 +41,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
+      - uses: OZI-Project/checkpoint@38b742bcf99a1eae353d2f750d23f7a0c0e2174d # 1.0.1
         with:
           python-version: "3.10"
 
@@ -70,7 +70,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
+      - uses: OZI-Project/checkpoint@38b742bcf99a1eae353d2f750d23f7a0c0e2174d # 1.0.1
         with:
           python-version: "3.11"
 
@@ -99,7 +99,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
+      - uses: OZI-Project/checkpoint@38b742bcf99a1eae353d2f750d23f7a0c0e2174d # 1.0.1
         with:
           python-version: "3.12"
 
@@ -128,7 +128,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@b53cf4f0aeb004d5980b72675fba6a38dcc66674 # 1.0.0
+      - uses: OZI-Project/checkpoint@38b742bcf99a1eae353d2f750d23f7a0c0e2174d # 1.0.1
         with:
           python-version: "3.13"
 
@@ -166,7 +166,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@7e8ad70f472504510e169567e97db01bdafe2533 # 1.0.0
+      - uses: OZI-Project/draft@23eab64fb44d03215598b6fffcfff890bfb7ec4b # 1.1.0
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -211,7 +211,7 @@ jobs:
             cdn03.quay.io:443
             downloads.python.org:443
 
-      - uses: OZI-Project/release@98248899bb8b235e3198105f080093ea5b9751d8
+      - uses: OZI-Project/release@d764d82aa0900effc1590b0281ff35d67be592fd
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -253,6 +253,6 @@ jobs:
           upload.pypi.org:443
           uploads.github.com:443
 
-    - uses: OZI-Project/publish@55904e4f59084e7c6ccfad7b158db52a360e1f54 # 1.0.0
+    - uses: OZI-Project/publish@6a44652f29d676922cf9e10d3ebc39b723078729 # 1.1.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
