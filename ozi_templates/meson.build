@@ -54,6 +54,7 @@ source_files = [
     'semantic_release.pyproject.toml',
     'setuptools_scm.pyproject.toml',
     'tox.pyproject.toml',
+    'py.typed',
 ]
 foreach file: source_files
     fs.copyfile(file)
