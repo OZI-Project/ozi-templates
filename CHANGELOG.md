@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.12.3 (2024-10-14)
+
+
+### 🐛 Fixed Bugs
+
+*  add missing py.typed — rjdbcm &lt;rjdbcm@outlook.com&gt;
+([`fb9371b`](https://github.com/OZI-Project/ozi-templates/commit/fb9371babedab3a73e89287446290213ab97f56a))
+
 ## 2.12.2 (2024-10-09)
 
 
