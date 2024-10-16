@@ -20,7 +20,7 @@ option(
     '{{ requires }}',
 {%- endfor %}
 {%- if project.enable_uv %}
-    uv
+    'uv',
 {%- endif %}
     ]
 )
