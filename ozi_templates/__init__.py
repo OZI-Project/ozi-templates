@@ -6,7 +6,9 @@ from __future__ import annotations
 
 from functools import _lru_cache_wrapper
 from types import FunctionType
-from typing import Any
+from typing import TYPE_CHECKING
+from typing import TypeAlias
+from typing import TypeVar
 
 from jinja2 import Environment
 from jinja2 import PackageLoader
@@ -16,6 +18,20 @@ from ozi_templates.filter import current_date
 from ozi_templates.filter import next_minor
 from ozi_templates.filter import underscorify
 from ozi_templates.filter import wheel_repr
+
+if TYPE_CHECKING:  # pragma: no cover
+    from collections.abc import Mapping
+
+    VT = TypeVar(
+        'VT',
+        str,
+        int,
+        float,
+        bytes,
+        None,
+    )
+    _Val: TypeAlias = list['_Key[VT]'] | Mapping['_Key[VT]', VT] | VT
+    _Key: TypeAlias = VT | _Val[VT]
 
 __all__ = ('load_environment',)
 FILTERS = (
@@ -27,7 +43,7 @@ FILTERS = (
 )
 
 
-def _init_environment(_globals: dict[str, Any]) -> Environment:  # pragma: no cover
+def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:  # pragma: no cover
     """Initialize the rendering environment, set filters, and set global metadata."""
     env = Environment(
         loader=PackageLoader('ozi_templates', '.'),
@@ -49,7 +65,7 @@ def _init_environment(_globals: dict[str, Any]) -> Environment:  # pragma: no co
 
 def load_environment(  # pragma: no cover
     project: dict[str, str],
-    _globals: dict[str, Any],
+    _globals: dict[str, _Val[str]],
 ) -> Environment:
     """Load the rendering environment for templates.
 
