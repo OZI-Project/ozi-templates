@@ -1,4 +1,86 @@
 # ozi-templates CHANGELOG
+## 2.12.5 (2024-10-24)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/publish from 1.3.0 to 1.4.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.3.0 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/50e1883d3f02c37133eb0b38d726dff6b63554a0...a8bb776353d5b9f9bd678ef5ab2cd38bf5d4ad0f)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`4b35a75`](https://github.com/OZI-Project/ozi-templates/commit/4b35a75536c22396881414f3b1b38b1b7f8b82fd))
+
+*  Bump OZI-Project/draft from 1.3.0 to 1.4.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.3.0 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/abc015e6e3bc08e765025befc25f2bd355ddb79d...d797368c9870f3ca16373680b52db1ed4c333f21)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`c225ff9`](https://github.com/OZI-Project/ozi-templates/commit/c225ff9fb893aecbcb91d1269cde50e5994de701))
+
+*  Bump actions/dependency-review-action from 4.3.4 to 4.3.5
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.4 to 4.3.5.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/5a2ce3f5b92ee19cbb1541a4984c76d921601d7c...a6993e2c61fd5dc440b409aa1d6904921c5e1894)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`3da9179`](https://github.com/OZI-Project/ozi-templates/commit/3da9179214f4111e85486e02d24f6d446b7d9fc9))
+
+*  Bump github/codeql-action from 3.26.13 to 3.27.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.26.13 to 3.27.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/f779452ac5af1c261dce0346a8f964149f49322b...662472033e021d55d94146f66f6058822b0b39fd)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`3fa9480`](https://github.com/OZI-Project/ozi-templates/commit/3fa948096ba88815e4c899c87cc59071f94ffa1c))
+
+
+### 🏷️
+
+
+* fix metadata globals type to match ozi-spec — rjdbcm <rjdbcm@outlook.com>
+([`249e448`](https://github.com/OZI-Project/ozi-templates/commit/249e448ef1d6c9cd978807c5c42b55a490a6f294))
+
+
+### 🔨 Updated Configuration
+
+*  lint-timeout-multiplier set to 3 — rjdbcm <rjdbcm@outlook.com>
+([`240d528`](https://github.com/OZI-Project/ozi-templates/commit/240d5282adbb484280c417d7f2e6688f23fd23bc))
+
+
+### Other
+
+
+* 👷(subprojects/ozi.wrap): release/1.23 — rjdbcm <rjdbcm@outlook.com>
+([`7f9228f`](https://github.com/OZI-Project/ozi-templates/commit/7f9228f8a2cc9068782b1654c51f26e2ec31cf87))
+
 ## 2.12.4 (2024-10-16)
 
 
