@@ -6,7 +6,10 @@ from __future__ import annotations
 
 from functools import _lru_cache_wrapper
 from types import FunctionType
+from typing import TYPE_CHECKING
 from typing import Any
+from typing import TypeAlias
+from typing import TypeVar
 
 from jinja2 import Environment
 from jinja2 import PackageLoader
@@ -17,10 +20,24 @@ from ozi_templates.filter import next_minor
 from ozi_templates.filter import underscorify
 from ozi_templates.filter import wheel_repr
 
+if TYPE_CHECKING:  # pragma: no cover
+    from collections.abc import Mapping
+
+    VT = TypeVar(
+        'VT',
+        str,
+        int,
+        float,
+        bytes,
+        None,
+    )
+    _Val: TypeAlias = list['_Key[VT]'] | Mapping['_Key[VT]', VT] | VT
+    _Key: TypeAlias = VT | _Val[VT]
+
 """ozi-templates module"""
 __all__ = ('load_environment', )
 FILTERS = ...
-def load_environment(project: dict[str, str], _globals: dict[str, Any]) -> Environment:
+def load_environment(project: dict[str, str], _globals: dict[str, _Val[str]]) -> Environment:
     """Load the rendering environment for templates.
 
     :return: jinja2 rendering environment for OZI
