@@ -14,7 +14,7 @@
 {%- endblock %}
 {%- set license_components = project.license_expression.split(' ')|map('trim') %}
 {%- block exceptions %}
-{%- if 'WITH' in license_components|list() %}
+{%- if 'with' in license_components|map('lower')|list %}
 
 ---- Exceptions to the {{ project.license_expression.split(' ')[0] }} License ----
 
