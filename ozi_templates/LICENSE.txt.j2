@@ -18,7 +18,7 @@
 
 ---- Exceptions to the {{ project.license_expression.split(' ')[0] }} License ----
 
-{%- for component in license_components %}
+{%- for component in project.license_expression.split(' ')|map('trim') %}
 {%- if component|lower == 'with' %}
 {%- set exception = loop.nextitem %}
 {%- set filename = exception~'.txt' %}
