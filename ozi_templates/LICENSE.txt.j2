@@ -19,14 +19,15 @@
 ---- Exceptions to the {{ project.license_expression.split(' ')[0] }} License ----
 
 {%- for component in license_components %}
-{%- set exception = loop.nextitem if component|lower == 'with' %}
+{%- if component|lower == 'with' %}
+{%- set exception = loop.nextitem %}
 {%- set filename = exception~'.txt' %}
 {%- set path = ['license', 'exceptions', filename]|join('/') %}
 {{ exception }}:
 
 {% include path ignore missing %}
 
-
+{%- endif %}
 {%- endfor %}
 {%- endif %}
 {%- endblock %}
