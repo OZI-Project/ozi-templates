@@ -1,4 +1,15 @@
 # ozi-templates CHANGELOG
+## 2.12.7 (2024-10-27)
+
+
+### 🐛 Fixed Bugs
+
+*  fix variable type in license exception template — rjdbcm <rjdbcm@outlook.com>
+([`9ab67af`](https://github.com/OZI-Project/ozi-templates/commit/9ab67af4bb86ec5029508ca81826182f2d9f723c))
+
+*  fix variable scope in license exception template — rjdbcm <rjdbcm@outlook.com>
+([`2bd62fa`](https://github.com/OZI-Project/ozi-templates/commit/2bd62fa36c5d0608bc1487e905e17e66255d7a5f))
+
 ## 2.12.6 (2024-10-27)
 
 
