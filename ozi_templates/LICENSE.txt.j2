@@ -7,23 +7,26 @@
 -----------------------------------------------------------------------
 
 {%- block body %}
-{%- set license_template = project.license.split('::')|map('trim')|map('underscorify')|join('/') %}
-{%- set filename = project.license_expression.split(' ')[0]|lower ~ '.txt'%}
-{%- set path = ['license', license_template, filename]|join('/') %}
+{%- for component in project.license_expression.split(' ')|map('trim')|list %}
+{%- if component|lower not in ['and', 'or', 'with'] and loop.previtem|lower != 'with' %}
+{#- {%- set license_template = project.license.split('::')|map('trim')|map('underscorify')|join('/') %} #}
+{%- set filename = component|lower ~ '.txt'%}
+{%- set path = ['license', filename]|join('/') %}
 {% include path %}
+{%- endif %}
+{%- endfor %}
 {%- endblock %}
 {%- set license_components = project.license_expression.split(' ')|map('trim') %}
 {%- block exceptions %}
 {%- if 'with' in license_components|map('lower')|list %}
-
----- Exceptions to the {{ project.license_expression.split(' ')[0] }} License ----
-
 {%- for component in project.license_expression.split(' ')|map('trim')|list %}
 {%- if component|lower == 'with' %}
+{%- set license_term = loop.previtem %}
 {%- set exception = loop.nextitem %}
 {%- set filename = exception~'.txt' %}
 {%- set path = ['license', 'exceptions', filename]|join('/') %}
-{{ exception }}:
+
+---- Exceptions to the {{ license_term }} License ----
 
 {% include path ignore missing %}
 
