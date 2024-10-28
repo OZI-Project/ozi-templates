@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.13.0 (2024-10-28)
+
+
+### ✨ Implemented Features
+
+*  support for rendering simple SPDX license expressions containing 'and', 'or', 'with' (cannot contain parenthesis) — rjdbcm <rjdbcm@outlook.com>
+([`23f3e5e`](https://github.com/OZI-Project/ozi-templates/commit/23f3e5e2b2efa1f4bbf6377147fca814916085c0))
+
 ## 2.12.7 (2024-10-27)
 
 
