@@ -1,4 +1,76 @@
 # ozi-templates CHANGELOG
+## 2.13.0 (2024-10-28)
+
+
+### ✨ Implemented Features
+
+*  support for rendering simple SPDX license expressions containing 'and', 'or', 'with' (cannot contain parenthesis) — rjdbcm <rjdbcm@outlook.com>
+([`23f3e5e`](https://github.com/OZI-Project/ozi-templates/commit/23f3e5e2b2efa1f4bbf6377147fca814916085c0))
+
+## 2.12.7 (2024-10-27)
+
+
+### 🐛 Fixed Bugs
+
+*  fix variable type in license exception template — rjdbcm <rjdbcm@outlook.com>
+([`9ab67af`](https://github.com/OZI-Project/ozi-templates/commit/9ab67af4bb86ec5029508ca81826182f2d9f723c))
+
+*  fix variable scope in license exception template — rjdbcm <rjdbcm@outlook.com>
+([`2bd62fa`](https://github.com/OZI-Project/ozi-templates/commit/2bd62fa36c5d0608bc1487e905e17e66255d7a5f))
+
+## 2.12.6 (2024-10-27)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  OZI 1.24 — rjdbcm <rjdbcm@outlook.com>
+([`1ecd309`](https://github.com/OZI-Project/ozi-templates/commit/1ecd309e03d8650c7d68cb7797bb8556a7dae078))
+
+*  Bump actions/checkout from 4.2.1 to 4.2.2
+
+Bumps [actions/checkout](https://github.com/actions/checkout) from 4.2.1 to 4.2.2.
+- [Release notes](https://github.com/actions/checkout/releases)
+- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/actions/checkout/compare/eef61447b9ff4aafe5dcd4e0bbf5d482be7e7871...11bd71901bbe5b1630ceea73d27597364c9af683)
+
+
+updated-dependencies:
+- dependency-name: actions/checkout
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`af1fa58`](https://github.com/OZI-Project/ozi-templates/commit/af1fa580c2709cbbcb198a4bcf8f54591f085ebc))
+
+*  Bump OZI-Project/checkpoint from 1.0.2 to 1.1.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.0.2 to 1.1.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/fff79a1993b9a0822e7b594dcbdb164a7cff4292...ac0c03fc08ac2e7e4b4fbdf02249109384596313)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`41e0fd7`](https://github.com/OZI-Project/ozi-templates/commit/41e0fd706d18776ae3a438165779cb5a6f3f805a))
+
+
+### 🐛 Fixed Bugs
+
+*  license exception parsing conditional fixed — rjdbcm <rjdbcm@outlook.com>
+([`043ee04`](https://github.com/OZI-Project/ozi-templates/commit/043ee04276e0832bd2b3d8f250384b0fe66dd413))
+
+*  license exception parsing case-insensitive — rjdbcm <rjdbcm@outlook.com>
+([`4ce0f3f`](https://github.com/OZI-Project/ozi-templates/commit/4ce0f3f0813350980e38b01d68846e845e6f6280))
+
+
+### Other
+
+
+* Update SECURITY.md — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`b97c577`](https://github.com/OZI-Project/ozi-templates/commit/b97c577072d0eefa50b3b04b0de4e6b4eea332d6))
+
 ## 2.12.5 (2024-10-24)
 
 
