@@ -18,7 +18,7 @@
 {%- endraw %}
     steps:
 {%- if project.github_harden_runner %}
-{%- extends "harden_runner.yml.j2" %}
+{%- extends "github_workflows/harden_runner.yml.j2" %}
 {%- block body %}
 {{ super() }}
 {%- endblock %}
