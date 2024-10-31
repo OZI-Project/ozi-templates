@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.13.6 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  remove required block — rjdbcm <rjdbcm@outlook.com>
+([`b0788d1`](https://github.com/OZI-Project/ozi-templates/commit/b0788d1a2d3bb6ae830012a47c0aff916c8781f0))
+
 ## 2.13.5 (2024-10-31)
 
 
