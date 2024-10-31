@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.13.5 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  template path for harden_runner — rjdbcm <rjdbcm@outlook.com>
+([`d9be6cb`](https://github.com/OZI-Project/ozi-templates/commit/d9be6cb6c0ea88b70268d945025e1e555d789cee))
+
 ## 2.13.4 (2024-10-31)
 
 
