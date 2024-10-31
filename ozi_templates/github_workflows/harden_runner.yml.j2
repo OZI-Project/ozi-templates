@@ -1,0 +1,10 @@
+{%- block body required %}
+    - name: {% block name %}Harden Runner{% endblock %}
+      uses: step-security/harden-runner@f086349bfa2bd1361f7909c78558e816508cdc10 # v2.8.0
+      with:
+        disable-sudo: {% block sudo %}true{% endblock %}
+        egress-policy: {% block policy %}block{% endblock %}
+{%- endblock %}
+{%- block endpoints %}
+        allowed-endpoints: >
+{%- endblock %}
