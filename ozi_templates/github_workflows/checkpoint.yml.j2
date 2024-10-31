@@ -42,10 +42,5 @@
     needs: [{%- for python_version in [spec.python.support.security2, spec.python.support.security1, spec.python.support.bugfix] %}checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest, {%- endfor %}]
 {%- if project.github_harden_runner %}
     steps:
-{%- extends "harden_runner.yml.j2" %}
-{%- block body %}
-{{ super() }}
-{%- endblock %}
-{%- block endpoints %}
-{%- endblock %}
+{{ self.body() }}
 {%- endif %}
