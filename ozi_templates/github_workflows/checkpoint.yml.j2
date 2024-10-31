@@ -89,7 +89,6 @@
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
         with:
           python-version: "{{ python_version }}"
-{% endfor %}
 
 {%- set python_version=spec.python.support.bugfix %}
   checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
@@ -108,7 +107,6 @@
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
         with:
           python-version: "{{ python_version }}"
-{% endfor %}
 
   checkpoint:
     runs-on: ubuntu-latest
