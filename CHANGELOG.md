@@ -1,4 +1,18 @@
 # ozi-templates CHANGELOG
+## 2.13.7 (2024-10-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  step-security/harden-runner defaults to v2.10.1 — rjdbcm <rjdbcm@outlook.com>
+([`293494f`](https://github.com/OZI-Project/ozi-templates/commit/293494f36ac9ee279eef0aee6cb914344e2cc9b0))
+
+
+### ✏️ Corrected Typos
+
+*  rewrite harden runner template — rjdbcm <rjdbcm@outlook.com>
+([`9d20663`](https://github.com/OZI-Project/ozi-templates/commit/9d20663b243ebdb843ad696db34a7ca7798f71b4))
+
 ## 2.13.6 (2024-10-31)
 
 
