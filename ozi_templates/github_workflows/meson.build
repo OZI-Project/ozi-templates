@@ -5,6 +5,7 @@ workflows = [
     'cleanup.yml.j2',
     'draft.yml.j2',
     'generate_provenance.yml.j2',
+    'harden_runner.yml.j2',
     'ozi.yml.j2',
     'publish.yml.j2',
     'release.yml.j2',
