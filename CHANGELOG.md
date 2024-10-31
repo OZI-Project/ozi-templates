@@ -1,4 +1,38 @@
 # ozi-templates CHANGELOG
+## 2.13.1 (2024-10-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/dependency-review-action from 4.3.5 to 4.4.0
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.5 to 4.4.0.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/a6993e2c61fd5dc440b409aa1d6904921c5e1894...4081bf99e2866ebe428fc0477b69eb4fcda7220a)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`6955d53`](https://github.com/OZI-Project/ozi-templates/commit/6955d536882934c1b6bc493324095a4abf5b1c04))
+
+
+### 🐛 Fixed Bugs
+
+*  dont render endpoints for checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`2222516`](https://github.com/OZI-Project/ozi-templates/commit/2222516c6860fb86401c2fe0f2691b83a7ee65d8))
+
+*  add sigstore endpoints to publish harden runner — rjdbcm <rjdbcm@outlook.com>
+([`7f98863`](https://github.com/OZI-Project/ozi-templates/commit/7f988635f9f4be6e1df3434ec47517f37635ce7c))
+
+
+### 🔨 Updated Scripts
+
+*  add sigstore signing endpoints to publish workflow — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`e8f9879`](https://github.com/OZI-Project/ozi-templates/commit/e8f9879b5e33ef27ef6466b900b0c52ad0d0879d))
+
 ## 2.13.0 (2024-10-28)
 
 
