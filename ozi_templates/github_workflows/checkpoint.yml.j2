@@ -2,7 +2,8 @@
 # ozi/templates/github_workflows/checkpoint.yml.j2
 # SPDX-License-Identifier: Unlicense
 -#}
-{%- for python_version in [spec.python.support.security2, spec.python.support.security1, spec.python.support.bugfix] %}
+{%- extends "harden_runner.yml.j2" %}
+{%- set python_version=spec.python.support.security2 %}
   checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
     name: checkpoint (Python {{ python_version }} on ubuntu-latest)
     runs-on: ubuntu-latest
@@ -12,7 +13,6 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{%- extends "harden_runner.yml.j2" %}
 {%- block body %}
 {{ super() }}
 {%- endblock %}
@@ -30,6 +30,79 @@
             tuf-repo-cdn.sigstore.dev:443
             oauth2.sigstore.dev:443
 {%- endblock %}
+{%- endif %}
+
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+        with:
+          python-version: "{{ python_version }}"
+
+{%- set python_version=spec.python.support.security1 %}
+  checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
+    name: checkpoint (Python {{ python_version }} on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+{%- if project.github_harden_runner %}
+{{ self.body() }}
+{{ self.endpoints() }}
+{%- endif %}
+
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+        with:
+          python-version: "{{ python_version }}"
+
+{%- set python_version=spec.python.support.bugfix %}
+  checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
+    name: checkpoint (Python {{ python_version }} on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+{%- if project.github_harden_runner %}
+{{ self.body() }}
+{{ self.endpoints() }}
+{%- endif %}
+
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+        with:
+          python-version: "{{ python_version }}"
+
+{%- set python_version=spec.python.support.security1 %}
+  checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
+    name: checkpoint (Python {{ python_version }} on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+{%- if project.github_harden_runner %}
+{{ self.body() }}
+{{ self.endpoints() }}
+{%- endif %}
+
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+        with:
+          python-version: "{{ python_version }}"
+{% endfor %}
+
+{%- set python_version=spec.python.support.bugfix %}
+  checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
+    name: checkpoint (Python {{ python_version }} on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+{%- if project.github_harden_runner %}
+{{ self.body() }}
+{{ self.endpoints() }}
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
