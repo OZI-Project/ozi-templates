@@ -2,22 +2,8 @@
 # ozi/templates/github_workflows/checkpoint.yml.j2
 # SPDX-License-Identifier: Unlicense
 -#}
-{%- extends "github_workflows/harden_runner.yml.j2" %}
-{%- set python_version=spec.python.support.security2 %}
-  checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
-    name: checkpoint (Python {{ python_version }} on ubuntu-latest)
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-    permissions:
-        id-token: write
-    steps:
-{%- if project.github_harden_runner %}
-{%- block body %}
-{{ super() }}
-{%- endblock %}
-{%- block endpoints %}
-{{ super() }}
+{%- set endpoints %}
+        allowed-endpoints: >
             files.pythonhosted.org:443
             github.com:443
             api.github.com:443
@@ -29,7 +15,19 @@
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
             oauth2.sigstore.dev:443
-{%- endblock %}
+{% endset %}
+{%- set python_version=spec.python.support.security2 %}
+  checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
+    name: checkpoint (Python {{ python_version }} on ubuntu-latest)
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    permissions:
+        id-token: write
+    steps:
+{%- if project.github_harden_runner %}
+{% include "github_workflows/harden_runner.yml.j2" %}
+{{ endpoints }}
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
@@ -46,8 +44,8 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{{ self.body() }}
-{{ self.endpoints() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+{{ endpoints }}
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
@@ -64,8 +62,8 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{{ self.body() }}
-{{ self.endpoints() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+{{ endpoints }}
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
@@ -82,8 +80,8 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{{ self.body() }}
-{{ self.endpoints() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+{{ endpoints }}
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
@@ -100,8 +98,8 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{{ self.body() }}
-{{ self.endpoints() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+{{ endpoints }}
 {%- endif %}
 
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
@@ -113,5 +111,5 @@
     needs: [{%- for python_version in [spec.python.support.security2, spec.python.support.security1, spec.python.support.bugfix] %}checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest, {%- endfor %}]
 {%- if project.github_harden_runner %}
     steps:
-{{ self.body() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
 {%- endif %}
