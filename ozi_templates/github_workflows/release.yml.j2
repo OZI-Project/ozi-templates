@@ -24,12 +24,8 @@
       id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{%- extends "github_workflows/harden_runner.yml.j2" %}
-{%- block body %}
-{{ super() }}
-{%- endblock %}
-{%- block endpoints %}
-{{ super() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+        allowed-endpoints: >
             api.github.com:443
             files.pythonhosted.org:443
             fulcio.sigstore.dev:443
@@ -44,7 +40,6 @@
             cdn03.quay.io:443
             downloads.python.org:443
             oauth2.sigstore.dev:443
-{%- endblock %}
 {%- endif %}
 
       - uses: OZI-Project/release@{{ spec.python.ci.release.version }}

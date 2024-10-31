@@ -19,17 +19,12 @@ jobs:
         actions: write
     steps:
 {%- if project.github_harden_runner %}
-{%- extends "github_workflows/harden_runner.yml.j2" %}
-{%- block body %}
-{{ super() }}
-{%- endblock %}
-{%- block endpoints %}
-{{ super() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+        allowed-endpoints: >
             api.github.com:443
             github.com:443
             objects.githubusercontent.com:443
             uploads.github.com:443
-{%- endblock %}
 {%- endif %}
 
       - name: Cleanup caches

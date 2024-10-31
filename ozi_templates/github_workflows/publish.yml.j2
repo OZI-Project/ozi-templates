@@ -11,19 +11,14 @@
       id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{%- extends "github_workflows/harden_runner.yml.j2" %}
-{%- block body %}
-{{ super() }}
-{%- endblock %}
-{%- block endpoints %}
-{{ super() }}
+{% include "github_workflows/harden_runner.yml.j2" %}
+        allowed-endpoints: >
             api.github.com:443
             upload.pypi.org:443
             uploads.github.com:443
             tuf-repo-cdn.sigstore.dev:443
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
-{%- endblock %}
 {%- endif %}
 
     - uses: OZI-Project/publish@{{ spec.python.ci.publish.version }}
