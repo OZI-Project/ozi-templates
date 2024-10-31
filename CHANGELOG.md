@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.13.8 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  remove repeated checkpoints — rjdbcm <rjdbcm@outlook.com>
+([`f750bc5`](https://github.com/OZI-Project/ozi-templates/commit/f750bc56c1f06bed34034ff2c997bfc26c6041a0))
+
 ## 2.13.7 (2024-10-31)
 
 
