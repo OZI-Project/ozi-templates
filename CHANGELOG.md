@@ -1,4 +1,15 @@
 # ozi-templates CHANGELOG
+## 2.13.3 (2024-10-31)
+
+
+### 🐛 Fixed Bugs
+
+*  template syntax checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`412b455`](https://github.com/OZI-Project/ozi-templates/commit/412b455dac87467cab864781cd031cea86549b19))
+
+*  template syntax checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`d55b5f3`](https://github.com/OZI-Project/ozi-templates/commit/d55b5f32e2a8e96eb94452b0db4631de3456b704))
+
 ## 2.13.2 (2024-10-31)
 
 
