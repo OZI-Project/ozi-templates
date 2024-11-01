@@ -4,11 +4,13 @@
 -#}
 [project]
 license = {file = "{{ project.license_file }}"}
+{%- if project.dist_requires|length %}
 dependencies = [
 {%- for req in project.dist_requires %}
     '{{ req }}',
 {%- endfor %}
 ]
+{%- endif %}
 
 [build-system]
 requires = [
@@ -85,11 +87,13 @@ requires-external=[
 {%- endfor %}
 ]
 {%- endif %}
+{%- if project.project_url|length %}
 project-urls=[
 {%- for project_url in project.project_url %}
     "{{ project_url }}",
 {%- endfor %}
 ]
+{%- endif %}
 
 [project.optional-dependencies] # also meson test suite names
 # OZI Packaging Dependencies

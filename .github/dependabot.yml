@@ -11,6 +11,8 @@ updates:
       interval: daily
 
   - package-ecosystem: github-actions
-    directory: /
+    directories:
+    - '/'
+    - '/ozi_templates/github_workflows/*'
     schedule:
       interval: daily

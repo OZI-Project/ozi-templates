@@ -1,11 +1,10 @@
-{#- OZI 0.2
+{#- OZI 0.11
 # ozi/templates/github_workflows/ozi.yml.j2
 # SPDX-License-Identifier: Unlicense
 -#}
 {%- for line in project.copyright_head.split('\n') %}
 {{ '# ' ~ line }}
 {%- endfor %}
-{{ '# Additional copyright and license terms apply, see NOTICE for details.' }}
 name: OZI
 
 on:
