@@ -42,6 +42,8 @@ dev  = ["[dist,lint,test,]"]
 dist = [
     "python-semantic-release",
     "sigstore",
+    'cibuildwheel',
+    'twine',
 ]
 lint = [
     "bandit[toml]",
