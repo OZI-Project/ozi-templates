@@ -1,4 +1,124 @@
 # ozi-templates CHANGELOG
+## 2.13.9 (2024-11-01)
+
+
+### 🐛 Fixed Bugs
+
+*  add missing optional dist deps — rjdbcm <rjdbcm@outlook.com>
+([`98f44fe`](https://github.com/OZI-Project/ozi-templates/commit/98f44fe750d16630caef5ce5d733de0b7eb4f199))
+
+
+### Other
+
+
+* fix: cleanup template whitespace and rendered comments — rjdbcm <rjdbcm@outlook.com>
+([`62b4c66`](https://github.com/OZI-Project/ozi-templates/commit/62b4c662b8820fd6e6bbe7cef5bad13ffcac8270))
+
+* perf: pyproject template skips empty keys — rjdbcm <rjdbcm@outlook.com>
+([`520a5d3`](https://github.com/OZI-Project/ozi-templates/commit/520a5d39013eb0bade03cee6bb9306c85bc9171c))
+
+* Update dependabot.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8c90dbd`](https://github.com/OZI-Project/ozi-templates/commit/8c90dbd21346aa7e950337e5893c6101d408380d))
+
+## 2.13.8 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  remove repeated checkpoints — rjdbcm <rjdbcm@outlook.com>
+([`f750bc5`](https://github.com/OZI-Project/ozi-templates/commit/f750bc56c1f06bed34034ff2c997bfc26c6041a0))
+
+## 2.13.7 (2024-10-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  step-security/harden-runner defaults to v2.10.1 — rjdbcm <rjdbcm@outlook.com>
+([`293494f`](https://github.com/OZI-Project/ozi-templates/commit/293494f36ac9ee279eef0aee6cb914344e2cc9b0))
+
+
+### ✏️ Corrected Typos
+
+*  rewrite harden runner template — rjdbcm <rjdbcm@outlook.com>
+([`9d20663`](https://github.com/OZI-Project/ozi-templates/commit/9d20663b243ebdb843ad696db34a7ca7798f71b4))
+
+## 2.13.6 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  remove required block — rjdbcm <rjdbcm@outlook.com>
+([`b0788d1`](https://github.com/OZI-Project/ozi-templates/commit/b0788d1a2d3bb6ae830012a47c0aff916c8781f0))
+
+## 2.13.5 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  template path for harden_runner — rjdbcm <rjdbcm@outlook.com>
+([`d9be6cb`](https://github.com/OZI-Project/ozi-templates/commit/d9be6cb6c0ea88b70268d945025e1e555d789cee))
+
+## 2.13.4 (2024-10-31)
+
+
+### ✏️ Corrected Typos
+
+*  template syntax checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`a258ae2`](https://github.com/OZI-Project/ozi-templates/commit/a258ae2e7df56bf9daf99597f39d421191c78ab0))
+
+## 2.13.3 (2024-10-31)
+
+
+### 🐛 Fixed Bugs
+
+*  template syntax checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`412b455`](https://github.com/OZI-Project/ozi-templates/commit/412b455dac87467cab864781cd031cea86549b19))
+
+*  template syntax checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`d55b5f3`](https://github.com/OZI-Project/ozi-templates/commit/d55b5f32e2a8e96eb94452b0db4631de3456b704))
+
+## 2.13.2 (2024-10-31)
+
+
+### 🐛 Fixed Bugs
+
+*  template syntax checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`98e4960`](https://github.com/OZI-Project/ozi-templates/commit/98e49608d432c6bf53e721d6b3ec73c1e0a1d81b))
+
+## 2.13.1 (2024-10-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/dependency-review-action from 4.3.5 to 4.4.0
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.3.5 to 4.4.0.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/a6993e2c61fd5dc440b409aa1d6904921c5e1894...4081bf99e2866ebe428fc0477b69eb4fcda7220a)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`6955d53`](https://github.com/OZI-Project/ozi-templates/commit/6955d536882934c1b6bc493324095a4abf5b1c04))
+
+
+### 🐛 Fixed Bugs
+
+*  dont render endpoints for checkpoint final check — rjdbcm <rjdbcm@outlook.com>
+([`2222516`](https://github.com/OZI-Project/ozi-templates/commit/2222516c6860fb86401c2fe0f2691b83a7ee65d8))
+
+*  add sigstore endpoints to publish harden runner — rjdbcm <rjdbcm@outlook.com>
+([`7f98863`](https://github.com/OZI-Project/ozi-templates/commit/7f988635f9f4be6e1df3434ec47517f37635ce7c))
+
+
+### 🔨 Updated Scripts
+
+*  add sigstore signing endpoints to publish workflow — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`e8f9879`](https://github.com/OZI-Project/ozi-templates/commit/e8f9879b5e33ef27ef6466b900b0c52ad0d0879d))
+
 ## 2.13.0 (2024-10-28)
 
 
