@@ -1,4 +1,25 @@
 # ozi-templates CHANGELOG
+## 2.13.9 (2024-11-01)
+
+
+### 🐛 Fixed Bugs
+
+*  add missing optional dist deps — rjdbcm <rjdbcm@outlook.com>
+([`98f44fe`](https://github.com/OZI-Project/ozi-templates/commit/98f44fe750d16630caef5ce5d733de0b7eb4f199))
+
+
+### Other
+
+
+* fix: cleanup template whitespace and rendered comments — rjdbcm <rjdbcm@outlook.com>
+([`62b4c66`](https://github.com/OZI-Project/ozi-templates/commit/62b4c662b8820fd6e6bbe7cef5bad13ffcac8270))
+
+* perf: pyproject template skips empty keys — rjdbcm <rjdbcm@outlook.com>
+([`520a5d3`](https://github.com/OZI-Project/ozi-templates/commit/520a5d39013eb0bade03cee6bb9306c85bc9171c))
+
+* Update dependabot.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8c90dbd`](https://github.com/OZI-Project/ozi-templates/commit/8c90dbd21346aa7e950337e5893c6101d408380d))
+
 ## 2.13.8 (2024-10-31)
 
 
