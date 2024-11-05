@@ -19,7 +19,7 @@ from ozi_templates.filter import next_minor
 from ozi_templates.filter import underscorify
 from ozi_templates.filter import wheel_repr
 
-if TYPE_CHECKING:  # pragma: no cover
+if TYPE_CHECKING:
     from collections.abc import Mapping
 
     VT = TypeVar(
@@ -43,7 +43,7 @@ FILTERS = (
 )
 
 
-def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:  # pragma: no cover
+def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:
     """Initialize the rendering environment, set filters, and set global metadata."""
     env = Environment(
         loader=PackageLoader('ozi_templates', '.'),
@@ -63,7 +63,7 @@ def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:  # pragma:
     return env
 
 
-def load_environment(  # pragma: no cover
+def load_environment(
     project: dict[str, str],
     _globals: dict[str, _Val[str]],
 ) -> Environment:
