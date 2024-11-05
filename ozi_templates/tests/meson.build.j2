@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.11
 # ozi/templates/tests/meson.build.j2
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -19,3 +19,7 @@ test_children = []
 foreach child: test_children
     subdir(child)
 endforeach
+if false
+    executable('test_files', test_files)
+    executable('test_children', test_children)
+endif
