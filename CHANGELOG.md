@@ -1,4 +1,27 @@
 # ozi-templates CHANGELOG
+## 2.13.10 (2024-11-05)
+
+
+### 🐛 Fixed Bugs
+
+*  fix rewriter hooks — rjdbcm <rjdbcm@outlook.com>
+([`b55e941`](https://github.com/OZI-Project/ozi-templates/commit/b55e941dba391030db4fe939c9f889ac9da8a959))
+
+
+### Other
+
+
+* 👷 force patch 
+
+Merge pull request #269 from OZI-Project/main
+([`5bb352f`](https://github.com/OZI-Project/ozi-templates/commit/5bb352f3bc835a29b54ea440bcd7ba79bf3705dc))
+
+* perf: improved test coverage — rjdbcm <rjdbcm@outlook.com>
+([`008c14a`](https://github.com/OZI-Project/ozi-templates/commit/008c14aabedcb836c121b4bf101fa7f644cd3546))
+
+* perf: coverage excluded for typechecking blocks — rjdbcm <rjdbcm@outlook.com>
+([`69eb26a`](https://github.com/OZI-Project/ozi-templates/commit/69eb26a7913a422405acf361c683741868426a3e))
+
 ## 2.13.9 (2024-11-01)
 
 
