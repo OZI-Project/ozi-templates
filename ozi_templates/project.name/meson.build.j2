@@ -1,4 +1,4 @@
-{#- OZI 0.1
+{#- OZI 0.11
 # ozi/templates/project.name/meson.build.j2
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -31,3 +31,8 @@ source_children = []
 foreach child: source_children
     subdir(child)
 endforeach
+if false
+    executable('source_files', source_files)
+    executable('ext_files', ext_files)
+    executable('source_children', source_children)
+endif
