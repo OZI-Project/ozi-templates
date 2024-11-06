@@ -1,4 +1,29 @@
 # ozi-templates CHANGELOG
+## 2.13.11 (2024-11-06)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/publish from 1.4.0 to 1.4.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.4.0 to 1.4.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/a8bb776353d5b9f9bd678ef5ab2cd38bf5d4ad0f...42b2c7502712c4bfec2bebf507c01282ce769912)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`ba76960`](https://github.com/OZI-Project/ozi-templates/commit/ba7696009f6210ba127922d6f0da715a1e856afa))
+
+
+### 🔨 Updated Scripts
+
+* (publish): add github.com to allowed endpoints — rjdbcm <rjdbcm@outlook.com>
+([`9e4c63b`](https://github.com/OZI-Project/ozi-templates/commit/9e4c63bf4b7ba85cca3857a9b84e60f86b85e840))
+
 ## 2.13.10 (2024-11-05)
 
 
