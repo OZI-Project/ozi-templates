@@ -1,4 +1,52 @@
 # ozi-templates CHANGELOG
+## 2.13.11 (2024-11-06)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/publish from 1.4.0 to 1.4.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.4.0 to 1.4.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/a8bb776353d5b9f9bd678ef5ab2cd38bf5d4ad0f...42b2c7502712c4bfec2bebf507c01282ce769912)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`ba76960`](https://github.com/OZI-Project/ozi-templates/commit/ba7696009f6210ba127922d6f0da715a1e856afa))
+
+
+### 🔨 Updated Scripts
+
+* (publish): add github.com to allowed endpoints — rjdbcm <rjdbcm@outlook.com>
+([`9e4c63b`](https://github.com/OZI-Project/ozi-templates/commit/9e4c63bf4b7ba85cca3857a9b84e60f86b85e840))
+
+## 2.13.10 (2024-11-05)
+
+
+### 🐛 Fixed Bugs
+
+*  fix rewriter hooks — rjdbcm <rjdbcm@outlook.com>
+([`b55e941`](https://github.com/OZI-Project/ozi-templates/commit/b55e941dba391030db4fe939c9f889ac9da8a959))
+
+
+### Other
+
+
+* 👷 force patch 
+
+Merge pull request #269 from OZI-Project/main
+([`5bb352f`](https://github.com/OZI-Project/ozi-templates/commit/5bb352f3bc835a29b54ea440bcd7ba79bf3705dc))
+
+* perf: improved test coverage — rjdbcm <rjdbcm@outlook.com>
+([`008c14a`](https://github.com/OZI-Project/ozi-templates/commit/008c14aabedcb836c121b4bf101fa7f644cd3546))
+
+* perf: coverage excluded for typechecking blocks — rjdbcm <rjdbcm@outlook.com>
+([`69eb26a`](https://github.com/OZI-Project/ozi-templates/commit/69eb26a7913a422405acf361c683741868426a3e))
+
 ## 2.13.9 (2024-11-01)
 
 
