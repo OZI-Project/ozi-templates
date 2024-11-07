@@ -1,4 +1,6 @@
 # ozi-templates CHANGELOG
+## 2.13.12 (2024-11-07)
+
 ## 2.13.11 (2024-11-06)
 
 
@@ -18,19 +20,22 @@ updated-dependencies:
 ... — dependabot[bot] <support@github.com>
 ([`ba76960`](https://github.com/OZI-Project/ozi-templates/commit/ba7696009f6210ba127922d6f0da715a1e856afa))
 
-
-### 🔨 Updated Scripts
-
-* (publish): add github.com to allowed endpoints — rjdbcm <rjdbcm@outlook.com>
-([`9e4c63b`](https://github.com/OZI-Project/ozi-templates/commit/9e4c63bf4b7ba85cca3857a9b84e60f86b85e840))
-
 ## 2.13.10 (2024-11-05)
 
 
 ### 🐛 Fixed Bugs
 
+*  make root folder children findable for meson rewriter — rjdbcm <rjdbcm@outlook.com>
+([`66ee49d`](https://github.com/OZI-Project/ozi-templates/commit/66ee49d0715308455b2b1d95bbc8601c6e8b5372))
+
 *  fix rewriter hooks — rjdbcm <rjdbcm@outlook.com>
 ([`b55e941`](https://github.com/OZI-Project/ozi-templates/commit/b55e941dba391030db4fe939c9f889ac9da8a959))
+
+
+### 🔨 Updated Scripts
+
+* (publish): add github.com to allowed endpoints — rjdbcm <rjdbcm@outlook.com>
+([`9e4c63b`](https://github.com/OZI-Project/ozi-templates/commit/9e4c63bf4b7ba85cca3857a9b84e60f86b85e840))
 
 
 ### Other
