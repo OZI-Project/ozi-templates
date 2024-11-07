@@ -1,4 +1,4 @@
-{#- OZI 0.9
+{#- OZI 0.11
 # ozi/templates/project.meson.build
 # SPDX-License-Identifier: Unlicense
 -#}
@@ -56,7 +56,9 @@ foreach source : root_files
         fs.copyfile(source, 'README.{{ project.long_description_content_type }}')
     endif
 endforeach
-root_children = ['{{ project.name|underscorify|lower }}', 'tests']
+subdir('{{ project.name|underscorify|lower }}')
+subdir('tests')
+root_children = []
 foreach child: root_children
     subdir(child)
 endforeach
