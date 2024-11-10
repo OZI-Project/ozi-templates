@@ -2,6 +2,12 @@
 ## 2.13.13 (2024-11-10)
 
 
+### ⬇️ Downgraded Dependencies
+
+*  OZI-Project/publish 1.4.2 revert to 1.4.1 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`9a79419`](https://github.com/OZI-Project/ozi-templates/commit/9a7941980a2e26cbf3eb035cff985798fa181a95))
+
+
 ### ⬆️ Upgraded Dependencies
 
 *  Bump OZI-Project/publish from 1.4.1 to 1.4.2
