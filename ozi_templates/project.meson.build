@@ -58,9 +58,11 @@ foreach source : root_files
 endforeach
 subdir('{{ project.name|underscorify|lower }}')
 subdir('tests')
-root_children = []
+root_children = ['ozi.phony']
 foreach child: root_children
-    subdir(child)
+    if child != 'ozi.phony'
+        subdir(child)
+    endif
 endforeach
 if false
     executable('root_files', root_files)
