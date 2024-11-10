@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.13.14 (2024-11-10)
+
+
+### 🐛 Fixed Bugs
+
+*  root children now findable by rewriter — rjdbcm <rjdbcm@outlook.com>
+([`dd07905`](https://github.com/OZI-Project/ozi-templates/commit/dd07905bea79d59bd62f7028f9434ccf0f7a39a2))
+
 ## 2.13.13 (2024-11-10)
 
 
