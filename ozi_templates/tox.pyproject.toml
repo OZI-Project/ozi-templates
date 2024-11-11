@@ -42,9 +42,9 @@ commands_pre =
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
      meson compile -C {env_tmp_dir}
-     rm -rf {env_tmp_dir}/.gitignore
+     rm -rf {env_tmp_dir}{/}.gitignore
 commands_post =
-     {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi checkpoint --suite={env_name} {posargs}
+     {env_python} -m invoke --search-root={env_tmp_dir}{/}subprojects{/}ozi{/}ozi checkpoint --suite={env_name} {posargs}
 
 {%- for suite in spec.python.ci.checkpoint.suites %}
 [testenv:{{ suite }}]
@@ -70,5 +70,5 @@ commands =
 description = OZI invoke task entrypoint, for more info use "tox -e invoke -- --list"
 no_package = true
 commands_post =
-     {env_python} -m invoke --search-root={env_tmp_dir}/subprojects/ozi/ozi {posargs:--list}
+     {env_python} -m invoke --search-root={env_tmp_dir}{/}subprojects{/}ozi{/}ozi {posargs:--list}
 """

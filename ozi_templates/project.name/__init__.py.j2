@@ -3,7 +3,7 @@
 # SPDX-License-Identifier: Unlicense
 -#}
 """{{ project.name|underscorify|lower }} module"""
-{% for line in project.copyright_head.split('\n') %}
+{%- for line in project.copyright_head.split('\n') %}
 {{ '# ' ~ line }}
 {%- endfor %}
 {%- if user_template %}

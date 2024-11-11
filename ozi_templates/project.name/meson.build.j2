@@ -6,8 +6,8 @@
 {%- for line in project.copyright_head.split('\n') %}
 {{ '# ' ~ line }}
 {%- endfor %}
-{{ '# DO NOT EDIT BY HAND - This file was generated for use with OZI tools.' }}
-{{ '# ozi-fix -> meson rewrite is the standard editing pipeline.' }}
+# DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
+# ozi-fix -> meson rewrite is the standard editing pipeline.
 source_files = ['ozi.phony', '__init__.py', 'py.typed']
 foreach file: source_files
     if file != 'ozi.phony'
