@@ -1,4 +1,19 @@
 # ozi-templates CHANGELOG
+## 2.13.15 (2024-11-11)
+
+
+### 🐛 Fixed Bugs
+
+*  fix tox template for windows compatibility — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`a89893e`](https://github.com/OZI-Project/ozi-templates/commit/a89893e678b1ea54b4b0344fbc4cd9c51f5053d2))
+
+
+### Other
+
+
+* fix: escape path sep in tox template for cross-platform use — rjdbcm <rjdbcm@outlook.com>
+([`df498fc`](https://github.com/OZI-Project/ozi-templates/commit/df498fcf5e1b9c09ad1ecdfbd3838c8631ec4ae0))
+
 ## 2.13.14 (2024-11-10)
 
 
