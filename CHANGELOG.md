@@ -1,4 +1,58 @@
 # ozi-templates CHANGELOG
+## 2.13.15 (2024-11-11)
+
+
+### 🐛 Fixed Bugs
+
+*  fix tox template for windows compatibility — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`a89893e`](https://github.com/OZI-Project/ozi-templates/commit/a89893e678b1ea54b4b0344fbc4cd9c51f5053d2))
+
+
+### Other
+
+
+* fix: escape path sep in tox template for cross-platform use — rjdbcm <rjdbcm@outlook.com>
+([`df498fc`](https://github.com/OZI-Project/ozi-templates/commit/df498fcf5e1b9c09ad1ecdfbd3838c8631ec4ae0))
+
+## 2.13.14 (2024-11-10)
+
+
+### 🐛 Fixed Bugs
+
+*  root children now findable by rewriter — rjdbcm <rjdbcm@outlook.com>
+([`dd07905`](https://github.com/OZI-Project/ozi-templates/commit/dd07905bea79d59bd62f7028f9434ccf0f7a39a2))
+
+## 2.13.13 (2024-11-10)
+
+
+### ⬇️ Downgraded Dependencies
+
+*  OZI-Project/publish 1.4.2 revert to 1.4.1 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`9a79419`](https://github.com/OZI-Project/ozi-templates/commit/9a7941980a2e26cbf3eb035cff985798fa181a95))
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/publish from 1.4.1 to 1.4.2
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.4.1 to 1.4.2.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/42b2c7502712c4bfec2bebf507c01282ce769912...c5720ae47546df65ca1dcffd5a097f266928b453)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`cf13204`](https://github.com/OZI-Project/ozi-templates/commit/cf13204a0f14c5388926958fc26bb0adc1da9885))
+
+
+### 🐛 Fixed Bugs
+
+*  fix meson.build templates to allow the rewriter to find arrays — rjdbcm <rjdbcm@outlook.com>
+([`52c5352`](https://github.com/OZI-Project/ozi-templates/commit/52c5352cf695218a5033ef32afb6117375a931e4))
+
 ## 2.13.12 (2024-11-07)
 
 ## 2.13.11 (2024-11-06)
