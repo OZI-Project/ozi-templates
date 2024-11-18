@@ -1,26 +1,68 @@
 # ozi-templates CHANGELOG
+## 2.15.0 (2024-11-18)
+
+
+### ✨ Implemented Features
+
+*  use spec 0.12.1 harden_runner.version — rjdbcm <rjdbcm@outlook.com>
+([`f110db5`](https://github.com/OZI-Project/ozi-templates/commit/f110db5a9656df88c9ed4c15c9c2f725af2899f5))
+
+## 2.14.0 (2024-11-15)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/release from 1.0.4 to 1.0.5
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.4 to 1.0.5.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/74350f112641257ed33f06f83c3e6fc7ae92059b...1a3cb28a9a9d51fa8e333740a8b863c0f23ab3da)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`2a6b474`](https://github.com/OZI-Project/ozi-templates/commit/2a6b474214d03e17ecc6ed16fbf5e2d9fad51eb7))
+
+*  Bump OZI-Project/publish from 1.4.1 to 1.5.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.4.1 to 1.5.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/42b2c7502712c4bfec2bebf507c01282ce769912...3ff1ebdd9edd89b30c126e0cf78e2d9754c0f9fa)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`f42ce42`](https://github.com/OZI-Project/ozi-templates/commit/f42ce42d0b04cd23d90d3de3f91210fbcf4439fc))
+
+*  Bump OZI-Project/draft from 1.4.1 to 1.5.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.4.1 to 1.5.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/9b883f1803600651f4cf46c98c767c5efe9bad48...e872ff9cded28eb22d937ba3fd9abfe4fc489239)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`b17f760`](https://github.com/OZI-Project/ozi-templates/commit/b17f7600200c3a3647b868884da6d943edee580e))
+
+
+### ✨ Implemented Features
+
+* (generate_provenance.yml.j2): use specification build provenance version in template — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`6a734f2`](https://github.com/OZI-Project/ozi-templates/commit/6a734f2013f28662cf08a7424a16ddb5888b5262))
+
 ## 2.13.15 (2024-11-11)
 
-
-### 🐛 Fixed Bugs
-
-*  fix tox template for windows compatibility — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
-([`a89893e`](https://github.com/OZI-Project/ozi-templates/commit/a89893e678b1ea54b4b0344fbc4cd9c51f5053d2))
-
-
-### Other
-
-
-* fix: escape path sep in tox template for cross-platform use — rjdbcm <rjdbcm@outlook.com>
-([`df498fc`](https://github.com/OZI-Project/ozi-templates/commit/df498fcf5e1b9c09ad1ecdfbd3838c8631ec4ae0))
-
 ## 2.13.14 (2024-11-10)
-
-
-### 🐛 Fixed Bugs
-
-*  root children now findable by rewriter — rjdbcm <rjdbcm@outlook.com>
-([`dd07905`](https://github.com/OZI-Project/ozi-templates/commit/dd07905bea79d59bd62f7028f9434ccf0f7a39a2))
 
 ## 2.13.13 (2024-11-10)
 
@@ -32,6 +74,49 @@
 
 
 ### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/draft from 1.4.0 to 1.4.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.4.0 to 1.4.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d797368c9870f3ca16373680b52db1ed4c333f21...9b883f1803600651f4cf46c98c767c5efe9bad48)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`e163dac`](https://github.com/OZI-Project/ozi-templates/commit/e163dac67ee16302ec983f3adad307ac031d5537))
+
+*  Bump OZI-Project/checkpoint from 1.1.1 to 1.2.1
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.1.1 to 1.2.1.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/ac0c03fc08ac2e7e4b4fbdf02249109384596313...32b9310f480343c946214e3ea4b637202eaa312a)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`0fea4a8`](https://github.com/OZI-Project/ozi-templates/commit/0fea4a85fc04323043b32848413960de6a6c629f))
+
+*  Bump github/codeql-action from 3.27.0 to 3.27.3
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.27.0 to 3.27.3.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/662472033e021d55d94146f66f6058822b0b39fd...396bb3e45325a47dd9ef434068033c6d5bb0d11a)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`42ff68b`](https://github.com/OZI-Project/ozi-templates/commit/42ff68bd30079a419ec77f587aabc0c424dab405))
 
 *  Bump OZI-Project/publish from 1.4.1 to 1.4.2
 
@@ -50,8 +135,21 @@ updated-dependencies:
 
 ### 🐛 Fixed Bugs
 
+*  fix tox template for windows compatibility — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`a89893e`](https://github.com/OZI-Project/ozi-templates/commit/a89893e678b1ea54b4b0344fbc4cd9c51f5053d2))
+
+*  root children now findable by rewriter — rjdbcm <rjdbcm@outlook.com>
+([`dd07905`](https://github.com/OZI-Project/ozi-templates/commit/dd07905bea79d59bd62f7028f9434ccf0f7a39a2))
+
 *  fix meson.build templates to allow the rewriter to find arrays — rjdbcm <rjdbcm@outlook.com>
 ([`52c5352`](https://github.com/OZI-Project/ozi-templates/commit/52c5352cf695218a5033ef32afb6117375a931e4))
+
+
+### Other
+
+
+* fix: escape path sep in tox template for cross-platform use — rjdbcm <rjdbcm@outlook.com>
+([`df498fc`](https://github.com/OZI-Project/ozi-templates/commit/df498fcf5e1b9c09ad1ecdfbd3838c8631ec4ae0))
 
 ## 2.13.12 (2024-11-07)
 
