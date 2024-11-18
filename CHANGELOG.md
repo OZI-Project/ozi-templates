@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.15.0 (2024-11-18)
+
+
+### ✨ Implemented Features
+
+*  use spec 0.12.1 harden_runner.version — rjdbcm <rjdbcm@outlook.com>
+([`f110db5`](https://github.com/OZI-Project/ozi-templates/commit/f110db5a9656df88c9ed4c15c9c2f725af2899f5))
+
 ## 2.14.0 (2024-11-15)
 
 
