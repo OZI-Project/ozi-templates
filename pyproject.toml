@@ -9,6 +9,7 @@ requires = ['OZI.build[core]~=1.5']
 build-backend = "ozi_build.buildapi"
 
 [tool.ozi-build.metadata]
+requires-python='>=3.10, <3.14'
 author = "Eden Ross Duff MSc"
 author-email = "help@oziproject.dev"
 classifiers = [
