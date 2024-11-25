@@ -1,4 +1,31 @@
 # ozi-templates CHANGELOG
+## 2.15.1 (2024-11-25)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.27.3 to 3.27.4
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.27.3 to 3.27.4.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/396bb3e45325a47dd9ef434068033c6d5bb0d11a...ea9e4e37992a54ee68a9622e985e60c8e8f12d9f)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`12d215d`](https://github.com/OZI-Project/ozi-templates/commit/12d215d03cacf17c54a899b9fd31fe9298be9343))
+
+
+### Other
+
+
+* fix: set requires-python='>=3.10, <3.14' — rjdbcm <rjdbcm@outlook.com>
+([`a4d81c2`](https://github.com/OZI-Project/ozi-templates/commit/a4d81c215d062cfc06c989f490dc4ee9bb548be9))
+
 ## 2.15.0 (2024-11-18)
 
 
