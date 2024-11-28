@@ -14,6 +14,7 @@ author = "Eden Ross Duff MSc"
 author-email = "help@oziproject.dev"
 classifiers = [
     'License :: Public Domain',
+    'License :: OSI Approved :: MIT No Attribution License (MIT-0)',
     'Development Status :: 4 - Beta',
     'Programming Language :: Python :: 3 :: Only',
     'Programming Language :: Python :: 3.10',
@@ -30,7 +31,7 @@ description-file = "README.rst"
 download-url = "https://github.com/OZI-Project/ozi-templates/archive/refs/tags/{version}.tar.gz"
 home-page = "https://oziproject.dev"
 keywords = "ozi,meson,packaging,templates"
-license = "Unlicense"
+license = "MIT-0"
 summary = "OZI Project package templates."
 
 [project.optional-dependencies]
