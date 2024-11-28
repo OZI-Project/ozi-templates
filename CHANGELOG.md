@@ -1,4 +1,67 @@
 # ozi-templates CHANGELOG
+## 2.16.0 (2024-11-28)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.10.1 to 2.10.2
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.1 to 2.10.2.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/91182cccc01eb5e619899d80e4e971d6181294a7...0080882f6c36860b6ba35c610c98ce87d4e2f26f)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`db0be0a`](https://github.com/OZI-Project/ozi-templates/commit/db0be0a7029f506994a74b3059eeeb95aaa1fe75))
+
+*  Bump github/codeql-action from 3.27.4 to 3.27.5
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.27.4 to 3.27.5.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/ea9e4e37992a54ee68a9622e985e60c8e8f12d9f...f09c1c0a94de965c15400f5634aa42fac8fb8f88)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`907c1f4`](https://github.com/OZI-Project/ozi-templates/commit/907c1f445ae840969ca08a3e5ffc5b78d53a46ab))
+
+*  Bump actions/dependency-review-action from 4.4.0 to 4.5.0
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.4.0 to 4.5.0.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/4081bf99e2866ebe428fc0477b69eb4fcda7220a...3b139cfc5fae8b618d3eae3675e383bb1769c019)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`13c36af`](https://github.com/OZI-Project/ozi-templates/commit/13c36af2185a9529fa040e0798915236bd561da5))
+
+
+### ✨ Implemented Features
+
+*  License :: OSI Approved :: MIT No Attribution License (MIT-0)
+
+Public domain equivalent for other legal jurisdictions. — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`57c339b`](https://github.com/OZI-Project/ozi-templates/commit/57c339b30b2572d3249c27c003f68892ec9d5a52))
+
+
+### Other
+
+
+* feat: update license to MIT-0 removing explicit public domain attribution — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8f02111`](https://github.com/OZI-Project/ozi-templates/commit/8f02111cabd39b1b06ae6fc487c3fd29ecec221a))
+
 ## 2.15.1 (2024-11-25)
 
 
