@@ -1,4 +1,105 @@
 # ozi-templates CHANGELOG
+## 2.17.0 (2024-12-17)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.27.5 to 3.27.9
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.27.5 to 3.27.9.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/f09c1c0a94de965c15400f5634aa42fac8fb8f88...df409f7d9260372bd5f19e5b04e83cb3c43714ae)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`2cce826`](https://github.com/OZI-Project/ozi-templates/commit/2cce826983dc58ed6c0b5673300acedabffa07ee))
+
+*  Bump OZI-Project/release from 1.0.5 to 1.1.2
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.0.5 to 1.1.2.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/1a3cb28a9a9d51fa8e333740a8b863c0f23ab3da...0e2db492d3d36479eadc1ba15e509e911816bc39)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`aff7ebd`](https://github.com/OZI-Project/ozi-templates/commit/aff7ebd0244bd584477ccccb6288335c6fcaf973))
+
+*  Bump OZI-Project/draft from 1.5.0 to 1.6.3
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.5.0 to 1.6.3.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/e872ff9cded28eb22d937ba3fd9abfe4fc489239...b462b01f7f92a361d92233a8c2d326276c2d91a3)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`cb3f719`](https://github.com/OZI-Project/ozi-templates/commit/cb3f719ef1d8528c406008e54bfffb1dc234be0a))
+
+*  Bump OZI-Project/checkpoint from 1.2.1 to 1.4.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.2.1 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/32b9310f480343c946214e3ea4b637202eaa312a...5eb7b6ec9ba2eec71a0418270d92e9a6d81d285f)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`ddebb82`](https://github.com/OZI-Project/ozi-templates/commit/ddebb82fdd0b96bde8d5b1cf6001c3f25ebcd1c7))
+
+*  Bump OZI-Project/publish from 1.5.0 to 1.7.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.5.0 to 1.7.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/3ff1ebdd9edd89b30c126e0cf78e2d9754c0f9fa...8e64c6d501bee7b5b0db5247cd761085d411d1bf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`5301d03`](https://github.com/OZI-Project/ozi-templates/commit/5301d03ad3b6e729cd77a56564783ab3a0f45977))
+
+
+### 🐛 Fixed Bugs
+
+*  remove optional dependency groups — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`bbb7faf`](https://github.com/OZI-Project/ozi-templates/commit/bbb7faf5e9fb553da88864e61baaa99c24aa9a7e))
+
+
+### ✨ Implemented Features
+
+*  add spec 0.15 endpoints — rjdbcm <rjdbcm@outlook.com>
+([`8113277`](https://github.com/OZI-Project/ozi-templates/commit/8113277eaf1d5759ec4ed0e98bfc8ff5cb0c0464))
+
+*  move pypa/gh-action-pypi-publish from composite workflow to template — rjdbcm <rjdbcm@outlook.com>
+([`106f183`](https://github.com/OZI-Project/ozi-templates/commit/106f183057f2afb7b29c075601d427530ca6cd53))
+
+
+### Other
+
+
+* Update ozi.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`128a552`](https://github.com/OZI-Project/ozi-templates/commit/128a55255ea547316e2ca65d9bd8830bf595ebec))
+
+* Update ozi.yml endpoints — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`ec7bf5b`](https://github.com/OZI-Project/ozi-templates/commit/ec7bf5b0505444f95b23792f3d82f8917a222631))
+
 ## 2.16.0 (2024-11-28)
 
 
