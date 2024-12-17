@@ -94,6 +94,9 @@ updated-dependencies:
 ### Other
 
 
+* Update ozi.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`128a552`](https://github.com/OZI-Project/ozi-templates/commit/128a55255ea547316e2ca65d9bd8830bf595ebec))
+
 * Update ozi.yml endpoints — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
 ([`ec7bf5b`](https://github.com/OZI-Project/ozi-templates/commit/ec7bf5b0505444f95b23792f3d82f8917a222631))
 
