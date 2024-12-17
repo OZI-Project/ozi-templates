@@ -40,7 +40,6 @@ ci   = [
     "tox-gh>1.2",
 ]
 fix  = ["black>=24.3", "ruff>=0.1.6", "autoflake", "isort"]
-dev  = ["[dist,lint,test,]"]
 dist = [
     "python-semantic-release",
     "sigstore",

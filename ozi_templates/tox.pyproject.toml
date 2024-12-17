@@ -58,7 +58,6 @@ commands =
      pipx run --python {env_python} -q black -S .
      pipx run --python {env_python} -q isort .
      pipx run --python {env_python} -q autoflake -i -r .
-     pipx run --python {env_python} -q ruff check {{ project.name|underscorify|lower }} --fix
 
 [testenv:scm]
 description = OZI supply chain management (setuptools_scm)
@@ -67,7 +66,7 @@ commands =
      {env_python} -m setuptools_scm {posargs}
 
 [testenv:invoke]
-description = OZI invoke task entrypoint, for more info use "tox -e invoke -- --list"
+description = OZI invoke tasks entrypoint
 no_package = true
 commands_post =
      {env_python} -m invoke --search-root={env_tmp_dir}{/}subprojects{/}ozi{/}ozi {posargs:--list}

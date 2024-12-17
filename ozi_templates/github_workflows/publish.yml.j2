@@ -20,6 +20,8 @@
             tuf-repo-cdn.sigstore.dev:443
             fulcio.sigstore.dev:443
             rekor.sigstore.dev:443
+            ghcr.io:443
+            pkg-containers.githubusercontent.com:443
 {%- endif %}
 
     - uses: OZI-Project/publish@{{ spec.python.ci.publish.version }}
@@ -27,3 +29,6 @@
 {%- raw %}
         github-token: ${{ secrets.GITHUB_TOKEN }}
 {%- endraw %}
+
+    - name: Publish package distributions to PyPI
+      uses: pypa/gh-action-pypi-publish@{{ spec.python.ci.gh_action_pypi_publish.version }}
