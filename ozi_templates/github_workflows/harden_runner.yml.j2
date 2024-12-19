@@ -1,5 +1,5 @@
     - name: Harden Runner
-      uses: step-security/harden-runner@{{ spec.python.ci.harden_runner.version }}
+      uses: step-security/harden-runner@{{ spec.python.ci.github.harden_runner.version }}
       with:
         disable-sudo: true
         egress-policy: block

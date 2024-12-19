@@ -20,12 +20,9 @@
 {%- if project.github_harden_runner %}
 {% include "github_workflows/harden_runner.yml.j2" %}
         allowed-endpoints: >
-            api.github.com:443
-            github.com:443
-            pypi.org:443
-            api.deps.dev:443
-            files.pythonhosted.org:443
-            downloads.python.org:443
+        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.draft|split(' ') %}
+            {{ endpoint }}
+        {%- endfor %}
 {%- endif %}
 
       - uses: OZI-Project/draft@{{ spec.python.ci.draft.version }}

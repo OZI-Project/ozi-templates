@@ -13,15 +13,9 @@
 {%- if project.github_harden_runner %}
 {% include "github_workflows/harden_runner.yml.j2" %}
         allowed-endpoints: >
-            github.com:443
-            api.github.com:443
-            upload.pypi.org:443
-            uploads.github.com:443
-            tuf-repo-cdn.sigstore.dev:443
-            fulcio.sigstore.dev:443
-            rekor.sigstore.dev:443
-            ghcr.io:443
-            pkg-containers.githubusercontent.com:443
+        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.publish|split(' ') %}
+            {{ endpoint }}
+        {%- endfor %}
 {%- endif %}
 
     - uses: OZI-Project/publish@{{ spec.python.ci.publish.version }}
@@ -31,4 +25,4 @@
 {%- endraw %}
 
     - name: Publish package distributions to PyPI
-      uses: pypa/gh-action-pypi-publish@{{ spec.python.ci.gh_action_pypi_publish.version }}
+      uses: pypa/gh-action-pypi-publish@{{ spec.python.ci.github.gh_action_pypi_publish.version }}
