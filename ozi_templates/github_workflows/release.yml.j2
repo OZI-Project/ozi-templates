@@ -26,20 +26,9 @@
 {%- if project.github_harden_runner %}
 {% include "github_workflows/harden_runner.yml.j2" %}
         allowed-endpoints: >
-            api.github.com:443
-            files.pythonhosted.org:443
-            fulcio.sigstore.dev:443
-            github.com:443
-            pypi.org:443
-            rekor.sigstore.dev:443
-            tuf-repo-cdn.sigstore.dev:443
-            oziproject.dev:443
-            www.oziproject.dev:443
-            objects.githubusercontent.com:443
-            quay.io:443
-            cdn03.quay.io:443
-            downloads.python.org:443
-            oauth2.sigstore.dev:443
+        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.release|split(' ') %}
+            {{ endpoint }}
+        {%- endfor %}
 {%- endif %}
 
       - uses: OZI-Project/release@{{ spec.python.ci.release.version }}

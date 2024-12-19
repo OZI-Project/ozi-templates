@@ -4,18 +4,9 @@
 -#}
 {%- set endpoints %}
         allowed-endpoints: >
-            files.pythonhosted.org:443
-            github.com:443
-            api.github.com:443
-            oziproject.dev:443
-            www.oziproject.dev:443
-            pypi.org:443
-            registry.npmjs.org:443
-            objects.githubusercontent.com:443
-            fulcio.sigstore.dev:443
-            rekor.sigstore.dev:443
-            tuf-repo-cdn.sigstore.dev:443
-            oauth2.sigstore.dev:443
+        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.checkpoint|split(' ') %}
+            {{ endpoint }}
+        {%- endfor %}
 {% endset %}
 {%- set python_version=spec.python.support.security2 %}
   checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest:
