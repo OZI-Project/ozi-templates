@@ -4,7 +4,7 @@
 -#}
 {%- set endpoints %}
         allowed-endpoints: >
-        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.checkpoint|split(' ') %}
+        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.checkpoint.split(' ') %}
             {{ endpoint }}
         {%- endfor %}
 {% endset %}

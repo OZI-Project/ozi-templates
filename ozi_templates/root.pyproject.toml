@@ -3,7 +3,6 @@
 # SPDX-License-Identifier: Unlicense
 -#}
 [project]
-license = {file = "{{ project.license_file }}"}
 {%- if project.dist_requires|length %}
 dependencies = [
 {%- for req in project.dist_requires %}
@@ -33,7 +32,6 @@ home-page="{{ project.home_page }}"
 author="{{ project.author|join(',') }}"
 author-email="{{ project.author_email|join(',') }}"
 description-file="README.{{ project.long_description_content_type }}"
-license="{{ project.license_expression }}"
 {%- if project.maintainer|length %}
 maintainer="{{ project.maintainer|join(',') }}"
 {%- endif %}
