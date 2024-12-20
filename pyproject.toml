@@ -1,7 +1,6 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 [project]
-license = {file = "LICENSE.txt"}
 dependencies = ['jinja2~=3.1']
 
 [build-system]
@@ -31,7 +30,6 @@ description-file = "README.rst"
 download-url = "https://github.com/OZI-Project/ozi-templates/archive/refs/tags/{version}.tar.gz"
 home-page = "https://oziproject.dev"
 keywords = "ozi,meson,packaging,templates"
-license = "MIT-0"
 summary = "OZI Project package templates."
 
 [project.optional-dependencies]

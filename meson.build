@@ -6,7 +6,7 @@
 project(
     'ozi-templates',
     default_options: ['warning_level=3'],
-    license: 'Unlicense',
+    license: 'MIT-0',
     license_files: ['LICENSE.txt'],
     meson_version: '>=1.1.0',
     version: run_command(
