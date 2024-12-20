@@ -1,4 +1,87 @@
 # ozi-templates CHANGELOG
+## 2.19.0 (2024-12-20)
+
+
+### 🐛 Fixed Bugs
+
+*  update metadata for OZI.build 1.8.2 — rjdbcm <rjdbcm@outlook.com>
+([`8868369`](https://github.com/OZI-Project/ozi-templates/commit/8868369fcad95b613c68d71100c2de70d0630aa1))
+
+
+### ✨ Implemented Features
+
+*  OZI.build 1.8.2 metadata — rjdbcm <rjdbcm@outlook.com>
+([`fcc556e`](https://github.com/OZI-Project/ozi-templates/commit/fcc556e2956e3cc25cba7cc76b9e482ce77ec736))
+
+
+### Other
+
+
+* Update ozi.wrap — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`dc721ca`](https://github.com/OZI-Project/ozi-templates/commit/dc721ca93c7b4161c15be6f9e9d4e772e7540c82))
+
+## 2.18.0 (2024-12-19)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/upload-artifact from 4.4.3 to 4.5.0
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.4.3 to 4.5.0.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/b4b15b8c7c6ac21ea08fcf65892d2ee8f75cf882...6f51ac03b9356f520e9adb1b1b7802705f340c2b)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`5e38f8a`](https://github.com/OZI-Project/ozi-templates/commit/5e38f8ac6d75b4c9d6b6f792211aa7e73b99cea0))
+
+*  Bump OZI-Project/draft from 1.6.3 to 1.7.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.6.3 to 1.7.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/b462b01f7f92a361d92233a8c2d326276c2d91a3...c0d23e778c413e1f5c7ca9555a1ec190c9e48cbd)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`d9b58bc`](https://github.com/OZI-Project/ozi-templates/commit/d9b58bc2ad7c73fa748bbbcf6fcc8a17870ca23e))
+
+*  Bump OZI-Project/publish from 1.7.1 to 1.7.2
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.7.1 to 1.7.2.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/8e64c6d501bee7b5b0db5247cd761085d411d1bf...67952e32de84496a2ed2729ffbc612a63d4ede47)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`9c55304`](https://github.com/OZI-Project/ozi-templates/commit/9c55304cd6513fbe3dd171cf6c575af6a8acb75c))
+
+
+### ✨ Implemented Features
+
+*  update for spec v0.16
+
+ozi-spec now hosts the lists of endpoints for CI provider workflows. — rjdbcm <rjdbcm@outlook.com>
+([`d89350c`](https://github.com/OZI-Project/ozi-templates/commit/d89350c01df2685ce0b5b8117b116adcefdeae76))
+
+
+### Other
+
+
+* Create purge-artifacts.yml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`3436bbb`](https://github.com/OZI-Project/ozi-templates/commit/3436bbb566948198f7d3eed3f8ecea1c138af450))
+
 ## 2.17.0 (2024-12-17)
 
 
