@@ -1,4 +1,25 @@
 # ozi-templates CHANGELOG
+## 2.19.0 (2024-12-20)
+
+
+### 🐛 Fixed Bugs
+
+*  update metadata for OZI.build 1.8.2 — rjdbcm <rjdbcm@outlook.com>
+([`8868369`](https://github.com/OZI-Project/ozi-templates/commit/8868369fcad95b613c68d71100c2de70d0630aa1))
+
+
+### ✨ Implemented Features
+
+*  OZI.build 1.8.2 metadata — rjdbcm <rjdbcm@outlook.com>
+([`fcc556e`](https://github.com/OZI-Project/ozi-templates/commit/fcc556e2956e3cc25cba7cc76b9e482ce77ec736))
+
+
+### Other
+
+
+* Update ozi.wrap — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`dc721ca`](https://github.com/OZI-Project/ozi-templates/commit/dc721ca93c7b4161c15be6f9e9d4e772e7540c82))
+
 ## 2.18.0 (2024-12-19)
 
 
