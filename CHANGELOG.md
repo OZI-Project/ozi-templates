@@ -1,4 +1,30 @@
 # ozi-templates CHANGELOG
+## 2.19.1 (2024-12-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.27.9 to 3.28.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.27.9 to 3.28.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/df409f7d9260372bd5f19e5b04e83cb3c43714ae...48ab28a6f5dbc2a99bf1e0131198dd8f1df78169)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`b29e326`](https://github.com/OZI-Project/ozi-templates/commit/b29e3269e92a59b562968f1ff53f8e39c9d8dd65))
+
+
+### 🐛 Fixed Bugs
+
+*  add ``.mypy_cache`` to .gitignore template — rjdbcm <rjdbcm@outlook.com>
+([`a5c767c`](https://github.com/OZI-Project/ozi-templates/commit/a5c767c0d07ee4aacc5f0da45b5a972008c1e2ac))
+
 ## 2.19.0 (2024-12-20)
 
 
