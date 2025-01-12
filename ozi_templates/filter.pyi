@@ -28,6 +28,10 @@ def underscorify(s: str) -> str:
     ...
 
 @lru_cache
+def get_ozi_tarball_sha256(version: str) -> tuple[str, str]:
+    """Given an a full semantic version of OZI return a tuple of url,sha256."""
+
+@lru_cache
 def wheel_repr(version: str) -> str:
     """Transform versions of the form "X.Y" into "pyXY".
 
@@ -38,7 +42,6 @@ def wheel_repr(version: str) -> str:
     """
     ...
 
-
 def next_minor(version: str) -> str:
     """Given a Python version, determine the next minor version.
 
@@ -48,4 +51,3 @@ def next_minor(version: str) -> str:
     :rtype: str
     """
     ...
-

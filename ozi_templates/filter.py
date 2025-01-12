@@ -3,10 +3,13 @@
 """Filters for use in the OZI project templates."""
 from __future__ import annotations
 
+from hashlib import sha256
 import string
 from datetime import datetime
 from datetime import timezone
 from functools import lru_cache
+
+import niquests
 
 ALPHANUMS = string.ascii_uppercase + string.ascii_lowercase + '0123456789'
 
@@ -20,6 +23,18 @@ def current_date(_format: str) -> str:
     :rtype: str
     """
     return datetime.now(tz=timezone.utc).date().strftime(_format)
+
+
+@lru_cache
+def get_ozi_tarball_sha256(version: str) -> tuple[str, str]:
+    """Given an a full semantic version of OZI return a tuple of url,sha256."""
+    source_url = f'https://github.com/OZI-Project/OZI/archive/refs/tags/{version}.tar.gz'
+    tarball = niquests.get(source_url, stream=True)
+    source_hash = sha256()
+    for i in tarball.iter_content(8192):
+        if i:
+            source_hash.update(i)
+    return source_url, source_hash.hexdigest()
 
 
 @lru_cache
