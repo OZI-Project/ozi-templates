@@ -3,11 +3,11 @@
 """Filters for use in the OZI project templates."""
 from __future__ import annotations
 
-from hashlib import sha256
 import string
 from datetime import datetime
 from datetime import timezone
 from functools import lru_cache
+from hashlib import sha256
 
 import niquests
 
@@ -26,7 +26,7 @@ def current_date(_format: str) -> str:
 
 
 @lru_cache
-def get_ozi_tarball_sha256(version: str) -> tuple[str, str]:
+def get_ozi_tarball_sha256(version: str) -> tuple[str, str]:  # pragma: no cover
     """Given an a full semantic version of OZI return a tuple of url,sha256."""
     source_url = f'https://github.com/OZI-Project/OZI/archive/refs/tags/{version}.tar.gz'
     tarball = niquests.get(source_url, stream=True)
