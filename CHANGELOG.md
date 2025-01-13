@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.19.3 (2025-01-13)
+
+
+### 🐛 Fixed Bugs
+
+*  add subproject symlink and ozi directory to gitignore — rjdbcm <rjdbcm@outlook.com>
+([`4eb7af5`](https://github.com/OZI-Project/ozi-templates/commit/4eb7af5a75045d7090b6ab37482bf1dded686eda))
+
 ## 2.19.2 (2025-01-12)
 
 
