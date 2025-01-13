@@ -1,4 +1,26 @@
 # ozi-templates CHANGELOG
+## 2.19.3 (2025-01-13)
+
+
+### 🐛 Fixed Bugs
+
+*  add subproject symlink and ozi directory to gitignore — rjdbcm <rjdbcm@outlook.com>
+([`4eb7af5`](https://github.com/OZI-Project/ozi-templates/commit/4eb7af5a75045d7090b6ab37482bf1dded686eda))
+
+## 2.19.2 (2025-01-12)
+
+
+### 🐛 Fixed Bugs
+
+*  run isort — rjdbcm <rjdbcm@outlook.com>
+([`6637590`](https://github.com/OZI-Project/ozi-templates/commit/6637590a7642714ac3e49bf33b76608e95328cdd))
+
+
+### ➕ Added Dependencies
+
+* add get_ozi_tarball_sha256 filter depending on niquests — rjdbcm <rjdbcm@outlook.com>
+([`5a610b3`](https://github.com/OZI-Project/ozi-templates/commit/5a610b3057819ddde7640a885996bf0d9992b212))
+
 ## 2.19.1 (2024-12-31)
 
 
