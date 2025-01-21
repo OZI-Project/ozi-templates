@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.19.6 (2025-01-21)
+
+
+### 🔨 Updated Scripts
+
+*  update gitignore template — rjdbcm <rjdbcm@outlook.com>
+([`a61d957`](https://github.com/OZI-Project/ozi-templates/commit/a61d95764cb6c5a9abcac203d53e183b5ea2c31a))
+
 ## 2.19.5 (2025-01-21)
 
 
