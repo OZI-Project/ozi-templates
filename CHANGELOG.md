@@ -1,4 +1,55 @@
 # ozi-templates CHANGELOG
+## 2.19.5 (2025-01-21)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  upate OZI wrapfile to 1.33.1 — rjdbcm <rjdbcm@outlook.com>
+([`0ffd497`](https://github.com/OZI-Project/ozi-templates/commit/0ffd49754e998541e3fdb4fcf8646a85ea54d175))
+
+*  Bump step-security/harden-runner from 2.10.3 to 2.10.4
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.3 to 2.10.4.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/c95a14d0e5bab51a9f56296a4eb0e416910cd350...cb605e52c26070c328afc4562f0b4ada7618a84e)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`04a2c2d`](https://github.com/OZI-Project/ozi-templates/commit/04a2c2dfb1a0b54702255f325b22bfa0a3946ea9))
+
+*  Bump actions/upload-artifact from 4.5.0 to 4.6.0
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.5.0 to 4.6.0.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/6f51ac03b9356f520e9adb1b1b7802705f340c2b...65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`217c19a`](https://github.com/OZI-Project/ozi-templates/commit/217c19ad530ae4ec1df1beac630156e4bfc5dc07))
+
+*  Bump github/codeql-action from 3.28.0 to 3.28.1
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.0 to 3.28.1.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/48ab28a6f5dbc2a99bf1e0131198dd8f1df78169...b6a472f63d85b9c78a3ac5e89422239fc15e9b3c)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`810650c`](https://github.com/OZI-Project/ozi-templates/commit/810650c18c9d271197be425e696370470dc90bd9))
+
 ## 2.19.4 (2025-01-19)
 
 
