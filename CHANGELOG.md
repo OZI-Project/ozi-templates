@@ -1,4 +1,38 @@
 # ozi-templates CHANGELOG
+## 2.19.7 (2025-01-27)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.28.1 to 3.28.4
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.1 to 3.28.4.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/b6a472f63d85b9c78a3ac5e89422239fc15e9b3c...ee117c905ab18f32fa0f66c2fe40ecc8013f3e04)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`57d8229`](https://github.com/OZI-Project/ozi-templates/commit/57d8229dd2c3e60d0a397173c5137cb6f272ed5a))
+
+*  Bump pypa/gh-action-pypi-publish from 1.12.3 to 1.12.4
+
+Bumps [pypa/gh-action-pypi-publish](https://github.com/pypa/gh-action-pypi-publish) from 1.12.3 to 1.12.4.
+- [Release notes](https://github.com/pypa/gh-action-pypi-publish/releases)
+- [Commits](https://github.com/pypa/gh-action-pypi-publish/compare/67339c736fd9354cd4f8cb0b744f2b82a74b5c70...76f52bc884231f62b9a034ebfe128415bbaabdfc)
+
+
+updated-dependencies:
+- dependency-name: pypa/gh-action-pypi-publish
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`f6f90bb`](https://github.com/OZI-Project/ozi-templates/commit/f6f90bbdd35c72876f1ab40f71bfa8bbb5b83008))
+
 ## 2.19.6 (2025-01-21)
 
 
