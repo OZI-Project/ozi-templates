@@ -1,4 +1,80 @@
 # ozi-templates CHANGELOG
+## 2.19.8 (2025-02-01)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/release from 1.3.1 to 1.3.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.3.1 to 1.3.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/5fead75f13134fe16226c4eba87ae80b52876ab0...ef531325086db519edaf13b95362051f41bb4802)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`64ca086`](https://github.com/OZI-Project/ozi-templates/commit/64ca0862dbb2c2f2363cbf2fed8b6ff7923d77e9))
+
+*  Bump OZI-Project/publish from 1.8.0 to 1.9.3
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.8.0 to 1.9.3.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/025b6cb35f983387bb0981661eae0beddb8282fe...c35059a13b64575387092e163fa91c2a9f5019da)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`2c9890d`](https://github.com/OZI-Project/ozi-templates/commit/2c9890d43343f8ae8988f6a0fbf47b086107b33f))
+
+*  Bump OZI-Project/draft from 1.9.0 to 1.10.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.9.0 to 1.10.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/31451b7f6a49b6ef70270b59ff70585d76677012...d3c4167df5ea92adf74006a4406ae85bbf8926e5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`b98fbdb`](https://github.com/OZI-Project/ozi-templates/commit/b98fbdb7b88891dcfdaecda0ab2d4ca81c6cfab5))
+
+*  Bump OZI-Project/checkpoint from 1.5.4 to 1.5.5
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.5.4 to 1.5.5.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/84a85f725520d5661ed417915ccb0e769973879c...f14cac563125e34d106b3a1e0ddb2773062953e5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`8f3642c`](https://github.com/OZI-Project/ozi-templates/commit/8f3642c6067a0fcac20a1074caa1760555efb4bb))
+
+*  Bump github/codeql-action from 3.28.4 to 3.28.8
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.4 to 3.28.8.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/ee117c905ab18f32fa0f66c2fe40ecc8013f3e04...dd746615b3b9d728a6a37ca2045b68ca76d4841a)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`06500e0`](https://github.com/OZI-Project/ozi-templates/commit/06500e05954f0b032ce943fb2c89e6a16f9e9811))
+
 ## 2.19.7 (2025-01-27)
 
 
@@ -2464,10 +2540,9 @@ The following templates are used by semantic-release:
 ([`030351d`](https://github.com/OZI-Project/ozi-templates/commit/030351d8197881b454007790c237503e3478d58a))
 
 
-### Other
+### 📝 Updated Documentation
 
-
-* 📝 update CHANGELOG and release notes templates — rjdbcm <rjdbcm@outlook.com>
+*  update CHANGELOG and release notes templates — rjdbcm <rjdbcm@outlook.com>
 ([`26f02d0`](https://github.com/OZI-Project/ozi-templates/commit/26f02d078ce6ad4874f97c0cba16aa9ee382930d))
 
 ## 2.0.7 (2024-06-18)
