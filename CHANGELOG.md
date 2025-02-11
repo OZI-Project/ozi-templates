@@ -1,4 +1,44 @@
 # ozi-templates CHANGELOG
+## 2.20.0 (2025-02-11)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.28.8 to 3.28.9
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.8 to 3.28.9.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/dd746615b3b9d728a6a37ca2045b68ca76d4841a...9e8d0789d4a0fa9ceb6b1738f7e269594bdd67f0)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`69991b9`](https://github.com/OZI-Project/ozi-templates/commit/69991b949b7611e0fb23e789eed7a49b4c73b619))
+
+*  Update niquests requirement from ~=3.12.0 to ~=3.13.0
+
+Updates the requirements on [niquests](https://github.com/jawah/niquests) to permit the latest version.
+- [Release notes](https://github.com/jawah/niquests/releases)
+- [Changelog](https://github.com/jawah/niquests/blob/main/HISTORY.md)
+- [Commits](https://github.com/jawah/niquests/compare/v3.12.0...v3.13.0)
+
+
+updated-dependencies:
+- dependency-name: niquests
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`cba379a`](https://github.com/OZI-Project/ozi-templates/commit/cba379a6dbec98472084a2896a12a17d83fbb8c8))
+
+
+### ✨ Implemented Features
+
+*  add missing MIT-CMU, EFL, and BlueOak license templates — rjdbcm <rjdbcm@outlook.com>
+([`50f5eff`](https://github.com/OZI-Project/ozi-templates/commit/50f5effe518a6b7ab90a812c7eb1a03983ce1267))
+
 ## 2.19.8 (2025-02-01)
 
 
