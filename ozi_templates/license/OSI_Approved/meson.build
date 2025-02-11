@@ -36,6 +36,7 @@ files = [
     'miros.txt',
     'mit-0.txt',
     'mit.txt',
+    'mit-cmu.txt',
     'mpl-2.0.txt',
     'mulanpsl-2.0.txt',
     'ofl-1.1.txt',

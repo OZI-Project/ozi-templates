@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: Unlicense
 files = [
+    'mit-0.txt',
+    'mit-cmu.txt',
     'mit.txt'
 ]
 foreach file: files
