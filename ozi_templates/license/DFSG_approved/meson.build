@@ -6,6 +6,7 @@ files = [
     'artistic-2.0.txt',
     'cc-by-4.0.txt',
     'cc-by-sa-4.0.txt',
+    'efl-2.0.txt',
     'epl-1.0.txt',
     'gpl-2.0-only.txt',
     'gpl-2.0-or-later.txt',

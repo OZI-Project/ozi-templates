@@ -1,0 +1,1 @@
+{% include 'license/efl-2.0.txt' %}

@@ -40,6 +40,7 @@ source_files = [
     'lgpl-3.0.txt',
     'miros.txt',
     'mit-0.txt',
+    'mit-cmu.txt',
     'mit.txt',
     'mpl-2.0.txt',
     'mulanpsl-2.0.txt',

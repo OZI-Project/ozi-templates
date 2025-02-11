@@ -17,6 +17,7 @@ files = [
     'bsd-4-clause.txt',
     'bsl-1.0.txt',
     'cecill-2.1.txt',
+    'efl-2.0.txt',
     'epl-1.0.txt',
     'epl-2.0.txt',
     'eupl-1.1.txt',
