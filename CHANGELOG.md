@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.20.1 (2025-02-12)
+
+
+### 🐛 Fixed Bugs
+
+* fix missing MIT license refs — rjdbcm <rjdbcm@outlook.com>
+([`1a29da4`](https://github.com/OZI-Project/ozi-templates/commit/1a29da4636eacac42c7d6bc0ba8c8edd6a8dc52a))
+
 ## 2.20.0 (2025-02-11)
 
 
