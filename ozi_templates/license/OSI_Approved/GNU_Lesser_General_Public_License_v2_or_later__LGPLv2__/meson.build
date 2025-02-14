@@ -1,5 +1,7 @@
 # SPDX-License-Identifier: Unlicense
 files = [
+    'lgpl-2.0-only.txt',
+    'lgpl-2.1-only.txt',
     'lgpl-2.0-or-later.txt',
     'lgpl-2.1-or-later.txt',
 ]
