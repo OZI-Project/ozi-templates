@@ -1,4 +1,43 @@
 # ozi-templates CHANGELOG
+## 2.20.2 (2025-02-14)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/draft from 1.10.1 to 1.11.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.10.1 to 1.11.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d3c4167df5ea92adf74006a4406ae85bbf8926e5...d593fa1d1df726466bd156d239ed36986d1c2ab9)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`dab08ce`](https://github.com/OZI-Project/ozi-templates/commit/dab08ce5194d4a82ed3805fda08a6a5024e52d7e))
+
+*  Bump OZI-Project/publish from 1.9.3 to 1.10.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.9.3 to 1.10.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/c35059a13b64575387092e163fa91c2a9f5019da...9d10868569d8cf25647f221a223d27cfe545ffb2)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`0f1bd8e`](https://github.com/OZI-Project/ozi-templates/commit/0f1bd8ecb93c3e8aba837c42ac69be514003c5d4))
+
+
+### 🐛 Fixed Bugs
+
+*  fix mappings for all ``-only`` and ``-or-later`` style license IDs — rjdbcm <rjdbcm@outlook.com>
+([`6ee1f5d`](https://github.com/OZI-Project/ozi-templates/commit/6ee1f5d02bd92d3c4e02554154d99d3f3b36df6d))
+
 ## 2.20.1 (2025-02-12)
 
 
