@@ -1,4 +1,35 @@
 # ozi-templates CHANGELOG
+## 2.21.0 (2025-02-18)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.10.4 to 2.11.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.10.4 to 2.11.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/cb605e52c26070c328afc4562f0b4ada7618a84e...4d991eb9b905ef189e4c376166672c3f2f230481)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`a85813e`](https://github.com/OZI-Project/ozi-templates/commit/a85813ef183640e8c52d6d6bcaddbf1ad4c9f2d7))
+
+
+### ✏️ Corrected Typos
+
+*  correct copyright substitution in MIT-CMU — rjdbcm <rjdbcm@outlook.com>
+([`8eb318e`](https://github.com/OZI-Project/ozi-templates/commit/8eb318e31c5d112993d559d2af5d81e7fd69fcae))
+
+
+### ✨ Implemented Features
+
+*  remove deprecated download-url and home-page from pyproject template — rjdbcm <rjdbcm@outlook.com>
+([`3b1b632`](https://github.com/OZI-Project/ozi-templates/commit/3b1b632dad19598e4792fffd2beca9f01e7017d6))
+
 ## 2.20.2 (2025-02-14)
 
 
