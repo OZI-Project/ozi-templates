@@ -28,7 +28,6 @@ build-backend = "{{ spec.python.build.backend }}"
 
 [tool.ozi-build.metadata]
 summary="{{ project.summary }}"
-home-page="{{ project.home_page }}"
 author="{{ project.author|join(',') }}"
 author-email="{{ project.author_email|join(',') }}"
 description-file="README.{{ project.long_description_content_type }}"
@@ -37,9 +36,6 @@ maintainer="{{ project.maintainer|join(',') }}"
 {%- endif %}
 {%- if project.maintainer_email|length %}
 maintainer-email="{{ project.maintainer_email|join(',') }}"
-{%- endif %}
-{%- if project.ci_provider == 'github' %}
-download-url="https://github.com/{{ project.ci_user }}/{{ project.name }}/archive/refs/tags/{version}.tar.gz"
 {%- endif %}
 {%- if project.keywords|length %}
 keywords="{{ project.keywords|join(',') }}"
