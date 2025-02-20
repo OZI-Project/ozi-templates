@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.22.0 (2025-02-20)
+
+
+### ✨ Implemented Features
+
+*  semantic-release 9.20 compatible templates — rjdbcm <rjdbcm@outlook.com>
+([`216d9c2`](https://github.com/OZI-Project/ozi-templates/commit/216d9c2f671a356ca51bf4f3990bf2ff2e05f92c))
+
 ## 2.21.0 (2025-02-18)
 
 
