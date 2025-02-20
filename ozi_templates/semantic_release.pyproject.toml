@@ -13,9 +13,8 @@ prerelease_token = "alpha"
 prerelease = false
 
 [tool.semantic_release.commit_parser_options]
-{%- if spec.python.pkg.version.semantic in ['emoji', 'scipy'] %}
-major_tags = [
-{%- for tag in spec.python.pkg.version.major_tags %}
+allowed_tags = [
+{%- for tag in spec.python.pkg.version.allowed_tags %}
     "{{ tag }}",
 {%- endfor %}
 ]
@@ -29,10 +28,11 @@ patch_tags = [
     "{{ tag }}",
 {%- endfor %}
 ]
-{%- endif %}
+
+[tool.semantic_release.changelog.default_templates]
+changelog_file = "CHANGELOG.md"
 
 [tool.semantic_release.changelog]
-changelog_file = "CHANGELOG.md"
 exclude_commit_patterns = ["Merge.*"]
 
 [tool.semantic_release.remote]
