@@ -1,4 +1,109 @@
 # ozi-templates CHANGELOG
+## 2.22.1 (2025-03-22)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/publish from 1.10.1 to 1.13.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.10.1 to 1.13.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/9d10868569d8cf25647f221a223d27cfe545ffb2...dedb3175dc5d4bb29bcee5a7b659ad7f42c5c68c)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`4e43dae`](https://github.com/OZI-Project/ozi-templates/commit/4e43dae8bff639ec143a6af6ca9b48ed98566923))
+
+*  Bump OZI-Project/release from 1.3.3 to 1.4.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.3.3 to 1.4.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/ef531325086db519edaf13b95362051f41bb4802...bfb9d90fbd2af52d511a9e08306d1b787b8dcfca)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`8729a7f`](https://github.com/OZI-Project/ozi-templates/commit/8729a7f0c82184400b0f1ce75d1a282caf74b7e7))
+
+*  Bump OZI-Project/draft from 1.11.1 to 1.13.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.11.1 to 1.13.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d593fa1d1df726466bd156d239ed36986d1c2ab9...917b6a5d9a39df52cbdc3a15565c58dfb9b38a10)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`721fe3a`](https://github.com/OZI-Project/ozi-templates/commit/721fe3a2d0b891f1f3bd1100ccb134f6374ab6c9))
+
+*  Bump OZI-Project/checkpoint from 1.5.5 to 1.6.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.5.5 to 1.6.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/f14cac563125e34d106b3a1e0ddb2773062953e5...175eae79f299d6dbad474024b5f791368bd5de85)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`8cbdcba`](https://github.com/OZI-Project/ozi-templates/commit/8cbdcba2da27376569003a258dccdf082e08a227))
+
+*  Bump ossf/scorecard-action from 2.4.0 to 2.4.1
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.4.0 to 2.4.1.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/62b2cac7ed8198b15735ed49ab1e5cf35480ba46...f49aabe0b5af0936a0987cfb85d86b75731b0186)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`4c79009`](https://github.com/OZI-Project/ozi-templates/commit/4c79009a7fc9169fb2534ac5abe4114e89786977))
+
+*  Bump github/codeql-action from 3.28.9 to 3.28.12
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.9 to 3.28.12.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/9e8d0789d4a0fa9ceb6b1738f7e269594bdd67f0...5f8171a638ada777af81d42b55959a643bb29017)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`06de8d3`](https://github.com/OZI-Project/ozi-templates/commit/06de8d366463cc2eb43ebf94fce0e38736439473))
+
+*  Bump actions/upload-artifact from 4.6.0 to 4.6.2
+
+Bumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 4.6.0 to 4.6.2.
+- [Release notes](https://github.com/actions/upload-artifact/releases)
+- [Commits](https://github.com/actions/upload-artifact/compare/65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08...ea165f8d65b6e75b540449e92b4886f43607fa02)
+
+
+updated-dependencies:
+- dependency-name: actions/upload-artifact
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`b8bd914`](https://github.com/OZI-Project/ozi-templates/commit/b8bd9142a1df5a4aa00a1ebb5e3b064e6979f5f4))
+
 ## 2.22.0 (2025-02-20)
 
 
