@@ -1,4 +1,38 @@
 # ozi-templates CHANGELOG
+## 2.22.2 (2025-04-01)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.28.12 to 3.28.13
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.12 to 3.28.13.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/5f8171a638ada777af81d42b55959a643bb29017...1b549b9259bda1cb5ddde3b41741a82a2d15a841)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`ca24160`](https://github.com/OZI-Project/ozi-templates/commit/ca24160dca8d2812cdc4e97ae94f9f9846984cc4))
+
+*  Update niquests requirement from ~=3.13.0 to ~=3.14.0
+
+Updates the requirements on [niquests](https://github.com/jawah/niquests) to permit the latest version.
+- [Release notes](https://github.com/jawah/niquests/releases)
+- [Changelog](https://github.com/jawah/niquests/blob/main/HISTORY.md)
+- [Commits](https://github.com/jawah/niquests/compare/v3.13.0...v3.14.0)
+
+
+updated-dependencies:
+- dependency-name: niquests
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`c3de645`](https://github.com/OZI-Project/ozi-templates/commit/c3de645707eb1967aa172908ddb68bb27750aeb7))
+
 ## 2.22.1 (2025-03-22)
 
 
