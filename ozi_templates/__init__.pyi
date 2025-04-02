@@ -37,7 +37,7 @@ if TYPE_CHECKING:  # pragma: no cover
 """ozi-templates module"""
 __all__ = ('load_environment', )
 FILTERS = ...
-def load_environment(project: dict[str, str], _globals: dict[str, _Val[str]]) -> Environment:
+def load_environment(project: dict[str, str | list[str]], _globals: dict[str, _Val[str]]) -> Environment:
     """Load the rendering environment for templates.
 
     :return: jinja2 rendering environment for OZI
