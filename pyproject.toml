@@ -3,7 +3,7 @@
 [project]
 dependencies = [
     'jinja2~=3.1',
-    'niquests~=3.13.0',
+    'niquests~=3.14.0',
 ]
 
 [build-system]
