@@ -64,7 +64,7 @@ def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:
 
 
 def load_environment(
-    project: dict[str, str],
+    project: dict[str, str | list[str]],
     _globals: dict[str, _Val[str]],
 ) -> Environment:
     """Load the rendering environment for templates.
