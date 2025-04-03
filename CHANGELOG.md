@@ -4,6 +4,21 @@
 
 ### ⬆️ Upgraded Dependencies
 
+*  Bump OZI-Project/release from 1.4.0 to 1.5.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.4.0 to 1.5.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/bfb9d90fbd2af52d511a9e08306d1b787b8dcfca...924761bcd1ad9c77bbc34363118b2cee4334b8a5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.5.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`5a01205`](https://github.com/OZI-Project/ozi-templates/commit/5a01205368b760fbdfb91683758f4bb1a54d08ad))
+
 *  Bump actions/dependency-review-action from 4.5.0 to 4.6.0
 
 Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.5.0 to 4.6.0.
