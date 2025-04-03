@@ -1,4 +1,43 @@
 # ozi-templates CHANGELOG
+## 2.23.0 (2025-04-03)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump actions/dependency-review-action from 4.5.0 to 4.6.0
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.5.0 to 4.6.0.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/3b139cfc5fae8b618d3eae3675e383bb1769c019...ce3cf9537a52e8119d91fd484ab5b8a807627bf8)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`8b21fc6`](https://github.com/OZI-Project/ozi-templates/commit/8b21fc69d6c93a72a1e05398b23a1a853f8b7f3b))
+
+*  Bump step-security/harden-runner from 2.11.0 to 2.11.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.11.0 to 2.11.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/4d991eb9b905ef189e4c376166672c3f2f230481...c6295a65d1254861815972266d5933fd6e532bdf)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`b060d23`](https://github.com/OZI-Project/ozi-templates/commit/b060d2397c068a8af309f6e14ba995760869a1fe))
+
+
+### ✨ Implemented Features
+
+*  update for OZI.build 1.13 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`3b650aa`](https://github.com/OZI-Project/ozi-templates/commit/3b650aa93bf5a5cc17a1ef22c2f6d25a4a0e4887))
+
 ## 2.22.2 (2025-04-01)
 
 
