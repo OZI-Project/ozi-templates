@@ -7,7 +7,7 @@ dependencies = [
 ]
 
 [build-system]
-requires = ['OZI.build[core]~=1.5']
+requires = ['OZI.build[core]~=1.13.0']
 build-backend = "ozi_build.buildapi"
 
 [tool.ozi-build.metadata]
@@ -30,8 +30,6 @@ classifiers = [
     'Environment :: Other Environment',
 ]
 description-file = "README.rst"
-download-url = "https://github.com/OZI-Project/ozi-templates/archive/refs/tags/{version}.tar.gz"
-home-page = "https://oziproject.dev"
 keywords = "ozi,meson,packaging,templates"
 summary = "OZI Project package templates."
 
@@ -340,7 +338,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip install OZI.build[core,uv]~=1.5
+     python -m uv pip install OZI.build[core,uv]~=1.13
      pipx install --python=python meson
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
