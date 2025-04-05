@@ -1,4 +1,60 @@
 # ozi-templates CHANGELOG
+## 2.23.1 (2025-04-05)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 1.6.0 to 1.7.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.6.0 to 1.7.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/175eae79f299d6dbad474024b5f791368bd5de85...bec3d96cd1cb3bbce358fbeabc70eb25482bd3bf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.7.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`17cf3ae`](https://github.com/OZI-Project/ozi-templates/commit/17cf3ae0153b6b328b86e299e793bd3c39da1148))
+
+*  Bump OZI-Project/publish from 1.13.0 to 1.13.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.13.0 to 1.13.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/dedb3175dc5d4bb29bcee5a7b659ad7f42c5c68c...26f38aa55610d51537ae92c1e89464a18959ba90)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.13.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`d4768a2`](https://github.com/OZI-Project/ozi-templates/commit/d4768a20c70ab698d0232664ef8ac6d6151d3cdc))
+
+*  Bump OZI-Project/draft from 1.13.0 to 1.13.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.13.0 to 1.13.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/917b6a5d9a39df52cbdc3a15565c58dfb9b38a10...ed08d630ad83cfd14061b78cf695c20eb51984a5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.13.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`0986c36`](https://github.com/OZI-Project/ozi-templates/commit/0986c368b9ec743b3ff737b991af7a59cebcb7ba))
+
+
+### 📌 Pinned Dependencies
+
+*  update OZI.build pin to ~=1.13.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`2bfb096`](https://github.com/OZI-Project/ozi-templates/commit/2bfb09622d54474798da99008cd8019187f2708a))
+
 ## 2.23.0 (2025-04-03)
 
 
