@@ -1,4 +1,148 @@
 # ozi-templates CHANGELOG
+## 2.23.1 (2025-04-05)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/checkpoint from 1.6.0 to 1.7.0
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.6.0 to 1.7.0.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/175eae79f299d6dbad474024b5f791368bd5de85...bec3d96cd1cb3bbce358fbeabc70eb25482bd3bf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.7.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`17cf3ae`](https://github.com/OZI-Project/ozi-templates/commit/17cf3ae0153b6b328b86e299e793bd3c39da1148))
+
+*  Bump OZI-Project/publish from 1.13.0 to 1.13.1
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.13.0 to 1.13.1.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/dedb3175dc5d4bb29bcee5a7b659ad7f42c5c68c...26f38aa55610d51537ae92c1e89464a18959ba90)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.13.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`d4768a2`](https://github.com/OZI-Project/ozi-templates/commit/d4768a20c70ab698d0232664ef8ac6d6151d3cdc))
+
+*  Bump OZI-Project/draft from 1.13.0 to 1.13.1
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.13.0 to 1.13.1.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/917b6a5d9a39df52cbdc3a15565c58dfb9b38a10...ed08d630ad83cfd14061b78cf695c20eb51984a5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.13.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`0986c36`](https://github.com/OZI-Project/ozi-templates/commit/0986c368b9ec743b3ff737b991af7a59cebcb7ba))
+
+
+### 📌 Pinned Dependencies
+
+*  update OZI.build pin to ~=1.13.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`2bfb096`](https://github.com/OZI-Project/ozi-templates/commit/2bfb09622d54474798da99008cd8019187f2708a))
+
+## 2.23.0 (2025-04-03)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/release from 1.4.0 to 1.5.0
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.4.0 to 1.5.0.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/bfb9d90fbd2af52d511a9e08306d1b787b8dcfca...924761bcd1ad9c77bbc34363118b2cee4334b8a5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.5.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`5a01205`](https://github.com/OZI-Project/ozi-templates/commit/5a01205368b760fbdfb91683758f4bb1a54d08ad))
+
+*  Bump actions/dependency-review-action from 4.5.0 to 4.6.0
+
+Bumps [actions/dependency-review-action](https://github.com/actions/dependency-review-action) from 4.5.0 to 4.6.0.
+- [Release notes](https://github.com/actions/dependency-review-action/releases)
+- [Commits](https://github.com/actions/dependency-review-action/compare/3b139cfc5fae8b618d3eae3675e383bb1769c019...ce3cf9537a52e8119d91fd484ab5b8a807627bf8)
+
+
+updated-dependencies:
+- dependency-name: actions/dependency-review-action
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`8b21fc6`](https://github.com/OZI-Project/ozi-templates/commit/8b21fc69d6c93a72a1e05398b23a1a853f8b7f3b))
+
+*  Bump step-security/harden-runner from 2.11.0 to 2.11.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.11.0 to 2.11.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/4d991eb9b905ef189e4c376166672c3f2f230481...c6295a65d1254861815972266d5933fd6e532bdf)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`b060d23`](https://github.com/OZI-Project/ozi-templates/commit/b060d2397c068a8af309f6e14ba995760869a1fe))
+
+
+### ✨ Implemented Features
+
+*  update for OZI.build 1.13 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`3b650aa`](https://github.com/OZI-Project/ozi-templates/commit/3b650aa93bf5a5cc17a1ef22c2f6d25a4a0e4887))
+
+## 2.22.2 (2025-04-01)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.28.12 to 3.28.13
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.12 to 3.28.13.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/5f8171a638ada777af81d42b55959a643bb29017...1b549b9259bda1cb5ddde3b41741a82a2d15a841)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`ca24160`](https://github.com/OZI-Project/ozi-templates/commit/ca24160dca8d2812cdc4e97ae94f9f9846984cc4))
+
+*  Update niquests requirement from ~=3.13.0 to ~=3.14.0
+
+Updates the requirements on [niquests](https://github.com/jawah/niquests) to permit the latest version.
+- [Release notes](https://github.com/jawah/niquests/releases)
+- [Changelog](https://github.com/jawah/niquests/blob/main/HISTORY.md)
+- [Commits](https://github.com/jawah/niquests/compare/v3.13.0...v3.14.0)
+
+
+updated-dependencies:
+- dependency-name: niquests
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`c3de645`](https://github.com/OZI-Project/ozi-templates/commit/c3de645707eb1967aa172908ddb68bb27750aeb7))
+
 ## 2.22.1 (2025-03-22)
 
 
