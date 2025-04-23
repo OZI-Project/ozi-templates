@@ -32,13 +32,19 @@ commands_pre =
 {%- set r = requires -%}
 {%- if project.enable_uv -%}
 {%- set r = r|replace('OZI.build[', 'OZI.build[uv,') -%}
+{%- else -%}
+{%- set r = r|replace('OZI.build[', 'OZI.build[pip,') -%}
 {%- endif -%}
 {%- if project.enable_cython -%}
 {%- set r = r|replace('OZI.build[', 'OZI.build[cython,') -%}
 {%- endif %} {{ r }}
 {%- endfor -%}
 {%- endif %}
+{%- if project.enable_uv %}
+     uv tool install --python={env_python} --force meson
+{%- else %}
      pipx install --python=python meson
+{%- endif %}
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
      meson compile -C {env_tmp_dir}
