@@ -110,6 +110,13 @@ updated-dependencies:
 *  update tox config template for OZI.build 2.0 — Eden Ross Duff MSc <rjdbcm@outlook.com>
 ([`57093c9`](https://github.com/OZI-Project/ozi-templates/commit/57093c9ec62f432b92e0c6d5117b58b181aded2f))
 
+
+### Other
+
+
+* Delete .python-version — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`21106e4`](https://github.com/OZI-Project/ozi-templates/commit/21106e4faece434c5533372e5bfb6cc1bd899661))
+
 ## 2.23.1 (2025-04-05)
 
 ## 2.23.0 (2025-04-03)
