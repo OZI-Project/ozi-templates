@@ -65,6 +65,11 @@ option(
     type: 'array',
     value: ['uv', 'pip'],
 )
+option(
+    'install-tools-command',
+    type: 'array',
+    value: ['uv', 'pip', 'install'],
+)
 {%- else %}
 option(
     'compile-requirements-command',
@@ -75,5 +80,10 @@ option(
     'install-requirements-command',
     type: 'array',
     value: ['pip'],
+)
+option(
+    'install-tools-command',
+    type: 'array',
+    value: ['pipx'],
 )
 {%- endif %}
