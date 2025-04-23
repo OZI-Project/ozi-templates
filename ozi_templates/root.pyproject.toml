@@ -1,22 +1,15 @@
-{#- OZI 0.9
+{#- OZI
 # ozi/templates/root.pyproject.toml
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
-[project]
-{%- if project.dist_requires|length %}
-dependencies = [
-{%- for req in project.dist_requires %}
-    '{{ req }}',
-{%- endfor %}
-]
-{%- endif %}
-
 [build-system]
 requires = [
 {%- for requires in spec.python.build.requires.values() %}
 {%- set r = requires -%}
 {%- if project.enable_uv %}
 {%- set r = r|replace('OZI.build[', 'OZI.build[uv,')%}
+{%- else %}
+{%- set r = r|replace('OZI.build[', 'OZI.build[pip,')%}
 {%- endif %}
 {%- if project.enable_cython %}
 {%- set r = r|replace('OZI.build[', 'OZI.build[cython,')%}
@@ -26,22 +19,15 @@ requires = [
 ]
 build-backend = "{{ spec.python.build.backend }}"
 
-[tool.ozi-build.metadata]
-summary="{{ project.summary }}"
-author="{{ project.author|join(',') }}"
-author-email="{{ project.author_email|join(',') }}"
-description-file="README.{{ project.long_description_content_type }}"
-{%- if project.maintainer|length %}
-maintainer="{{ project.maintainer|join(',') }}"
-{%- endif %}
-{%- if project.maintainer_email|length %}
-maintainer-email="{{ project.maintainer_email|join(',') }}"
-{%- endif %}
-{%- if project.keywords|length %}
-keywords="{{ project.keywords|join(',') }}"
+[project]
+{%- if project.author|length %}
+authors=[
+{%- for name, email in project.author|zip(project.author_email) %}
+    {name="{{ name }}", email="{{ email }}"},
+{%- endfor %}
+]
 {%- endif %}
 classifiers=[
-    "License :: {{ project.license }}",
 {%- if project.license == 'Private' %}
     "Private :: Do Not Upload",
 {%- endif %}
@@ -74,33 +60,39 @@ classifiers=[
     "Environment :: {{ environment }}",
 {%- endfor %}
 ]
-{%- if project.requires_external|length %}
-requires-external=[
-{%- for req in project.requires_external %}
+description="{{ project.summary }}"
+{%- if project.dist_requires|length %}
+dependencies = [
+{%- for req in project.dist_requires %}
     '{{ req }}',
 {%- endfor %}
 ]
 {%- endif %}
-{%- if project.project_url|length %}
-project-urls=[
-{%- for project_url in project.project_url %}
-    "{{ project_url }}",
+dynamic=["version"]
+{%- if project.keywords|length %}
+keywords="{{ project.keywords|join(',') }}"
+{%- endif %}
+{%- if project.maintainer|length %}
+maintainers=[
+{%- for name, email in project.maintainer|zip(project.maintainer_email) %}
+    {name="{{ name }}", email="{{ email }}"},
 {%- endfor %}
 ]
 {%- endif %}
+name="{{ project.name }}"
+readme="README.{{ project.long_description_content_type }}"
 
 [project.optional-dependencies] # also meson test suite names
 # OZI Packaging Dependencies
 # continuous integration
-ci   = [
+ci = [
 {%- for pkg in spec.python.ci.backend.values() %}
     "{{ pkg }}",
 {%- endfor %}
 ]
 # tox -e fix
-fix  = ["black>=24.3", "ruff>=0.1.6", "autoflake", "isort"]
+fix  = ["black>=24.3", "autoflake", "isort"]
 # Default meson test setup
-# dev  = ["[{% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}]"]
 {%- for suite in spec.python.ci.checkpoint.suites %}
 {{ suite }} = [
 {%- for utility in spec.python.get(suite).utility.values() %}
@@ -111,3 +103,34 @@ fix  = ["black>=24.3", "ruff>=0.1.6", "autoflake", "isort"]
 {%- endfor %}
 ]
 {%- endfor %}
+
+{%- if project.project_url|length %}
+[project.urls]
+{%- for project_url in project.project_url %}
+{%- set label, url = project_url|split(',')|trim %}
+"{{ label }}"="{{ url }}"
+{%- endfor %}
+{%- endif %}
+
+[tool.ozi-build.metadata]
+{%- if project.obsoletes|length %}
+obsoletes=[
+{%- for req in project.obsoletes %}
+    '{{ req }}',
+{%- endfor %}
+]
+{%- endif %}
+{%- if project.provides|length %}
+provides=[
+{%- for req in project.provides %}
+    '{{ req }}',
+{%- endfor %}
+]
+{%- endif %}
+{%- if project.requires_external|length %}
+requires-external=[
+{%- for req in project.requires_external %}
+    '{{ req }}',
+{%- endfor %}
+]
+{%- endif %}
