@@ -41,7 +41,6 @@ maintainer-email="{{ project.maintainer_email|join(',') }}"
 keywords="{{ project.keywords|join(',') }}"
 {%- endif %}
 classifiers=[
-    "License :: {{ project.license }}",
 {%- if project.license == 'Private' %}
     "Private :: Do Not Upload",
 {%- endif %}
