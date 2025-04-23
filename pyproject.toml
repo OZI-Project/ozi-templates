@@ -331,6 +331,7 @@ python =
 [testenv]
 allowlist_externals =
    rm
+   pipx
    python
    meson
 package = wheel
