@@ -68,7 +68,6 @@ dependencies = [
 {%- endfor %}
 ]
 {%- endif %}
-dynamic=["version"]
 {%- if project.keywords|length %}
 keywords="{{ project.keywords|join(',') }}"
 {%- endif %}
