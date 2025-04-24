@@ -1,22 +1,17 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
+[build-system]
+requires = ['OZI.build[core]~=2.0.5']
+build-backend = "ozi_build.buildapi"
+
 [project]
 dependencies = [
     'jinja2~=3.1',
     'niquests~=3.14.0',
 ]
-
-[build-system]
-requires = ['OZI.build[core]~=1.13.0']
-build-backend = "ozi_build.buildapi"
-
-[tool.ozi-build.metadata]
 requires-python='>=3.10, <3.14'
-author = "Eden Ross Duff MSc"
-author-email = "help@oziproject.dev"
+authors = {name="Eden Ross Duff MSc", email="help@oziproject.dev"}
 classifiers = [
-    'License :: Public Domain',
-    'License :: OSI Approved :: MIT No Attribution License (MIT-0)',
     'Development Status :: 4 - Beta',
     'Programming Language :: Python :: 3 :: Only',
     'Programming Language :: Python :: 3.10',
@@ -29,9 +24,10 @@ classifiers = [
     'Typing :: Typed',
     'Environment :: Other Environment',
 ]
-description-file = "README.rst"
+readme = "README.rst"
 keywords = "ozi,meson,packaging,templates"
-summary = "OZI Project package templates."
+description = "OZI Project package templates."
+license = "MIT-0"
 
 [project.optional-dependencies]
 ci   = [
