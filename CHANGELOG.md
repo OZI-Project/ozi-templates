@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.24.3 (2025-04-25)
+
+
+### 🐛 Fixed Bugs
+
+*  fix incorrect split call in jinja — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`7fb4e2a`](https://github.com/OZI-Project/ozi-templates/commit/7fb4e2aa205bea8b534fe9746f1dd5326319d9bc))
+
 ## 2.24.2 (2025-04-25)
 
 
