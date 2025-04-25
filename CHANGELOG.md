@@ -1,4 +1,19 @@
 # ozi-templates CHANGELOG
+## 2.24.2 (2025-04-25)
+
+
+### 🔨 Updated Configuration
+
+*  add python 3.9 checkpoint — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8675b35`](https://github.com/OZI-Project/ozi-templates/commit/8675b35b8a39cf80a1c0e07afd000ce453e4f6cc))
+
+
+### Other
+
+
+* fix: expand lower bound of requires-python to 3.9 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`b49feb3`](https://github.com/OZI-Project/ozi-templates/commit/b49feb331bcf0bbcc3e86a1901ac48b1d89c4ba8))
+
 ## 2.24.1 (2025-04-25)
 
 
