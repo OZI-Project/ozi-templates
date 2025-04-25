@@ -1,4 +1,80 @@
 # ozi-templates CHANGELOG
+## 2.24.1 (2025-04-25)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/release from 1.6.0 to 1.6.4
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.0 to 1.6.4.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/afbdfe0866a7b046820c232d2a8c3256d2d70ed7...0b2ba9981ee9eea47a358c0d70c5b3764a61b88c)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.6.4
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`c1da5d7`](https://github.com/OZI-Project/ozi-templates/commit/c1da5d78b41b2a047dd03d28eade1d98f23d8732))
+
+*  Bump github/codeql-action from 3.28.15 to 3.28.16
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.15 to 3.28.16.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/45775bd8235c68ba998cffa5171334d58593da47...28deaeda66b76a05916b6923827895f2b14ab387)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.28.16
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`8d6c195`](https://github.com/OZI-Project/ozi-templates/commit/8d6c1954fae9a199be63d8d2984c894a3207774b))
+
+*  Update ozi-build[core] requirement from ~=1.13.0 to ~=2.0.5
+
+Updates the requirements on [ozi-build[core]](https://github.com/OZI-Project/OZI.build) to permit the latest version.
+- [Release notes](https://github.com/OZI-Project/OZI.build/releases)
+- [Changelog](https://github.com/OZI-Project/OZI.build/blob/2.0.5/CHANGELOG.md)
+- [Commits](https://github.com/OZI-Project/OZI.build/compare/1.13.0...2.0.5)
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core]
+  dependency-version: 2.0.5
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`d73744b`](https://github.com/OZI-Project/ozi-templates/commit/d73744ba57acc83c62d66bc747d70a23a523dd58))
+
+
+### 🐛 Fixed Bugs
+
+*  sync OZI.build requirements in pyproject — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`ab04d25`](https://github.com/OZI-Project/ozi-templates/commit/ab04d256a772c0563fb17b3ec32e795cda3238df))
+
+*  fix misaligned OZI.build version — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`e528c57`](https://github.com/OZI-Project/ozi-templates/commit/e528c57b70746a7dc97d0ab78f6708e087d31e75))
+
+*  version should not be in dynamic — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`8c9f157`](https://github.com/OZI-Project/ozi-templates/commit/8c9f15722edeea85e77d281a1feb3ffaad82b8fb))
+
+
+### 🔨 Updated Configuration
+
+*  update pyproject.toml for OZI.build 2.0 — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`87d4f0d`](https://github.com/OZI-Project/ozi-templates/commit/87d4f0d904dae8c030420f0096b39eba98866693))
+
+
+### Other
+
+
+* fix: authors is now an array — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`3ae7e40`](https://github.com/OZI-Project/ozi-templates/commit/3ae7e405e4574ea62b3c2f3a08771229f6de8d6a))
+
 ## 2.24.0 (2025-04-23)
 
 
