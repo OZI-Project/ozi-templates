@@ -1,7 +1,7 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 [build-system]
-requires = ['OZI.build[core]~=2.0.5']
+requires = ['OZI.build[core]~=2.0.6']
 build-backend = "ozi_build.buildapi"
 
 [project]
@@ -334,7 +334,7 @@ package = wheel
 deps =
      uv
 commands_pre =
-     python -m uv pip --no-progress install OZI.build[core,uv]~=1.13
+     python -m uv pip --no-progress install OZI.build[core,uv]~=2.0.6
      pipx install --python=python meson
 commands =
      meson setup {env_tmp_dir} -Dozi:dist=disabled -Dozi:tox-env-dir={env_dir}
