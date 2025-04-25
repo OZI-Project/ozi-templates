@@ -106,8 +106,8 @@ fix  = ["black>=24.3", "autoflake", "isort"]
 {%- if project.project_url|length %}
 [project.urls]
 {%- for project_url in project.project_url %}
-{%- set label, url = project_url|split(',')|trim %}
-"{{ label }}"="{{ url }}"
+{%- set label, url = project_url.split(',') %}
+"{{ label|trim }}"="{{ url|trim }}"
 {%- endfor %}
 {%- endif %}
 
