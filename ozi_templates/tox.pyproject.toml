@@ -61,9 +61,14 @@ description = quickly fix minor source issues
 deps = pipx
 skip_install = true
 commands =
-     pipx run --python {env_python} -q black -S .
-     pipx run --python {env_python} -q isort .
-     pipx run --python {env_python} -q autoflake -i -r .
+{%- if project.enable_uv %}
+{%- set tool_runner = 'uv tool run' %}
+{%- else %}
+{%- set tool_runner = 'pipx run' %}
+{%- endif %}
+     {{ tool_runner }} --python {env_python} -q black -S .
+     {{ tool_runner }} --python {env_python} -q isort .
+     {{ tool_runner }} --python {env_python} -q autoflake -i -r .
 
 [testenv:scm]
 description = OZI supply chain management (setuptools_scm)
