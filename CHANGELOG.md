@@ -1,4 +1,21 @@
 # ozi-templates CHANGELOG
+## 2.24.4 (2025-04-26)
+
+
+### 🐛 Fixed Bugs
+
+*  force patch
+
+Merge pull request #431 from OZI-Project/main
+([`17db5b6`](https://github.com/OZI-Project/ozi-templates/commit/17db5b6b19c0ed0883bd21a3ef35784cc9515a6a))
+
+
+### Other
+
+
+* fix: use uv tool runner for tox fix environment if enable_uv is set — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`4ae8cc3`](https://github.com/OZI-Project/ozi-templates/commit/4ae8cc3f1b3b7c85d2ced3c4f52fd26f92cc786c))
+
 ## 2.24.3 (2025-04-25)
 
 
