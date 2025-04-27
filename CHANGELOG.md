@@ -1,4 +1,21 @@
 # ozi-templates CHANGELOG
+## 2.24.5 (2025-04-27)
+
+
+### 🐛 Fixed Bugs
+
+*  fix pyproject template
+
+Merge pull request #435 from OZI-Project/main
+([`8b5c7e0`](https://github.com/OZI-Project/ozi-templates/commit/8b5c7e05e2c85b3a75d87deabc1240eb3f675ccf))
+
+
+### Other
+
+
+* fix: remove hanging [tool.ozi-build.metadata] from template — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`a619f3b`](https://github.com/OZI-Project/ozi-templates/commit/a619f3bf855e08a8d49db90c9e4591e43797840c))
+
 ## 2.24.4 (2025-04-26)
 
 
