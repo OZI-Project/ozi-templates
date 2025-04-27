@@ -22,8 +22,8 @@ build-backend = "{{ spec.python.build.backend }}"
 [project]
 {%- if project.author|length %}
 authors=[
-{%- for name, email in project.author|zip(project.author_email) %}
-    {name="{{ name }}", email="{{ email }}"},
+{%- for name, email in project.author|zip_longest(project.author_email) %}
+    { {%- if name %}name="{{ name }}", {% endif %}{% if email %}email="{{ email }}"{% endif -%} },
 {%- endfor %}
 ]
 {%- endif %}
@@ -73,8 +73,8 @@ keywords="{{ project.keywords|join(',') }}"
 {%- endif %}
 {%- if project.maintainer|length %}
 maintainers=[
-{%- for name, email in project.maintainer|zip(project.maintainer_email) %}
-    {name="{{ name }}", email="{{ email }}"},
+{%- for name, email in project.maintainer|zip_longest(project.maintainer_email) %}
+    { {%- if name %}name="{{ name }}", {% endif %}{% if email %}email="{{ email }}"{% endif -%} },
 {%- endfor %}
 ]
 {%- endif %}
