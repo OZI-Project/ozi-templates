@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 from functools import _lru_cache_wrapper
+from itertools import zip_longest
 from types import FunctionType
 from typing import TYPE_CHECKING
 from typing import TypeAlias
@@ -38,6 +39,7 @@ FILTERS = (
     next_minor,
     underscorify,
     zip,
+    zip_longest,
     wheel_repr,
     current_date,
 )
