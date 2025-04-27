@@ -111,6 +111,7 @@ fix  = ["black>=24.3", "autoflake", "isort"]
 {%- endfor %}
 {%- endif %}
 
+{%- if project.obsoletes or project.provides or project.requires_external %}
 [tool.ozi-build.metadata]
 {%- if project.obsoletes|length %}
 obsoletes=[
@@ -132,4 +133,5 @@ requires-external=[
     '{{ req }}',
 {%- endfor %}
 ]
+{%- endif %}
 {%- endif %}
