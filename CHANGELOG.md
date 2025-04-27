@@ -1,4 +1,35 @@
 # ozi-templates CHANGELOG
+## 2.24.6 (2025-04-27)
+
+
+### 🐛 Fixed Bugs
+
+*  fill authors/maintainers with any combination of name and email — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`fcb0647`](https://github.com/OZI-Project/ozi-templates/commit/fcb06471c1603eded3c2261b9afa9894a745787d))
+
+
+### 🔨 Updated Scripts
+
+*  add zip_longest to FILTERS — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`aa12bc7`](https://github.com/OZI-Project/ozi-templates/commit/aa12bc73e323d82fd0910fb708335ed1b1802902))
+
+## 2.24.5 (2025-04-27)
+
+
+### 🐛 Fixed Bugs
+
+*  fix pyproject template
+
+Merge pull request #435 from OZI-Project/main
+([`8b5c7e0`](https://github.com/OZI-Project/ozi-templates/commit/8b5c7e05e2c85b3a75d87deabc1240eb3f675ccf))
+
+
+### Other
+
+
+* fix: remove hanging [tool.ozi-build.metadata] from template — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`a619f3b`](https://github.com/OZI-Project/ozi-templates/commit/a619f3bf855e08a8d49db90c9e4591e43797840c))
+
 ## 2.24.4 (2025-04-26)
 
 
