@@ -1,4 +1,18 @@
 # ozi-templates CHANGELOG
+## 2.24.6 (2025-04-27)
+
+
+### 🐛 Fixed Bugs
+
+*  fill authors/maintainers with any combination of name and email — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`fcb0647`](https://github.com/OZI-Project/ozi-templates/commit/fcb06471c1603eded3c2261b9afa9894a745787d))
+
+
+### 🔨 Updated Scripts
+
+*  add zip_longest to FILTERS — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`aa12bc7`](https://github.com/OZI-Project/ozi-templates/commit/aa12bc73e323d82fd0910fb708335ed1b1802902))
+
 ## 2.24.5 (2025-04-27)
 
 
