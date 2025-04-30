@@ -1,4 +1,15 @@
 # ozi-templates CHANGELOG
+## 2.24.7 (2025-04-30)
+
+
+### 🐛 Fixed Bugs
+
+*  fix tox test env — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`76b4886`](https://github.com/OZI-Project/ozi-templates/commit/76b4886015b32b0323f18c1ac155a98f8c521ade))
+
+*  fixes for OZI 1.39.2 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`f2cb37d`](https://github.com/OZI-Project/ozi-templates/commit/f2cb37ddca672b876491ba6790cc753acd5526da))
+
 ## 2.24.6 (2025-04-27)
 
 
