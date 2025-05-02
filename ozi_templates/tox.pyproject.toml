@@ -58,7 +58,7 @@ commands_post =
 {%- endfor %}
 [testenv:fix]
 description = quickly fix minor source issues 
-deps = pipx
+deps = {% if project.enable_uv %}uv{% else %}pipx{% endif %}
 skip_install = true
 commands =
 {%- if project.enable_uv %}
