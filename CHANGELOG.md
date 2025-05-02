@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.24.9 (2025-05-02)
+
+
+### 🔨 Updated Scripts
+
+*  fix missing install OZI.build — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`5a03294`](https://github.com/OZI-Project/ozi-templates/commit/5a032948002988cb82a30bda683b7b61d0fce570))
+
 ## 2.24.8 (2025-05-02)
 
 
