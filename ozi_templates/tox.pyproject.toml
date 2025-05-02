@@ -31,7 +31,6 @@ commands_pre =
      uv pip install 
 {%- for requires in spec.python.build.requires.values() -%}
 {%- set r = requires -%}
-{%- if project.enable_uv -%}
 {%- set r = r|replace('OZI.build[', 'OZI.build[uv,') -%}
 {%- else -%}
 {%- set r = r|replace('OZI.build[', 'OZI.build[pip,') -%}
@@ -40,7 +39,7 @@ commands_pre =
 {%- set r = r|replace('OZI.build[', 'OZI.build[cython,') -%}
 {%- endif %} {{ r }}
 {%- endfor -%}
-{%- endif %}
+
 {%- if project.enable_uv %}
      uv tool install --python={env_python} --force "{{ spec.python.build.meson }}"
 {%- else %}
