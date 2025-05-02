@@ -17,8 +17,9 @@ python =
 [testenv]
 allowlist_externals =
      rm
+{%- if not project.enable_uv %}
      pipx
-     python
+{%- endif %}
      meson
 package = wheel
 deps =
@@ -27,7 +28,7 @@ deps =
 {%- endif %}
 commands_pre =
 {%- if project.enable_uv %}
-     python -m uv pip install 
+     uv pip install 
 {%- for requires in spec.python.build.requires.values() -%}
 {%- set r = requires -%}
 {%- if project.enable_uv -%}
@@ -41,9 +42,9 @@ commands_pre =
 {%- endfor -%}
 {%- endif %}
 {%- if project.enable_uv %}
-     uv tool install --python={env_python} --force meson
+     uv tool install --python={env_python} --force "{{ spec.python.build.meson }}"
 {%- else %}
-     pipx install --python=python meson
+     pipx install --python={env_python} "{{ spec.python.build.meson }}"
 {%- endif %}
 commands =
      meson setup {env_tmp_dir} -Dozi:{env_name}=enabled -Dozi:tox-env-dir={env_dir}
@@ -58,7 +59,7 @@ commands_post =
 {%- endfor %}
 [testenv:fix]
 description = quickly fix minor source issues 
-deps = pipx
+deps = {% if project.enable_uv %}uv{% else %}pipx{% endif %}
 skip_install = true
 commands =
 {%- if project.enable_uv %}

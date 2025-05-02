@@ -20,6 +20,8 @@ requires = [
 build-backend = "{{ spec.python.build.backend }}"
 
 [project]
+name="{{ project.name }}"
+version="0.0"
 {%- if project.author|length %}
 authors=[
 {%- for name, email in project.author|zip_longest(project.author_email) %}
@@ -78,7 +80,6 @@ maintainers=[
 {%- endfor %}
 ]
 {%- endif %}
-name="{{ project.name }}"
 readme="README.{{ project.long_description_content_type }}"
 
 [project.optional-dependencies] # also meson test suite names
