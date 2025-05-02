@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.24.10 (2025-05-02)
+
+
+### 🐛 Fixed Bugs
+
+*  fix tox template — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`2030276`](https://github.com/OZI-Project/ozi-templates/commit/20302766cbe48bec75452733df93c40e65ac4b7e))
+
 ## 2.24.9 (2025-05-02)
 
 
