@@ -1,4 +1,28 @@
 # ozi-templates CHANGELOG
+## 2.24.8 (2025-05-02)
+
+
+### 🐛 Fixed Bugs
+
+*  force release — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`8af675c`](https://github.com/OZI-Project/ozi-templates/commit/8af675c01f7bf9a7d6acaf415099a3a935a1308d))
+
+
+### Other
+
+
+* Update pyproject.toml — Eden Ross Duff, MSc, DDiv <rjdbcm@outlook.com>
+([`c7f6152`](https://github.com/OZI-Project/ozi-templates/commit/c7f615269dc60a60d164d4e630473019fd7983c8))
+
+* perf: add a 0.0 version to templates — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`54da070`](https://github.com/OZI-Project/ozi-templates/commit/54da07064cf33b030661bc840e8f22f868e470d8))
+
+* perf: use spec version of meson in templates — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`57b3e14`](https://github.com/OZI-Project/ozi-templates/commit/57b3e14b9f0034c37edb0353442056916c0b5253))
+
+* fix: tox fix environment dep install — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`d0e5c93`](https://github.com/OZI-Project/ozi-templates/commit/d0e5c93344dc1376fcbafc46b1553fd124dac124))
+
 ## 2.24.7 (2025-04-30)
 
 
