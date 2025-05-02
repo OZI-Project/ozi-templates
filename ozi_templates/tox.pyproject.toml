@@ -25,12 +25,18 @@ package = wheel
 deps =
 {%- if project.enable_uv %}
      uv
+{%- else %}
+     pip
 {%- endif %}
 commands_pre =
 {%- if project.enable_uv %}
-     uv pip install 
+     uv pip install
+{%- else %}
+     pip install
+{%- endif -%}
 {%- for requires in spec.python.build.requires.values() -%}
 {%- set r = requires -%}
+{%- if project.enable_uv -%}
 {%- set r = r|replace('OZI.build[', 'OZI.build[uv,') -%}
 {%- else -%}
 {%- set r = r|replace('OZI.build[', 'OZI.build[pip,') -%}
