@@ -70,4 +70,8 @@ if not meson.is_subproject()
         name = var.replace('-', '_')
         set_variable(name, dev.get_variable(name))
     endforeach
+    deps = run_command(python, '-c', dev.get_variable('install_dependencies'), check: true).stdout().strip().split('$$')
+    if deps[0] != ''
+        meson.add_postconf_script(dev.get_variable('pip'), 'install', deps)
+    endif
 endif
