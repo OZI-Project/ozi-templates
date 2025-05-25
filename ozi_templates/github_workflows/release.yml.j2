@@ -39,3 +39,6 @@
           github-token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ needs.draft.outputs.tag }}
 {%- endraw %}
+{%- if project.signed_wheel %}
+          wheel-sign-token: ${{ secrets.WHEEL_SIGN_TOKEN }}
+{%- endif %}
