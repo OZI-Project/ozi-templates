@@ -1,7 +1,7 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 [build-system]
-requires = ['OZI.build[core,pip,uv]~=2.0.6']
+requires = ['OZI.build[core,pip,uv]>=2.0.6,<2.3.0']
 build-backend = "ozi_build.buildapi"
 
 [project]
@@ -320,12 +320,6 @@ legacy_tox_ini = """
 skipsdist = True
 envlist = dist,lint,test,
 
-[gh]
-python =
-   3.12 = dist,lint,test,
-   3.11 = dist,lint,test,
-   3.10 = dist,lint,test,
-
 [testenv]
 allowlist_externals =
    rm
@@ -359,14 +353,12 @@ commands =
 
 [testenv:fix]
 description = quickly fix minor source issues 
-deps = pipx
 skip_install = true
 commands_pre =
 commands =
-     pipx run --python {env_python} black -S .
-     pipx run --python {env_python} isort .
-     pipx run --python {env_python} autoflake -i -r .
-     pipx run --python {env_python} ruff check . --fix
+     uv tool run --python {env_python} black -S .
+     uv tool run --python {env_python} isort .
+     uv tool run --python {env_python} autoflake -i -r .
 commands_post =
 
 [testenv:scm]
