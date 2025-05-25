@@ -92,6 +92,21 @@ option(
         'pytest-xdist',
     ]
 )
+option(
+    'compile-requirements-command',
+    type: 'array',
+    value: ['uv', 'pip', 'compile'],
+)
+option(
+    'install-requirements-command',
+    type: 'array',
+    value: ['uv', 'pip'],
+)
+option(
+    'install-tools-command',
+    type: 'array',
+    value: ['uv', 'pip', 'install'],
+)
 option('install-subprojects', type: 'feature', value: 'disabled')
 option('source-to-build', type: 'feature', value: 'auto')
 option('build-dir', type: 'feature',  value: 'auto')
