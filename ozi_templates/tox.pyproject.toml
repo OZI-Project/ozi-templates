@@ -49,6 +49,7 @@ commands_pre =
 {%- if project.enable_uv %}
      uv tool install --python={env_python} --force "{{ spec.python.build.meson }}"
 {%- else %}
+     pipx ensurepath --force
      pipx install --python={env_python} "{{ spec.python.build.meson }}"
 {%- endif %}
 commands =
