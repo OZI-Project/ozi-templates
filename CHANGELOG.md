@@ -1,4 +1,28 @@
 # ozi-templates CHANGELOG
+## 2.26.0 (2025-05-31)
+
+
+### 🐛 Fixed Bugs
+
+*  fix missing pathlib import — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`d8250d0`](https://github.com/OZI-Project/ozi-templates/commit/d8250d0be95ec4431e3296e1e58fa5a5d6960e4d))
+
+*  fix template path in PyInstaller bundles — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`2768b2d`](https://github.com/OZI-Project/ozi-templates/commit/2768b2d7b436dfcd7d17e89cab666378582b9292))
+
+
+### ✨ Implemented Features
+
+*  no longer passing thru forced single line imports — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`03bf91a`](https://github.com/OZI-Project/ozi-templates/commit/03bf91a7c52adb990ecc043343d33406bb78b832))
+
+
+### Other
+
+
+* 🚨 get rid of single line imports — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`a98241d`](https://github.com/OZI-Project/ozi-templates/commit/a98241dfe39e6d8d1de7c6a817ee7665bc9a0fb6))
+
 ## 2.25.2 (2025-05-31)
 
 
