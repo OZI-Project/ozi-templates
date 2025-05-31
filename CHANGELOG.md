@@ -1,4 +1,91 @@
 # ozi-templates CHANGELOG
+## 2.25.1 (2025-05-31)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump OZI-Project/release from 1.6.5 to 1.8.3
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.6.5 to 1.8.3.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/36fe15c47185192e9cf5df744a8d1eb679676e22...0a9f46ecacc5bb6a926467a601c8b75bb2deb4ac)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.8.3
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`7e3f855`](https://github.com/OZI-Project/ozi-templates/commit/7e3f855ac8926ba5636c55ea6c969c27f6c4e335))
+
+*  Bump ossf/scorecard-action from 2.4.1 to 2.4.2
+
+Bumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.4.1 to 2.4.2.
+- [Release notes](https://github.com/ossf/scorecard-action/releases)
+- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)
+- [Commits](https://github.com/ossf/scorecard-action/compare/f49aabe0b5af0936a0987cfb85d86b75731b0186...05b42c624433fc40578a4040d5cf5e36ddca8cde)
+
+
+updated-dependencies:
+- dependency-name: ossf/scorecard-action
+  dependency-version: 2.4.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`2f544da`](https://github.com/OZI-Project/ozi-templates/commit/2f544da6d5e5724609b98b5d0f9a17b24ed182a2))
+
+*  Bump OZI-Project/checkpoint from 1.7.3 to 1.7.5
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.7.3 to 1.7.5.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/1b0b165711dca7c852f4c30fbebea96de3747617...301753e6853d6a65055c8df69dafe7df74bd7963)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.7.5
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`c5783a1`](https://github.com/OZI-Project/ozi-templates/commit/c5783a1dc6fbd3567e75e26a11523e2632e70570))
+
+*  Bump OZI-Project/draft from 1.13.4 to 1.14.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.13.4 to 1.14.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/84f054f0398fe815ac68f4243f6aafb9f5b85e4a...9fcb96b0c50c0da405737413299ede083f1d94cf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.14.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`d3a835d`](https://github.com/OZI-Project/ozi-templates/commit/d3a835d54efed4ec7dadc39a60041a5e635790cd))
+
+*  Bump OZI-Project/publish from 1.13.7 to 1.14.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.13.7 to 1.14.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/621f1f7d2691300b8a66b0aaa62a4853359daa89...0d8a74931c945399bb0967f77c67055956b9e5c5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.14.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`fee2f62`](https://github.com/OZI-Project/ozi-templates/commit/fee2f62b3054c2cf0d0f0bc2a944233c46fe8e34))
+
+
+### 🐛 Fixed Bugs
+
+*  fix loader path for pyinstaller bundles — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`8fa19c7`](https://github.com/OZI-Project/ozi-templates/commit/8fa19c7842931cdc4a013324ea724c751097c24a))
+
 ## 2.25.0 (2025-05-25)
 
 
@@ -259,14 +346,6 @@ updated-dependencies:
 ## 2.24.5 (2025-04-27)
 
 
-### 🐛 Fixed Bugs
-
-*  fix pyproject template
-
-Merge pull request #435 from OZI-Project/main
-([`8b5c7e0`](https://github.com/OZI-Project/ozi-templates/commit/8b5c7e05e2c85b3a75d87deabc1240eb3f675ccf))
-
-
 ### Other
 
 
@@ -274,14 +353,6 @@ Merge pull request #435 from OZI-Project/main
 ([`a619f3b`](https://github.com/OZI-Project/ozi-templates/commit/a619f3bf855e08a8d49db90c9e4591e43797840c))
 
 ## 2.24.4 (2025-04-26)
-
-
-### 🐛 Fixed Bugs
-
-*  force patch
-
-Merge pull request #431 from OZI-Project/main
-([`17db5b6`](https://github.com/OZI-Project/ozi-templates/commit/17db5b6b19c0ed0883bd21a3ef35784cc9515a6a))
 
 
 ### Other
@@ -1642,11 +1713,6 @@ updated-dependencies:
 
 ### Other
 
-
-* 👷 force patch 
-
-Merge pull request #269 from OZI-Project/main
-([`5bb352f`](https://github.com/OZI-Project/ozi-templates/commit/5bb352f3bc835a29b54ea440bcd7ba79bf3705dc))
 
 * perf: improved test coverage — rjdbcm <rjdbcm@outlook.com>
 ([`008c14a`](https://github.com/OZI-Project/ozi-templates/commit/008c14aabedcb836c121b4bf101fa7f644cd3546))
@@ -3164,22 +3230,11 @@ updated-dependencies:
 ## 2.4.8 (2024-07-03)
 
 
-### 🐛 Fixed Bugs
-
-*  release patch fixes for names
-([`790e648`](https://github.com/OZI-Project/ozi-templates/commit/790e648971a020f2c71095efdfae7ea5a5da7e70))
-
-
 ### Other
 
 
 * fix: Non-lowercase and underscored name expected for ``project.name`` context — rjdbcm <rjdbcm@outlook.com>
 ([`e9feb82`](https://github.com/OZI-Project/ozi-templates/commit/e9feb82ded67eed301cc4b022ad09f82cb8c17a7))
-
-* fix(CHANGELOG): add project name to heading
-
-release
-([`fb7dcb3`](https://github.com/OZI-Project/ozi-templates/commit/fb7dcb3ddbb64172ce989fa0790f891c152f1f41))
 
 ## 2.4.7 (2024-07-03)
 
