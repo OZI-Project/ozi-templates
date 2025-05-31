@@ -1,7 +1,6 @@
 # noqa: INP001
 from collections.abc import Mapping  # noqa: TC003
-from typing import TypeAlias
-from typing import TypeVar
+from typing import TypeAlias, TypeVar
 
 import hypothesis.strategies as st
 from hypothesis import given
