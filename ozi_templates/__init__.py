@@ -4,6 +4,7 @@
 # See LICENSE.txt in the project root for details.
 from __future__ import annotations
 
+import sys
 from functools import _lru_cache_wrapper
 from itertools import zip_longest
 from types import FunctionType
@@ -11,7 +12,9 @@ from typing import TYPE_CHECKING
 from typing import TypeAlias
 from typing import TypeVar
 
+from jinja2 import BaseLoader
 from jinja2 import Environment
+from jinja2 import FileSystemLoader
 from jinja2 import PackageLoader
 from jinja2 import select_autoescape
 
@@ -45,10 +48,20 @@ FILTERS = (
 )
 
 
+def _get_template_loader() -> BaseLoader:
+    """Get the appropriate loader."""
+    if getattr(sys, 'frozen', False):  # pragma: defer to pyinstaller
+        bundle_dir = sys._MEIPASS  # type: ignore
+        loader = FileSystemLoader(bundle_dir)
+    else:
+        loader = PackageLoader('ozi_templates', '.')
+    return loader
+
+
 def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:
     """Initialize the rendering environment, set filters, and set global metadata."""
     env = Environment(
-        loader=PackageLoader('ozi_templates', '.'),
+        loader=_get_template_loader(),
         autoescape=select_autoescape(),
         enable_async=True,
         auto_reload=False,
