@@ -7,6 +7,7 @@ from __future__ import annotations
 import sys
 from functools import _lru_cache_wrapper
 from itertools import zip_longest
+from pathlib import Path
 from types import FunctionType
 from typing import TYPE_CHECKING
 from typing import TypeAlias
