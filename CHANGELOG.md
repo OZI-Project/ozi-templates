@@ -1,4 +1,15 @@
 # ozi-templates CHANGELOG
+## 2.25.2 (2025-05-31)
+
+
+### 🔨 Updated Configuration
+
+*  remove ruff tool configuration — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`08520f8`](https://github.com/OZI-Project/ozi-templates/commit/08520f892f6c8124122cd6a5b229677b9a67bb53))
+
+*  semantic release exclude patterns removed for 10.0 — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`0fa8fdf`](https://github.com/OZI-Project/ozi-templates/commit/0fa8fdf94661d8fd6a081170e203a3c2fe70517f))
+
 ## 2.25.1 (2025-05-31)
 
 
