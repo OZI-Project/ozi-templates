@@ -4,8 +4,7 @@
 from __future__ import annotations
 
 import string
-from datetime import datetime
-from datetime import timezone
+from datetime import datetime, timezone
 from functools import lru_cache
 from hashlib import sha256
 

@@ -140,7 +140,6 @@ extend-select   = "B950"
 [tool.isort]
 line_length = 93
 profile = "black"
-force_single_line = true
 skip_glob = ['subprojects/*',]
 
 [tool.mypy]

@@ -2,8 +2,7 @@
 # This test code was written by the `hypothesis.extra.ghostwriter` module
 # and is provided under the Creative Commons Zero public domain dedication.
 
-from hypothesis import assume
-from hypothesis import given
+from hypothesis import assume, given
 from hypothesis import strategies as st
 
 import ozi_templates.filter
