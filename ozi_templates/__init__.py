@@ -52,7 +52,7 @@ def _get_template_loader() -> BaseLoader:
     """Get the appropriate loader."""
     if getattr(sys, 'frozen', False):  # pragma: defer to pyinstaller
         bundle_dir = sys._MEIPASS  # type: ignore
-        loader = FileSystemLoader(bundle_dir)
+        loader = FileSystemLoader(Path(bundle_dir) / 'ozi_templates')
     else:
         loader = PackageLoader('ozi_templates', '.')
     return loader
