@@ -32,9 +32,6 @@ patch_tags = [
 [tool.semantic_release.changelog.default_templates]
 changelog_file = "CHANGELOG.md"
 
-[tool.semantic_release.changelog]
-exclude_commit_patterns = ["Merge.*"]
-
 [tool.semantic_release.remote]
 type = "{{ project.ci_provider }}"
 
