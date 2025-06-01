@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.26.1 (2025-06-01)
+
+
+### 🐛 Fixed Bugs
+
+*  add postconf virtualenv setup in the meson.build file template — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`ca976ef`](https://github.com/OZI-Project/ozi-templates/commit/ca976ef5fc6bdd51775d5eb7607f97b5a186add7))
+
 ## 2.26.0 (2025-05-31)
 
 
