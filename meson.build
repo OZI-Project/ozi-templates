@@ -71,7 +71,13 @@ if not meson.is_subproject()
         set_variable(name, dev.get_variable(name))
     endforeach
     deps = run_command(python, '-c', dev.get_variable('install_dependencies'), check: true).stdout().strip().split('$$')
-    if deps[0] != ''
+        if deps[0] != ''
+            if find_program('uv', disabler: true).found()
+            meson.add_postconf_script('uv', 'venv', 'venv')
+        else
+            meson.add_postconf_script(dev.get_variable('pip'), 'install', 'virtualenv')
+            meson.add_postconf_script('virtualenv', 'venv')
+        endif
         meson.add_postconf_script(dev.get_variable('pip'), 'install', deps)
     endif
 endif
