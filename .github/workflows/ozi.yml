@@ -198,7 +198,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@9fcb96b0c50c0da405737413299ede083f1d94cf # 1.14.0
+      - uses: OZI-Project/draft@d870c506fefd49de075e21217885c8670cd9b883 # 1.14.2
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -243,7 +243,7 @@ jobs:
             cdn03.quay.io:443
             downloads.python.org:443
 
-      - uses: OZI-Project/release@0a9f46ecacc5bb6a926467a601c8b75bb2deb4ac
+      - uses: OZI-Project/release@067a3867b9df3c1c2b86db5e062ca83c48dbc0bc
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -291,7 +291,7 @@ jobs:
           ghcr.io:443
           pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@0d8a74931c945399bb0967f77c67055956b9e5c5 # 1.14.0
+    - uses: OZI-Project/publish@d2deb87a158a3555d67cb9dbabde2fe3e271fa6a # 1.14.3
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
 

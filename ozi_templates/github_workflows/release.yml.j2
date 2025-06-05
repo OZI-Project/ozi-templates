@@ -30,13 +30,11 @@
             {{ endpoint }}
         {%- endfor %}
 {%- endif %}
-
       - uses: OZI-Project/release@{{ spec.python.ci.release.version }}
         id: release
         with:
 {%- raw %}
           python-dist: ${{ matrix.py }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           tag: ${{ needs.draft.outputs.tag }}
 {%- endraw %}
 {%- if project.signed_wheel %}
