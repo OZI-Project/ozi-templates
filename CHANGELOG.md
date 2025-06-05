@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.28.0 (2025-06-05)
+
+
+### ✨ Implemented Features
+
+*  add project.create_pull_request to namespace — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`630fc23`](https://github.com/OZI-Project/ozi-templates/commit/630fc234296afe2ce94fd1438feceb84086b8a30))
+
 ## 2.27.0 (2025-06-05)
 
 
