@@ -17,9 +17,11 @@
             {{ endpoint }}
         {%- endfor %}
 {%- endif %}
-
     - uses: OZI-Project/publish@{{ spec.python.ci.publish.version }}
-
+{%- if project.enable_create_pull_request %}
+      with:
+        create-pull-request: true
+{%- endif %}
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@{{ spec.python.ci.github.gh_action_pypi_publish.version }}
 {%- if project.testpypi %}
