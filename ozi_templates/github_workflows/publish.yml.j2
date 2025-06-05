@@ -19,10 +19,6 @@
 {%- endif %}
 
     - uses: OZI-Project/publish@{{ spec.python.ci.publish.version }}
-      with:
-{%- raw %}
-        github-token: ${{ secrets.GITHUB_TOKEN }}
-{%- endraw %}
 
     - name: Publish package distributions to PyPI
       uses: pypa/gh-action-pypi-publish@{{ spec.python.ci.github.gh_action_pypi_publish.version }}
