@@ -2,10 +2,9 @@
 # ozi/templates/project.name/new_module.py.j2
 # SPDX-License-Identifier: Unlicense
 -#}
-{%- for line in project.copyright_head.split('\n') %}
-{{ '# ' ~ line }}
-{%- endfor %}
-{%- if user_template %}
+{% for line in project.copyright_head.split('\n') %}{{'# ' ~ line }}
+{% endfor %}
+{%- if user_template -%}
 {% extends user_template %}
 {%- endif %}
 
