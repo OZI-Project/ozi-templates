@@ -1,5 +1,5 @@
 # ozi_templates/templates/meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 _templates = [
     '.release_notes.md.j2',
     'CHANGELOG.md.j2',

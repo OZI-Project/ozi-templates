@@ -1,5 +1,5 @@
 # ozi/filter.py
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 """Filters for use in the OZI project templates."""
 from __future__ import annotations
 

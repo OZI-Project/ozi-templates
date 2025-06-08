@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'apsl-1.0.txt',
     'apsl-1.1.txt',

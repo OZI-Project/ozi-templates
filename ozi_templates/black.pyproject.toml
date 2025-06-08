@@ -1,6 +1,6 @@
-{#- OZI 0.1
+{#- OZI
 # ozi/templates/black.pyproject.toml
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 [tool.black]
 extend-exclude = "(\\.pyi|{{ spec.python.lint.exclude|join('|') }})"

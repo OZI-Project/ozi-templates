@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'agpl-3.0-only.txt',
     'agpl-3.0-or-later.txt',

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'cc0-1.0.txt',
 ]

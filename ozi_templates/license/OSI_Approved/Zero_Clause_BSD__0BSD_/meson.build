@@ -1,5 +1,5 @@
 # ozi/templates/license/OSI_Approved/Zero_Clause_BSD__0BSD_/meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     '0bsd.txt'
 ]

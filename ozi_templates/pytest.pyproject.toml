@@ -1,6 +1,6 @@
-{#- OZI 0.8
+{#- OZI
 # ozi/templates/pytest.pyproject.toml
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 [tool.pytest.ini_options]
 filterwarnings = ["error","ignore:The --rsyncdir command line argument and rsyncdirs config variable are deprecated.:DeprecationWarning"]

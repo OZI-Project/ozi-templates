@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'eupl-1.2.txt'
 ]

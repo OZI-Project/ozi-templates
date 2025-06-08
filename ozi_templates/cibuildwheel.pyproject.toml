@@ -1,6 +1,6 @@
-{#- OZI 0.6
+{#- OZI
 # ozi/templates/cibuildwheel.pyproject.toml
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 [tool.cibuildwheel]
 {%- if project.enable_uv %}

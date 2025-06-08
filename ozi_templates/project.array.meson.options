@@ -1,6 +1,6 @@
-{#- OZI 0.9
+{#- OZI
 # ozi/templates/project.array.meson.options
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 option(
     'namespace',

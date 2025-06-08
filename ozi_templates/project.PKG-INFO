@@ -1,6 +1,6 @@
-{#- OZI 0.3
+{#- OZI
 # ozi/templates/project.PKG-INFO
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 Metadata-Version: {{ spec.python.support.metadata_version }}
 Name: @PROJECT_NAME@

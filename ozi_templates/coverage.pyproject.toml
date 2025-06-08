@@ -1,6 +1,6 @@
-{#- OZI 0.1
+{#- OZI
 # ozi/templates/coverage.pyproject.toml
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 [tool.coverage.report]
 exclude_lines = [

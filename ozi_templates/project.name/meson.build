@@ -1,5 +1,5 @@
 # ozi/templates/project.name/meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 source_templates = [
     '__init__.py.j2',
     '__init__.pyi.j2',

@@ -1,5 +1,5 @@
 # ozi/templates/github_workflows/meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 workflows = [
     'checkpoint.yml.j2',
     'cleanup.yml.j2',

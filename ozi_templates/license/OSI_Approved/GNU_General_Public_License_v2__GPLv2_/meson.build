@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'gpl-2.0-only.txt',
     'gpl-2.0-or-later.txt',

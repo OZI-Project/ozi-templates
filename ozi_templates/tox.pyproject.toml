@@ -1,6 +1,6 @@
-{#- OZI 0.8
+{#- OZI
 # ozi/templates/tox.pyproject.toml
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 [tool.tox]
 legacy_tox_ini = """
