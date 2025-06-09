@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.28.2 (2025-06-09)
+
+
+### 🐛 Fixed Bugs
+
+*  switch extends to includes — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`51b663a`](https://github.com/OZI-Project/ozi-templates/commit/51b663aa7d5a3a494f6cf25c6392a74eccfa3077))
+
 ## 2.28.1 (2025-06-09)
 
 
