@@ -5,7 +5,5 @@
 {{ '# noqa: INP001' }}
 {% for line in project.copyright_head.split('\n') %}{{ '# ' ~ line }}
 {% endfor %}
-{%- if user_template -%}
-{% extends user_template %}
-{%- endif %}
+{%- include user_template ignore missing %}
 
