@@ -1,6 +1,6 @@
-{#- OZI 0.1
+{#- OZI
 # ozi/templates/new_child.j2
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 {%- if project.fix == 'source' %}
 {%- set folder = project.name|underscorify|lower %}
@@ -9,10 +9,8 @@
 {%- elif project.fix == 'root' %}
 {%- set folder = '.' %}
 {%- endif %}
-{{ '# OZI ' ~ spec.version }} meson.build:{{ project.fix }}_child_{{ parent }}
-{%- for line in project.copyright_head.split('\n') %}
-{{ '# ' ~ line }}
-{%- endfor %}
+{% for line in project.copyright_head.split('\n') %}{{ '# ' ~ line }}
+{% endfor -%}
 {{ '# DO NOT EDIT BY HAND - This file was generated for use with OZI tools.' }}
 {{ '# ozi-fix -> meson rewrite is the standard editing pipeline.' }}
 {{ project.fix }}_{{ parent }}_files = ['ozi.phony'{%- if project.fix == 'source' %}, '__init__.py'{% endif %}]

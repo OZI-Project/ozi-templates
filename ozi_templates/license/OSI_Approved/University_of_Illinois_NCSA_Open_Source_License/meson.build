@@ -1,5 +1,5 @@
 # ozi/templates/license/OSI_Approved/zlib_libpng_License/meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'ncsa.txt'
 ]

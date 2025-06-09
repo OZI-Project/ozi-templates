@@ -1,5 +1,5 @@
 # ozi_templates/tests/meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 tests_templates = [
     'meson.build.j2',
     'new_test.py.j2',

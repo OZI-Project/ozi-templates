@@ -13,6 +13,7 @@ from typing import TYPE_CHECKING, TypeAlias, TypeVar
 
 from jinja2 import (
     BaseLoader,
+    ChoiceLoader,
     Environment,
     FileSystemLoader,
     PackageLoader,
@@ -46,20 +47,22 @@ FILTERS = (
 )
 
 
-def _get_template_loader() -> BaseLoader:
+def _get_template_loader(target: Path | None = None) -> BaseLoader:
     """Get the appropriate loader."""
     if getattr(sys, 'frozen', False):  # pragma: defer to pyinstaller
         bundle_dir = sys._MEIPASS  # type: ignore
         loader = FileSystemLoader(Path(bundle_dir) / 'ozi_templates')
     else:
         loader = PackageLoader('ozi_templates', '.')
-    return loader
+    return ChoiceLoader([loader, FileSystemLoader('.' if target is None else target)])
 
 
-def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:
+def _init_environment(
+    _globals: dict[str, _Val[str]], target: Path | None = None
+) -> Environment:
     """Initialize the rendering environment, set filters, and set global metadata."""
     env = Environment(
-        loader=_get_template_loader(),
+        loader=_get_template_loader(target=target),
         autoescape=select_autoescape(),
         enable_async=True,
         auto_reload=False,
@@ -79,12 +82,16 @@ def _init_environment(_globals: dict[str, _Val[str]]) -> Environment:
 def load_environment(
     project: dict[str, str | list[str]],
     _globals: dict[str, _Val[str]],
+    target: Path | None = None,
 ) -> Environment:
     """Load the rendering environment for templates.
 
+    :param project: initial project namespace for rendering
+    :param _globals: other globals for jinja2
+    :param target: optional target folder for project template overrides
     :return: jinja2 rendering environment for OZI
     :rtype: Environment
     """
-    env = _init_environment(_globals)
+    env = _init_environment(_globals, target=target)
     env.globals = env.globals | {'project': project}
     return env

@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'lgpl-2.0-only.txt',
     'lgpl-2.1-only.txt',

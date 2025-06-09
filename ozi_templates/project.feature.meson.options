@@ -1,6 +1,6 @@
-{#- OZI 0.1
+{#- OZI
 # ozi/templates/project.feature.meson.options
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 option('install-subprojects', type: 'feature', value: 'disabled')
 option('source-to-build', type: 'feature', value: 'auto')

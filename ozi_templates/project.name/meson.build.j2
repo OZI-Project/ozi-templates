@@ -1,11 +1,9 @@
-{#- OZI 0.11
+{#- OZI1
 # ozi/templates/project.name/meson.build.j2
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
-{{ '# OZI ' ~ spec.version }} meson.build:source_files,source_children
-{%- for line in project.copyright_head.split('\n') %}
-{{ '# ' ~ line }}
-{%- endfor %}
+{% for line in project.copyright_head.split('\n') %}{{ '# ' ~ line }}
+{% endfor -%}
 # DO NOT EDIT BY HAND - This file was generated for use with OZI tools.
 # ozi-fix -> meson rewrite is the standard editing pipeline.
 source_files = ['ozi.phony', '__init__.py', 'py.typed']

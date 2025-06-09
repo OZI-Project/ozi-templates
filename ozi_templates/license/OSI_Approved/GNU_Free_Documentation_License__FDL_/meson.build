@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 files = [
     'gfdl-1.3-only.txt',
     'gfdl-1.3-or-later.txt',

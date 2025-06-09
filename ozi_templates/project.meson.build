@@ -1,6 +1,6 @@
-{#- OZI 0.11
+{#- OZI1
 # ozi/templates/project.meson.build
-# SPDX-License-Identifier: Unlicense
+# SPDX-License-Identifier: MIT-0
 -#}
 project(
     '{{ project.name }}',
