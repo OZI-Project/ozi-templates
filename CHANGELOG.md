@@ -1,4 +1,25 @@
 # ozi-templates CHANGELOG
+## 2.28.1 (2025-06-09)
+
+
+### 🐛 Fixed Bugs
+
+*  load_environment gets project templates directory properly — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`3162848`](https://github.com/OZI-Project/ozi-templates/commit/31628485e4f1a8db3a92795fa070596dada80cf9))
+
+*  clean up spacing on copyright_head — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`615b837`](https://github.com/OZI-Project/ozi-templates/commit/615b837fa88d806647d87f208360dc8d8de8d207))
+
+
+### Other
+
+
+* fix: header typo — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`2b2ac15`](https://github.com/OZI-Project/ozi-templates/commit/2b2ac15ce800ec35b14458f8a487d1fae8897f63))
+
+* chore: clean up file headers — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`7785fdf`](https://github.com/OZI-Project/ozi-templates/commit/7785fdf268db46e97c16d0d1caf15952f03fd7f2))
+
 ## 2.28.0 (2025-06-05)
 
 
