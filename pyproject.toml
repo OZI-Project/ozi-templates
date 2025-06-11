@@ -1,7 +1,7 @@
 # Part of OZI-Templates.
 # See LICENSE.txt in the project root for details.
 [build-system]
-requires = ['OZI.build[core,pip,uv]>=2.0.6,<2.3.0']
+requires = ['OZI.build[core,pip,uv]>=2.0.6,<2.4.0']
 build-backend = "ozi_build.buildapi"
 
 [project]
