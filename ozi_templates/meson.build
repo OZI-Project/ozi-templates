@@ -64,7 +64,7 @@ foreach file: source_files
 endforeach
 source_children = [
     'license',
-    'github_workflows',
+    '.github',
     'subprojects',
     'project.name',
     'templates',
