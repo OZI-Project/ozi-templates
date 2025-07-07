@@ -15,10 +15,12 @@ from jinja2 import (
     BaseLoader,
     ChoiceLoader,
     Environment,
+    FileSystemBytecodeCache,
     FileSystemLoader,
     PackageLoader,
     select_autoescape,
 )
+from platformdirs import user_cache_dir
 
 from ozi_templates.filter import current_date, next_minor, underscorify, wheel_repr
 
@@ -64,6 +66,9 @@ def _init_environment(
     env = Environment(
         loader=_get_template_loader(target=target),
         autoescape=select_autoescape(),
+        bytecode_cache=FileSystemBytecodeCache(
+            user_cache_dir(appname='OZI', appauthor='OZI-Project', ensure_exists=True)
+        ),
         enable_async=True,
         auto_reload=False,
     )
