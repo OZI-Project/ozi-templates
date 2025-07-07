@@ -1,4 +1,140 @@
 # ozi-templates CHANGELOG
+## 2.29.0 (2025-07-07)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump github/codeql-action from 3.29.0 to 3.29.2
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.29.0 to 3.29.2.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/ce28f5bb42b7a9f2c824e633a3f6ee835bab6858...181d5eefc20863364f96762470ba6f862bdef56b)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.29.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`b8df888`](https://github.com/OZI-Project/ozi-templates/commit/b8df888fb4bb36f375e71a85519905378faeb5df))
+
+*  Bump OZI-Project/draft from 1.14.2 to 1.16.0
+
+Bumps [OZI-Project/draft](https://github.com/ozi-project/draft) from 1.14.2 to 1.16.0.
+- [Release notes](https://github.com/ozi-project/draft/releases)
+- [Commits](https://github.com/ozi-project/draft/compare/d870c506fefd49de075e21217885c8670cd9b883...7ce5c1150603d27957375d1c85570faa29ab5fd5)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/draft
+  dependency-version: 1.16.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`89d5e50`](https://github.com/OZI-Project/ozi-templates/commit/89d5e50790cd53f1c0ce8a986a795dcd5d09e4e4))
+
+*  Bump OZI-Project/publish from 1.14.3 to 1.16.0
+
+Bumps [OZI-Project/publish](https://github.com/ozi-project/publish) from 1.14.3 to 1.16.0.
+- [Release notes](https://github.com/ozi-project/publish/releases)
+- [Commits](https://github.com/ozi-project/publish/compare/d2deb87a158a3555d67cb9dbabde2fe3e271fa6a...9df2afca0ca23d527508e76a8deef37330bd90bb)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/publish
+  dependency-version: 1.16.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`6fc9806`](https://github.com/OZI-Project/ozi-templates/commit/6fc98068472ee23c236554929a384d1f72e386e6))
+
+*  Bump OZI-Project/release from 1.8.7 to 1.8.11
+
+Bumps [OZI-Project/release](https://github.com/ozi-project/release) from 1.8.7 to 1.8.11.
+- [Release notes](https://github.com/ozi-project/release/releases)
+- [Commits](https://github.com/ozi-project/release/compare/067a3867b9df3c1c2b86db5e062ca83c48dbc0bc...3b2d9beadc38335e9fdace1dc21d7d5807d7be76)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/release
+  dependency-version: 1.8.11
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`70e6ec9`](https://github.com/OZI-Project/ozi-templates/commit/70e6ec9f4adfe484607928d0ccf452aaafadd85e))
+
+*  Bump OZI-Project/checkpoint from 1.7.6 to 1.9.3
+
+Bumps [OZI-Project/checkpoint](https://github.com/ozi-project/checkpoint) from 1.7.6 to 1.9.3.
+- [Release notes](https://github.com/ozi-project/checkpoint/releases)
+- [Commits](https://github.com/ozi-project/checkpoint/compare/97a56fbd0f91b1597f33bbbfa136b988e4c90133...4c60c58ba33a128bbde246fbee9e16569062f7cf)
+
+
+updated-dependencies:
+- dependency-name: OZI-Project/checkpoint
+  dependency-version: 1.9.3
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`45b0c52`](https://github.com/OZI-Project/ozi-templates/commit/45b0c52aba4ad28626bf403a42a956e06aa89c4f))
+
+*  Update ozi-build[core,pip,uv] requirement
+
+Updates the requirements on [ozi-build[core,pip,uv]](https://github.com/OZI-Project/OZI.build) to permit the latest version.
+- [Release notes](https://github.com/OZI-Project/OZI.build/releases)
+- [Changelog](https://github.com/OZI-Project/OZI.build/blob/master/CHANGELOG.md)
+- [Commits](https://github.com/OZI-Project/OZI.build/compare/2.0.6...2.3.0)
+
+
+updated-dependencies:
+- dependency-name: ozi-build[core,pip,uv]
+  dependency-version: 2.3.0
+  dependency-type: direct:production
+... — dependabot[bot] <support@github.com>
+([`3ee635f`](https://github.com/OZI-Project/ozi-templates/commit/3ee635fadd085a902362f6d4658e4f4cd37f52be))
+
+*  Bump github/codeql-action from 3.28.19 to 3.29.0
+
+Bumps [github/codeql-action](https://github.com/github/codeql-action) from 3.28.19 to 3.29.0.
+- [Release notes](https://github.com/github/codeql-action/releases)
+- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)
+- [Commits](https://github.com/github/codeql-action/compare/fca7ace96b7d713c7035871441bd52efbe39e27e...ce28f5bb42b7a9f2c824e633a3f6ee835bab6858)
+
+
+updated-dependencies:
+- dependency-name: github/codeql-action
+  dependency-version: 3.29.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`a7ba396`](https://github.com/OZI-Project/ozi-templates/commit/a7ba3961ac0985298976eb1e0d0f088d711c1d63))
+
+*  Bump step-security/harden-runner from 2.12.0 to 2.12.1
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.0 to 2.12.1.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/0634a2670c59f64b4a01f0f96f84700a4088b9f0...002fdce3c6a235733a90a27c80493a3241e56863)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.12.1
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`46a1616`](https://github.com/OZI-Project/ozi-templates/commit/46a16163cf161581ec6c6736db4535a60ec41175))
+
+
+### ✨ Implemented Features
+
+*  correct github_workflows folder path and new provenance — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`c489b0e`](https://github.com/OZI-Project/ozi-templates/commit/c489b0e20a7541106149d7f7293fe02f0a0d841e))
+
+*  cache jinja2 templates in platformdirs.user_cache_dir — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`0ac8b8d`](https://github.com/OZI-Project/ozi-templates/commit/0ac8b8dfd999fbeb91edadadc2831cd3d1ad090b))
+
 ## 2.28.2 (2025-06-09)
 
 
