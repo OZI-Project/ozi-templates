@@ -1,0 +1,31 @@
+{#- OZI
+# ozi/templates/.github/workflows/generate_provenance.yml
+# SPDX-License-Identifier: MIT-0
+#}
+  provenance:
+    needs: [draft, release]
+    name: Generate build provenance
+    permissions:
+      actions: read # To read the workflow path.
+      id-token: write # To sign the provenance.
+      contents: write # To add assets to a release.
+    # Currently this action needs to be referred by tag. More details at:
+    # https://github.com/slsa-framework/slsa-github-generator#verification-of-provenance
+    if: needs.draft.outputs.drafted == 'true'
+    permissions:
+      contents: write
+      id-token: write
+      attestations: write
+    steps:
+{%- if project.github_harden_runner %}
+{% include "github_workflows/harden_runner.yml.j2" %}
+        allowed-endpoints: >
+        {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.provenance.split(' ') %}
+            {{ endpoint }}
+        {%- endfor %}
+{%- endif %}
+    - uses: OZI-Project/provenance@{{ spec.python.ci.provenance.version }}
+      with:
+{%- raw %}
+        release-tag: ${{ needs.draft.outputs.tag }}
+{%- endraw %}

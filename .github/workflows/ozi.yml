@@ -23,7 +23,7 @@ jobs:
         id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -40,7 +40,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@97a56fbd0f91b1597f33bbbfa136b988e4c90133 # 1.7.6
+      - uses: OZI-Project/checkpoint@4c60c58ba33a128bbde246fbee9e16569062f7cf # 1.9.3
         with:
           python-version: "3.9"
 
@@ -53,7 +53,7 @@ jobs:
         id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -70,7 +70,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@97a56fbd0f91b1597f33bbbfa136b988e4c90133 # 1.7.6
+      - uses: OZI-Project/checkpoint@4c60c58ba33a128bbde246fbee9e16569062f7cf # 1.9.3
         with:
           python-version: "3.10"
 
@@ -83,7 +83,7 @@ jobs:
         id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -100,7 +100,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@97a56fbd0f91b1597f33bbbfa136b988e4c90133 # 1.7.6
+      - uses: OZI-Project/checkpoint@4c60c58ba33a128bbde246fbee9e16569062f7cf # 1.9.3
         with:
           python-version: "3.11"
 
@@ -113,7 +113,7 @@ jobs:
         id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -130,7 +130,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@97a56fbd0f91b1597f33bbbfa136b988e4c90133 # 1.7.6
+      - uses: OZI-Project/checkpoint@4c60c58ba33a128bbde246fbee9e16569062f7cf # 1.9.3
         with:
           python-version: "3.12"
 
@@ -143,7 +143,7 @@ jobs:
         id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -160,7 +160,7 @@ jobs:
             rekor.sigstore.dev:443
             tuf-repo-cdn.sigstore.dev:443
 
-      - uses: OZI-Project/checkpoint@97a56fbd0f91b1597f33bbbfa136b988e4c90133 # 1.7.6
+      - uses: OZI-Project/checkpoint@4c60c58ba33a128bbde246fbee9e16569062f7cf # 1.9.3
         with:
           python-version: "3.13"
 
@@ -170,7 +170,7 @@ jobs:
     needs: [checkpoint-cp310-ubuntu-latest,checkpoint-cp311-ubuntu-latest,checkpoint-cp312-ubuntu-latest,]
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -190,7 +190,7 @@ jobs:
       tag: ${{ steps.draft.outputs.tag }}
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -198,7 +198,7 @@ jobs:
             api.github.com:443
             github.com:443
 
-      - uses: OZI-Project/draft@d870c506fefd49de075e21217885c8670cd9b883 # 1.14.2
+      - uses: OZI-Project/draft@7ce5c1150603d27957375d1c85570faa29ab5fd5 # 1.16.0
         id: draft
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -224,7 +224,7 @@ jobs:
       id-token: write
     steps:
       - name: Harden Runner
-        uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+        uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
         with:
           disable-sudo: true
           egress-policy: block
@@ -243,7 +243,7 @@ jobs:
             cdn03.quay.io:443
             downloads.python.org:443
 
-      - uses: OZI-Project/release@067a3867b9df3c1c2b86db5e062ca83c48dbc0bc
+      - uses: OZI-Project/release@3b2d9beadc38335e9fdace1dc21d7d5807d7be76
         id: release
         with:
           python-dist: ${{ matrix.py }}
@@ -276,7 +276,7 @@ jobs:
       id-token: write
     steps:
     - name: Harden Runner
-      uses: step-security/harden-runner@0634a2670c59f64b4a01f0f96f84700a4088b9f0 # v2.12.0
+      uses: step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863 # v2.12.1
       with:
         disable-sudo: true
         egress-policy: block
@@ -291,7 +291,7 @@ jobs:
           ghcr.io:443
           pkg-containers.githubusercontent.com:443
 
-    - uses: OZI-Project/publish@d2deb87a158a3555d67cb9dbabde2fe3e271fa6a # 1.14.3
+    - uses: OZI-Project/publish@9df2afca0ca23d527508e76a8deef37330bd90bb # 1.16.0
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
 
