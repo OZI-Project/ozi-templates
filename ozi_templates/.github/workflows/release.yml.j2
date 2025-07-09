@@ -30,7 +30,7 @@
             {{ endpoint }}
         {%- endfor %}
 {%- endif %}
-      - uses: OZI-Project/release@{{ spec.python.ci.release.version }}
+      - uses: OZI-Project/release@{{ spec.python.ci.github.release.version }}
         id: release
         with:
 {%- raw %}

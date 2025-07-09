@@ -93,7 +93,7 @@ ci = [
 # tox -e fix
 fix  = ["black>=24.3", "autoflake", "isort"]
 # Default meson test setup
-{%- for suite in spec.python.ci.checkpoint.suites %}
+{%- for suite in spec.python.ci.github.checkpoint.suites %}
 {{ suite }} = [
 {%- for utility in spec.python.get(suite).utility.values() %}
     "{{ utility }}",
