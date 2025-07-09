@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.29.2 (2025-07-09)
+
+
+### ✏️ Corrected Typos
+
+*  fix harden runner template path — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`cc3517b`](https://github.com/OZI-Project/ozi-templates/commit/cc3517b80aae0b1349b25063e144060f2707f5af))
+
 ## 2.29.1 (2025-07-09)
 
 
