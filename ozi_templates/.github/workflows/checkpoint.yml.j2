@@ -18,7 +18,7 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{% include "github_workflows/harden_runner.yml.j2" %}
+{% include ".github/workflows/harden_runner.yml.j2" %}
 {{- endpoints }}
 {%- endif %}
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.github.checkpoint.version }}
@@ -35,7 +35,7 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{% include "github_workflows/harden_runner.yml.j2" %}
+{% include ".github/workflows/harden_runner.yml.j2" %}
 {{- endpoints }}
 {%- endif %}
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.github.checkpoint.version }}
@@ -52,7 +52,7 @@
         id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{% include "github_workflows/harden_runner.yml.j2" %}
+{% include ".github/workflows/harden_runner.yml.j2" %}
 {{- endpoints }}
 {%- endif %}
       - uses: OZI-Project/checkpoint@{{ spec.python.ci.github.checkpoint.version }}
@@ -64,7 +64,7 @@
     needs: [{%- for python_version in [spec.python.support.security2, spec.python.support.security1, spec.python.support.bugfix] %}checkpoint-{{ python_version|wheel_repr|replace('py', 'cp') }}-ubuntu-latest, {%- endfor %}]
     steps:
 {%- if project.github_harden_runner %}
-{% include "github_workflows/harden_runner.yml.j2" %}
+{% include ".github/workflows/harden_runner.yml.j2" %}
 {%- else %}
       - run: echo "checkpoint success" 
 {%- endif %}
