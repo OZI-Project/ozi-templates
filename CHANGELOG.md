@@ -1,4 +1,30 @@
 # ozi-templates CHANGELOG
+## 2.29.1 (2025-07-09)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.12.1 to 2.12.2
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.1 to 2.12.2.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/002fdce3c6a235733a90a27c80493a3241e56863...6c439dc8bdf85cadbbce9ed30d1c7b959517bc49)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.12.2
+  dependency-type: direct:production
+  update-type: version-update:semver-patch
+... — dependabot[bot] <support@github.com>
+([`bd4e01f`](https://github.com/OZI-Project/ozi-templates/commit/bd4e01fc21ea88d761e0998028c38bb4cc4dfde9))
+
+
+### ✏️ Corrected Typos
+
+*  fix spec references for github specific metadata — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`1f34157`](https://github.com/OZI-Project/ozi-templates/commit/1f3415772f705232e4a6c9e0599f4cd42bfe474d))
+
 ## 2.29.0 (2025-07-07)
 
 
