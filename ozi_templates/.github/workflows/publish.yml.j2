@@ -11,7 +11,7 @@
       id-token: write
     steps:
 {%- if project.github_harden_runner %}
-{% include "github_workflows/harden_runner.yml.j2" %}
+{% include ".github/workflows/harden_runner.yml.j2" %}
         allowed-endpoints: >
         {%- for endpoint in spec.python.ci.github.harden_runner.endpoints.publish.split(' ') %}
             {{ endpoint }}
