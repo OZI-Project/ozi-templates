@@ -21,7 +21,7 @@
 {% include "github_workflows/harden_runner.yml.j2" %}
 {{- endpoints }}
 {%- endif %}
-      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.github.checkpoint.version }}
         with:
           python-version: "{{ python_version }}"
 
@@ -38,7 +38,7 @@
 {% include "github_workflows/harden_runner.yml.j2" %}
 {{- endpoints }}
 {%- endif %}
-      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.github.checkpoint.version }}
         with:
           python-version: "{{ python_version }}"
 
@@ -55,7 +55,7 @@
 {% include "github_workflows/harden_runner.yml.j2" %}
 {{- endpoints }}
 {%- endif %}
-      - uses: OZI-Project/checkpoint@{{ spec.python.ci.checkpoint.version }}
+      - uses: OZI-Project/checkpoint@{{ spec.python.ci.github.checkpoint.version }}
         with:
           python-version: "{{ python_version }}"
 

@@ -6,7 +6,7 @@ option(
     'namespace',
     type: 'array',
     value: [
-{%- for suite in spec.python.ci.checkpoint.suites %}
+{%- for suite in spec.python.ci.github.checkpoint.suites %}
         '{{ suite }}',
 {%- endfor %}
         'docs',
@@ -39,7 +39,7 @@ option(
         'test-exclude-suites'
     ]
 )
-{%- for suite in spec.python.ci.checkpoint.suites %}
+{%- for suite in spec.python.ci.github.checkpoint.suites %}
 option(
     '{{ suite }}-suite',
     type: 'array',

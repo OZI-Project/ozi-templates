@@ -37,7 +37,7 @@ type = "{{ project.ci_provider }}"
 
 [tool.semantic_release.publish]
 dist_glob_patterns = [
-{%- for include in spec.python.ci.publish.include %}
+{%- for include in spec.python.ci.github.publish.include %}
     "{{ include }}",
 {%- endfor %}
 ]

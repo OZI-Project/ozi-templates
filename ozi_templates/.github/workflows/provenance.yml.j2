@@ -24,7 +24,7 @@
             {{ endpoint }}
         {%- endfor %}
 {%- endif %}
-    - uses: OZI-Project/provenance@{{ spec.python.ci.provenance.version }}
+    - uses: OZI-Project/provenance@{{ spec.python.ci.github.provenance.version }}
       with:
 {%- raw %}
         release-tag: ${{ needs.draft.outputs.tag }}

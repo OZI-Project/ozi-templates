@@ -6,13 +6,13 @@
 legacy_tox_ini = """
 [tox]
 skipsdist = True
-envlist = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+envlist = {% for suite in spec.python.ci.github.checkpoint.suites %}{{ suite }},{% endfor %}
 
 [gh]
 python =
-     {{ spec.python.support.bugfix }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-     {{ spec.python.support.security1 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
-     {{ spec.python.support.security2 }} = {% for suite in spec.python.ci.checkpoint.suites %}{{ suite }},{% endfor %}
+     {{ spec.python.support.bugfix }} = {% for suite in spec.python.ci.github.checkpoint.suites %}{{ suite }},{% endfor %}
+     {{ spec.python.support.security1 }} = {% for suite in spec.python.ci.github.checkpoint.suites %}{{ suite }},{% endfor %}
+     {{ spec.python.support.security2 }} = {% for suite in spec.python.ci.github.checkpoint.suites %}{{ suite }},{% endfor %}
 
 [testenv]
 allowlist_externals =
@@ -59,7 +59,7 @@ commands =
 commands_post =
      {env_python} -m invoke --search-root={env_tmp_dir}{/}subprojects{/}ozi{/}ozi checkpoint --suite={env_name} {posargs}
 
-{%- for suite in spec.python.ci.checkpoint.suites %}
+{%- for suite in spec.python.ci.github.checkpoint.suites %}
 [testenv:{{ suite }}]
 
 {%- endfor %}
