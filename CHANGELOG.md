@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.29.3 (2025-07-12)
+
+
+### ✏️ Corrected Typos
+
+*  fix duplicate permissions in GH provenance template — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`c225e74`](https://github.com/OZI-Project/ozi-templates/commit/c225e74847418da2f56fbface0fec8a8c705a292))
+
 ## 2.29.2 (2025-07-09)
 
 
