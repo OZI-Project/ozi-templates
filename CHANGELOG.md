@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.29.5 (2025-07-13)
+
+
+### 🐛 Fixed Bugs
+
+*  fix Job 'publish' depends on unknown job 'generate-provenance' — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`9d2f0db`](https://github.com/OZI-Project/ozi-templates/commit/9d2f0db514e70b863f43c95a68bc91bb4b7cd853))
+
 ## 2.29.4 (2025-07-13)
 
 
