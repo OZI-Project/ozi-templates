@@ -4,6 +4,7 @@
 #}
   provenance:
     needs: [draft, release]
+    runs-on: ubuntu-latest
     name: Generate build provenance
     if: needs.draft.outputs.drafted == 'true'
     permissions:
