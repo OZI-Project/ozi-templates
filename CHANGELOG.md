@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.29.4 (2025-07-13)
+
+
+### 🐛 Fixed Bugs
+
+*  add missing runs-on to provenance template — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`6caae62`](https://github.com/OZI-Project/ozi-templates/commit/6caae62edd0af0718d683d3dc2eee8d4574962d6))
+
 ## 2.29.3 (2025-07-12)
 
 
