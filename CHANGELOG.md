@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.29.6 (2025-07-14)
+
+
+### 🐛 Fixed Bugs
+
+*  always override if user templates are available — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`c145a0f`](https://github.com/OZI-Project/ozi-templates/commit/c145a0fa66c0654fc4dc41ea16bb3629c145190b))
+
 ## 2.29.5 (2025-07-13)
 
 
