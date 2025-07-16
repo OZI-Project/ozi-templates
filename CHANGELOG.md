@@ -1,4 +1,30 @@
 # ozi-templates CHANGELOG
+## 2.29.7 (2025-07-16)
+
+
+### ⬆️ Upgraded Dependencies
+
+*  Bump step-security/harden-runner from 2.12.2 to 2.13.0
+
+Bumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.12.2 to 2.13.0.
+- [Release notes](https://github.com/step-security/harden-runner/releases)
+- [Commits](https://github.com/step-security/harden-runner/compare/6c439dc8bdf85cadbbce9ed30d1c7b959517bc49...ec9f2d5744a09debf3a187a3f4f675c53b671911)
+
+
+updated-dependencies:
+- dependency-name: step-security/harden-runner
+  dependency-version: 2.13.0
+  dependency-type: direct:production
+  update-type: version-update:semver-minor
+... — dependabot[bot] <support@github.com>
+([`c07921d`](https://github.com/OZI-Project/ozi-templates/commit/c07921d548eaf4c7c0a732104c7008797768b3d9))
+
+
+### 🐛 Fixed Bugs
+
+*  default to loading user templates from `templates` — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`f12476a`](https://github.com/OZI-Project/ozi-templates/commit/f12476aacc56c727f39ae4e82a350c3f223205f3))
+
 ## 2.29.6 (2025-07-14)
 
 
