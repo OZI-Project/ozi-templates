@@ -56,7 +56,9 @@ def _get_template_loader(target: Path | None = None) -> BaseLoader:
         loader = FileSystemLoader(Path(bundle_dir) / 'ozi_templates')
     else:
         loader = PackageLoader('ozi_templates', '.')
-    return ChoiceLoader([FileSystemLoader('.' if target is None else target), loader])
+    return ChoiceLoader(
+        [FileSystemLoader((Path('.') if target is None else target) / 'templates'), loader]
+    )
 
 
 def _init_environment(
