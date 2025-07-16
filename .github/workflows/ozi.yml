@@ -242,6 +242,7 @@ jobs:
             quay.io:443
             cdn03.quay.io:443
             downloads.python.org:443
+            release-assets.githubusercontent.com:443
 
       - uses: OZI-Project/release@3b2d9beadc38335e9fdace1dc21d7d5807d7be76
         id: release
