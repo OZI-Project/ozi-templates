@@ -25,6 +25,13 @@ updated-dependencies:
 *  default to loading user templates from `templates` — Eden Ross Duff MSc <rjdbcm@outlook.com>
 ([`f12476a`](https://github.com/OZI-Project/ozi-templates/commit/f12476aacc56c727f39ae4e82a350c3f223205f3))
 
+
+### Other
+
+
+* Update ozi.yml — Eden Ross Duff, MSc <rjdbcm@outlook.com>
+([`71f11f3`](https://github.com/OZI-Project/ozi-templates/commit/71f11f3bbf082dde004821c99c9f2d6d32f17370))
+
 ## 2.29.6 (2025-07-14)
 
 
