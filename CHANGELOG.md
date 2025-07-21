@@ -1,4 +1,12 @@
 # ozi-templates CHANGELOG
+## 2.29.8 (2025-07-21)
+
+
+### 🐛 Fixed Bugs
+
+*  correct permissions when --enable-create-pull-request is true — Eden Ross Duff MSc <rjdbcm@outlook.com>
+([`34a80f7`](https://github.com/OZI-Project/ozi-templates/commit/34a80f77974dd0b54e9864bf93ae9181b988a4d9))
+
 ## 2.29.7 (2025-07-16)
 
 
