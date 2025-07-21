@@ -9,6 +9,10 @@
     permissions:
       contents: write
       id-token: write
+{%- if project.enable_create_pull_request %}
+      actions: read
+      pull-requests: write
+{%- endif %}
     steps:
 {%- if project.github_harden_runner %}
 {% include ".github/workflows/harden_runner.yml.j2" %}
