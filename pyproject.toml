@@ -9,7 +9,7 @@ name = "ozi-templates"
 version = "2.0"
 dependencies = [
     'jinja2~=3.1',
-    'niquests~=3.14.0',
+    'niquests>=3.14,<3.16',
     'platformdirs~=4.3',
 ]
 requires-python='>=3.9, <3.14'
