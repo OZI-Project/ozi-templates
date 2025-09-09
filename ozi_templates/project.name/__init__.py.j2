@@ -5,5 +5,4 @@
 """{{ project.name|underscorify|lower }} module"""
 {% for line in project.copyright_head.split('\n') %}{{ '# ' ~ line }}
 {% endfor %}
-{%- include user_template ignore missing %}
 
