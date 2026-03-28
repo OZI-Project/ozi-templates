@@ -244,7 +244,7 @@ jobs:
             downloads.python.org:443
             release-assets.githubusercontent.com:443
 
-      - uses: OZI-Project/release@eb10d9730ae9ad7c7c63e016d714013b4e017d5d
+      - uses: OZI-Project/release@2c1b2e5b6e7a2af7c2ad287009129a3cc6f52a2f
         id: release
         with:
           python-dist: ${{ matrix.py }}
